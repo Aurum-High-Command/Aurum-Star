@@ -64,6 +64,9 @@
   id: GygaxArmor
 
 - type: Tag
+  id: GasMaskFullDefault
+
+- type: Tag
   id: GygaxCentralControlModule
 
 - type: Tag
@@ -195,3 +198,12 @@
 
 - type: Tag
   id: MagazineSmartLMG
+
+- type: Tag
+  id: Mask
+
+- type: Tag
+  id: GasMask
+
+- type: Tag
+  id: GasMaskFullDefault
