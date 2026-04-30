@@ -33,6 +33,7 @@ using Content.Shared.Radio.Components;
 using Content.Shared.Storage;
 using Content.Shared.Strip.Components;
 using Content.Shared.Stunnable;
+using Content.Shared.Temperature.Components;
 using Content.Shared.Throwing;
 using Content.Shared.Verbs;
 using Content.Shared.Whitelist;
@@ -276,6 +277,7 @@ public sealed partial class CloneProjectorSystem : SharedCloneProjectorSystem
         projector.Comp.CurrentHost = performer;
 
         var cloneComp = EnsureComp<HolographicCloneComponent>(clone);
+        EnsureComp<TemperatureImmunityComponent>(clone); // Aurum - Fuck your shitcode, goob
 
         cloneComp.HostProjector = projector;
         cloneComp.HostEntity = performer;
@@ -303,7 +305,7 @@ public sealed partial class CloneProjectorSystem : SharedCloneProjectorSystem
     public bool TryInsertClone(Entity<CloneProjectorComponent> projector, bool doCooldown = false)
     {
         if (projector.Comp.CloneUid is not { } clone
-            || _container.IsEntityOrParentInContainer(clone))
+            || !IsCloneDeployed(projector))
             return false;
 
         CleanClone(clone);
@@ -327,10 +329,18 @@ public sealed partial class CloneProjectorSystem : SharedCloneProjectorSystem
         return true;
     }
 
+    private bool IsCloneDeployed(CloneProjectorComponent projector)
+    {
+        if (projector.CloneUid is not { } clone)
+            return false;
+
+        return !_container.IsEntityOrParentInContainer(clone);
+    }
+
     private bool TryDeployClone(CloneProjectorComponent projector)
     {
         if (projector.CloneUid is not { } clone
-            || !_container.IsEntityOrParentInContainer(clone))
+            || !IsCloneDeployed(projector))
             return false;
 
         return _container.TryRemoveFromContainer(clone);
