@@ -564,4 +564,4 @@ SellOnlyMothershipComputer: null # Mono
 # 2025-06-12
 GunneryServer: GunneryServerMedium # Mono
 
-# Frontier: put Frontier-related migrations in nf_migration.yml. Thank you.
+# Aurum: put Aurum-related migrations in aurum_migration.yml. Thank you.
