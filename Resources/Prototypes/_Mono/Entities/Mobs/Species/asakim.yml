@@ -117,7 +117,7 @@
     factions:
     - Syndicate # Making new AI factions is annoying with all the hostilities I have to add, whatever.
   - type: Inventory
-    speciesId: asakim
+    speciesId: reptilian # Aurum - Allows asakim to use different hardsuits and keep their digigrade legs.
     # WWDP-Edit-Start
     femaleDisplacements:
       jumpsuit:
@@ -177,7 +177,7 @@
     #    - HeadTop # WWDP - Because visible horns its cool
     - HeadSide
   - type: Inventory
-    speciesId: asakim
+    speciesId: reptilian # Aurum - Allows asakim to use different hardsuits and keep their digigrade legs.
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
