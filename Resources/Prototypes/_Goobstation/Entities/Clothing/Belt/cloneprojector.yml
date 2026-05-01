@@ -130,6 +130,10 @@
     - type: Thirst
     # - type: FootprintOwner # Aurum - Print's Ain't Real
     - type: ItemSlots # No infinite batteries.
+    - type: BlockInjection # Aurum - Gemini fixes
+    - type: Blindable # Aurum - Gemini fixes
+    - type: CanEnterCryostorage # Aurum - Gemini fixes
+    - type: CanHostGuardian # Aurum - Gemini fixes
 
 - type: entity
   parent: ClothingBeltBaseCloneProjector
@@ -150,8 +154,9 @@
     clonedItemWhitelist:
       components:
       - Clothing
-    removedComponents:
-    - type: CanHostGuardian
+    # Aurum - Removed removedCompoments and moved them all to parent.
+    #removedComponents:
+    #- type: CanHostGuardian
     userBlacklist:
       components:
       - Zombie
