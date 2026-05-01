@@ -339,8 +339,10 @@ public sealed partial class CloneProjectorSystem : SharedCloneProjectorSystem
 
     private bool TryDeployClone(CloneProjectorComponent projector)
     {
-        if (projector.CloneUid is not { } clone
-            || !IsCloneDeployed(projector))
+        if (projector.CloneUid is not { } clone)
+            return false;
+
+        if (IsCloneDeployed(projector))
             return false;
 
         return _container.TryRemoveFromContainer(clone);
