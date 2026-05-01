@@ -99,7 +99,7 @@
   - APECircuitboard
   - ArtifactAnalyzerMachineCircuitboard
   - ArtifactCrusherMachineCircuitboard
-  - DataFarmResearchCircuitboard
+  # - DataFarmResearchCircuitboard # Aurum
 
 - type: latheRecipePack
   id: CameraBoards
