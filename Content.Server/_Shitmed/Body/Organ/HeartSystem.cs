@@ -1,3 +1,4 @@
+using System.Linq; // Aurum
 using Content.Shared.Body.Events;
 using Content.Server.Body.Components;
 using Content.Shared.Body.Systems;
@@ -45,8 +46,8 @@ public sealed class HeartSystem : EntitySystem
         // Omu Edit Start - This a long one
         // Lets make sure the brain is present and the heart inserted is functioning
         // TODO: If ever we have something with multiple brains and braindamage is implemented this needs to be changed.
-        if (_bodySystem.TryGetBodyOrganEntityComps<BrainComponent>(args.Body, out var _)
-            && TryComp<OrganComponent>(args.Part, out var organ)
+        if (_bodySystem.TryGetBodyOrganEntityComps<BrainComponent>(args.Body, out var brains) // Aurum
+            && TryComp<OrganComponent>(brains.First(), out var organ) // Aurum
             && organ.Enabled)
         {
             RemCompDeferred<DelayedDeathComponent>(args.Body);
