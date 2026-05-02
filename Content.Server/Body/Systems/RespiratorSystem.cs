@@ -79,7 +79,16 @@ public sealed class RespiratorSystem : EntitySystem
 
             UpdateSaturation(uid, -(float) respirator.UpdateInterval.TotalSeconds, respirator);
 
-            if (!_mobState.IsIncapacitated(uid) && !HasComp<DebrainedComponent>(uid)) // Shitmed Change - Cannot breathe in crit or when no brain.
+            // Aurum start - If your lungs are caved in, you can't breathe.
+            var hasOneWorkingLung = false;
+            foreach (var ent in _bodySystem.GetBodyOrganEntityComps<LungComponent>(uid))
+            {
+                if (ent.Comp2.Enabled)
+                    hasOneWorkingLung = true;
+            }
+
+            if (!_mobState.IsIncapacitated(uid) && !HasComp<DebrainedComponent>(uid) // Shitmed Change - Cannot breathe in crit or when no brain.
+                && hasOneWorkingLung) // Aurum end
             {
                 switch (respirator.Status)
                 {
