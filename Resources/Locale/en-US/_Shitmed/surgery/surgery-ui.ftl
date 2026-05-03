@@ -13,6 +13,6 @@ surgery-error-laying = They need to be laying down!
 surgery-error-self-surgery = You can't perform surgery on yourself!
 surgery-part-damage-evaded = {$user} narrowly evaded!
 
-// Aurum - It really doesn't matter where this goes.
+#Aurum - It really doesn't matter where this goes.
 alerts-faulty-heart-name = Heart Stopped!
 alerts-faulty-heart-desc = Either your heart's gone missing, or it stopped beating. Get medical attention as soon as possible.
