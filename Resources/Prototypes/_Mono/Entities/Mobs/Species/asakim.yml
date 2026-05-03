@@ -12,6 +12,7 @@
     #    - HeadTop # WWDP - Because visible horns its cool
     - HeadSide
   - type: Hunger
+    baseDecayRate: 0.2 # Aurum - Reliant on the Exosuit to properly survive.
   - type: Puller
     needsHands: false
   - type: MovementSpeedModifier
@@ -37,6 +38,7 @@
   - type: PlayerToolModifier
     pryTimeMultiplier: 0.7
   - type: Thirst
+    baseDecayRate: 0.2 # Aurum - Reliant on the Exosuit to properly survive.
   - type: Icon
     sprite: _Mono/Mobs/Species/Asakim/parts.rsi
     state: full
@@ -52,7 +54,7 @@
   - type: Speech
     speechSounds: Lizard
     speechVerb: Reptilian
-    allowedEmotes: ['Thump']
+    allowedEmotes: ['Thump', 'Beep', 'Ping', 'Buzz'] # Aurum - Halfrobot lizards.
   - type: TypingIndicator
     proto: lizard
   - type: Vocal
@@ -67,6 +69,7 @@
     understands:
     - Draconic
     - Azaziba
+    - TauCetiBasic # Aurum change.
   - type: BodyEmotes
     soundsId: ReptilianBodyEmotes
   - type: Damageable
@@ -79,8 +82,8 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 15
-        Structural: 24
+        Slash: 8 # Aurum change - 15 -> 8 - They are reliant on their Exosuits to be THAT strong.
+        Structural: 10 # Aurum change - 24 -> 10 - ^
   - type: SolutionContainerManager
     solutions:
       melee:
@@ -113,9 +116,11 @@
       295: 0.6
       285: 0.4
   - type: Wagging
-  - type: NpcFactionMember
-    factions:
-    - Syndicate # Making new AI factions is annoying with all the hostilities I have to add, whatever.
+  #- type: NpcFactionMember # Aurum - The Ghostrole seems to give this thing.
+  #  factions:
+  #  - Syndicate # Making new AI factions is annoying with all the hostilities I have to add, whatever.
+  - type: SurgerySpeedModifier # Aurum - Better with surgical tools.
+    speedModifier: 1.25
   - type: Inventory
     speciesId: reptilian # Aurum - Allows asakim to use different hardsuits and keep their digigrade legs.
     # WWDP-Edit-Start
@@ -145,6 +150,15 @@
     guides:
     - Asakim
     # WWDP-Edit-End
+  # Aurum changes - Start - These allow for basic stuff, also wehs and yips.
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - AnomalyHost
+    - ReptilianEmotes
+  # Aurum changes - End
 
 - type: entity
   save: false
@@ -204,11 +218,11 @@
 - type: damageModifierSet
   id: GenemoddedScale # Strong brute-focused scales.
   coefficients:
-    Cold: 1.2
-    Radiation: 1.2
+    Cold: 1 # Aurum 1.2 -> 1
+    Radiation: 1.4 # Aurum 1.2 -> 1.4 - Half-machine half-organic organisms that get fucked over by radiation.
     Poison: 1.2
-    Piercing: 0.8
-    Slash: 0.75
-    Blunt: 0.75
-    Heat: 1.1
-    Shock: 1.1
+    Piercing: 0.9 # Aurum 0.8 -> 0.9
+    Slash: 0.8 # Aurum 0.75 -> 0.8
+    Blunt: 0.8 # Aurum 0.75 -> 0.8
+    Heat: 1.2 # Aurum 1.1 -> 1.2 - These are a half-machine, they should struggle with heat slightly.
+    Shock: 1.5 # Aurum 1.1 -> 1.5

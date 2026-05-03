@@ -36,13 +36,13 @@
     modifiers:
       coefficients:
         Blunt: 0.35
-        Slash: 0.85
+        Slash: 0.7
         Piercing: 0.3
-        Heat: 0.4
+        Heat: 0.3
         Radiation: 0
-        Shock: 0.8
-        Poison: 0.4
-        Caustic: 0.4
+        Shock: 0.9
+        Poison: 0.3
+        Caustic: 0.3
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
