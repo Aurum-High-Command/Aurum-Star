@@ -3900,3 +3900,17 @@ Entries:
   id: 8021
   time: '2025-02-27T17:57:28.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/32136
+- author: metalgearsloth
+  changes:
+  - message: Added ambient occlusion to walls so they have shadows around them.
+    type: Add
+  id: 8708
+  time: '2025-06-24T07:56:15.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/38276
+- author: insoPL, Quantum-cross, ArtisticRoomba
+  changes:
+  - message: Hot gasses now have a visible distortion effect.
+    type: Add
+  id: 9595
+  time: '2026-03-29T02:36:35.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/42973
