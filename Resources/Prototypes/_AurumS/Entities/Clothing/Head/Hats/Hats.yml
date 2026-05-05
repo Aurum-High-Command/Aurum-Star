@@ -5,9 +5,9 @@
   description: A light orange cap once used by the officers that were deployed alongside One Star units to ensure ideal combat performance, before they went rogue, that is.
   components:
   - type: Sprite
-    sprite: _AurumS/Clothing/Head/Hats/one_star_captaincap.rsi
+    sprite: _Aurum/Clothing/Head/Hats/one_star_captaincap.rsi
   - type: Clothing
-    sprite: _AurumS/Clothing/Head/Hats/one_star_captaincap.rsi
+    sprite: _Aurum/Clothing/Head/Hats/one_star_captaincap.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -16,6 +16,6 @@
   description: You won't need to worry about the sun with a brim like this! Wields a powerful poem.
   components:
   - type: Sprite
-    sprite: _AurumS/Clothing/Head/Hats/fishercap.rsi
+    sprite: _Aurum/Clothing/Head/Hats/fishercap.rsi
   - type: Clothing
-    sprite: _AurumS/Clothing/Head/Hats/fishercap.rsi
+    sprite: _Aurum/Clothing/Head/Hats/fishercap.rsi

@@ -11,7 +11,7 @@
   - type: Item
     size: Normal
   - type: Sprite
-    sprite: _AurumS/Objects/Fun/toys.rsi
+    sprite: _Aurum/Objects/Fun/toys.rsi
     state: plushie_ivy
   - type: EmitSoundOnUse
     sound:

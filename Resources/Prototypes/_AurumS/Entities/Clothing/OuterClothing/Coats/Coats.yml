@@ -5,9 +5,9 @@
   description: A light orange, comfy coat once used by the officers that were deployed alongside One Star units ages ago, you feel both smart and dumb wearing this.
   components:
   - type: Sprite
-    sprite: _AurumS/Clothing/OuterClothing/Coats/one_star_coat.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Coats/one_star_coat.rsi
   - type: Clothing
-    sprite: _AurumS/Clothing/OuterClothing/Coats/one_star_coat.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Coats/one_star_coat.rsi
   - type: TemperatureProtection
     heatingCoefficient: 0.1
     coolingCoefficient: 0.1
@@ -36,9 +36,9 @@
   description: Maybe you are missing the tie and the white shirt to be a true detective, or maybe you're just one of those people that want to look like they are with the police.
   components:
   - type: Sprite
-    sprite: _AurumS/Clothing/OuterClothing/Coats/browndetective_trenchcoat.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Coats/browndetective_trenchcoat.rsi
   - type: Clothing
-    sprite: _AurumS/Clothing/OuterClothing/Coats/browndetective_trenchcoat.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Coats/browndetective_trenchcoat.rsi
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatBrownDetectiveTrenchcoat]
@@ -51,9 +51,9 @@
   description: A black trenchcoat, you feel like a detective in some grim black and white film.
   components:
   - type: Sprite
-    sprite: _AurumS/Clothing/OuterClothing/Coats/detective_trenchcoat_black.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Coats/detective_trenchcoat_black.rsi
   - type: Clothing
-    sprite: _AurumS/Clothing/OuterClothing/Coats/detective_trenchcoat_black.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Coats/detective_trenchcoat_black.rsi
 
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatBlackDetectiveTrenchcoat]
@@ -66,9 +66,9 @@
   description: Aurum? I'm more of a argentum guy myself.
   components:
   - type: Sprite
-    sprite: _AurumS/Clothing/OuterClothing/Coats/black_winter_jacket.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Coats/black_winter_jacket.rsi
   - type: Clothing
-    sprite: _AurumS/Clothing/OuterClothing/Coats/black_winter_jacket.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Coats/black_winter_jacket.rsi
   - type: Armor
     modifiers:
       coefficients:

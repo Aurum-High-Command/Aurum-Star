@@ -5,9 +5,9 @@
   description: Nicknamed "Sequence", a now outdated product made by the same company that mass produced the One Star units, these hardsuits were used by engineers that were deployed alongside officers and the main unit itself, mostly to take care of the unit's maintenance.
   components:
   - type: Sprite
-    sprite: _AurumS/Clothing/OuterClothing/Hardsuits/one_star_hardsuit.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Hardsuits/one_star_hardsuit.rsi
   - type: Clothing
-    sprite: _AurumS/Clothing/OuterClothing/Hardsuits/one_star_hardsuit.rsi
+    sprite: _Aurum/Clothing/OuterClothing/Hardsuits/one_star_hardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000

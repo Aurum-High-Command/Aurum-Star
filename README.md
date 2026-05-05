@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Logo" width="529" height="380" src="https://raw.githubusercontent.com/Diggy0/Aurum/cd59637131ad2846f92d7d090b61399db0e1bda9/Resources/Textures/_AurumS/Logo/logo.png" /></p>
+<p align="center"> <img alt="Logo" width="529" height="380" src="https://raw.githubusercontent.com/Diggy0/Aurum/cd59637131ad2846f92d7d090b61399db0e1bda9/Resources/Textures/_Aurum/Logo/logo.png" /></p>
 
 Aurum is a fork of [Monolith](https://github.com/Monolith-Station/Monolith), which is a fork of [Frontier Station 14](https://github.com/new-frontiers-14/frontier-station-14) that runs on the [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
 
