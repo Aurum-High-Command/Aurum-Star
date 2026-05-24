@@ -4,7 +4,7 @@
   entityIcon: ClothingOuterHardsuitUsspL10
   discipline: UsspEquipment
   tier: 1
-  cost: 25000
+  cost: 18000 # Aurum change - Moves them to be on par with the rest of hardsuit research in terms of costs
   recipeUnlocks:
   - ClothingOuterHardsuitUsspL10USSP
   - ClothingOuterHardsuitUsspL10AUSSP
@@ -18,7 +18,7 @@
   entityIcon: ClothingOuterHardsuitUsspL27
   discipline: UsspEquipment
   tier: 2
-  cost: 45000
+  cost: 25000 # Aurum change - Moves them to be on par with the rest of hardsuit research in terms of costs
   recipeUnlocks:
   - ClothingOuterHardsuitUsspL27USSP
   - ClothingOuterHardsuitUsspM10USSP
@@ -33,7 +33,7 @@
   entityIcon: ClothingModsuitUSSPZastavnik
   discipline: UsspEquipment
   tier: 3
-  cost: 85000
+  cost: 38000 # Aurum change - Moves them to be on par with the rest of hardsuit research in terms of costs
   recipeUnlocks:
   - ClothingModsuitUSSPVaryagUSSP
   - ClothingModsuitUSSPZastavnikUSSP

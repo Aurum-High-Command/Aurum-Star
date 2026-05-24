@@ -1,0 +1,13 @@
+- type: technology
+  id: AdvancedSmartWeaponry
+  name: research-technology-advanced-smart-weaponry
+  entityIcon: WeaponSmartLmg
+  discipline: Arsenal
+  tier: 3
+  cost: 30000
+  recipeUnlocks:
+  - WeaponSubMachineSmartLMGRECIPE
+  - MagazineSmartLMG
+  technologyPrerequisites:
+  - SmartWeaponry
+  position: 3, 4

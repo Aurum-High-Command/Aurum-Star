@@ -270,6 +270,8 @@
     - VisionGoggles
     # WD EDIT END
     - SmartGun # Goobstation
+    # Aurum Packs
+    - SmartLMGs
     # Einstein Engines Packs
     - Translators
   - type: EmagLatheRecipes
@@ -505,6 +507,8 @@
     # Mono - Mechs
     - WeaponMechCombatArsenal
     - SmartGun # Goobstation
+    # Aurum Packs
+    - SmartLMGs
     # Mono start
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
@@ -521,6 +525,8 @@
     - UniversalMissileAmmo
     - UniversalOrdinance
     - SmartGun #Smart SMG
+    # Aurum Packs
+    - SmartLMGs
     - NFMercenaryTechfabDeprecated
     # Mono end
   - type: MaterialStorage

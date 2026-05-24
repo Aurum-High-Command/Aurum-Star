@@ -221,6 +221,8 @@
     - SecurityEquipment
     - SmartGun #Smart SMG
     # Mono end
+    # Aurum Packs
+    - SmartLMGs
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFMercenaryTechfabDeprecatedEmag
@@ -273,6 +275,8 @@
     - NFHackedMercenaryTechfabDeprecated
     - DynamicAmmoRecipePack
     - SmartGun # Goobstation
+    # Aurum Packs
+    - SmartLMGs
     # Mono start
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged

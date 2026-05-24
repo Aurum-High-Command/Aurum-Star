@@ -33,7 +33,7 @@
   entityIcon: SheetPlasteel
   discipline: FactionUniversal
   tier: 2
-  cost: 50000
+  cost: 25000 # Aurum change - Unlocks ammo so that's why I didnt gut it, from 50k to 25k.
   technologyPrerequisites:
   - UniversalMaterialResearchT1
   position: 10, 5
@@ -53,7 +53,7 @@
   entityIcon: SheetPlastitanium
   discipline: FactionUniversal
   tier: 2
-  cost: 100000
+  cost: 35000 # Aurum change - 100k for a research that does nothing and only artificially slows you down in terms of progression, lowered from 100k to 35k
   technologyPrerequisites:
   - UniversalMaterialResearchT2
   position: 10, 10

@@ -5,7 +5,7 @@
   entityIcon: UraniumProcessingIcon
   discipline: FactionUniversal
   tier: 1
-  cost: 20000
+  cost: 10000 # Aurum change - This is essentially random, and can be a material loss half the time
   recipeUnlocks:
   - CentrifugeLatheMiniCircuitboard
   technologyPrerequisites:
@@ -25,7 +25,7 @@
   entityIcon: UraniumEnrichedProcessingIcon
   discipline: FactionUniversal
   tier: 2
-  cost: 30000
+  cost: 15000 # Aurum change
   recipeUnlocks:
   - UraniumCentrifugeReprocessingMini
   - UraniumCentrifugeEnrichedProcessingMini

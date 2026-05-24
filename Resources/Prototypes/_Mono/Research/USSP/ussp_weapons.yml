@@ -32,12 +32,12 @@
   entityIcon: WeaponRifleAK410
   discipline: UsspWeapons
   tier: 2
-  cost: 25000
+  cost: 15000 # Aurum - Single weapon that could have probably been packed into the medium package, lowered from 25k to 15k
   recipeUnlocks:
   - WeaponRifleAK410USSP
   technologyPrerequisites:
   - UsspMediumGuns
-  position: 16, 8
+  position: 17, 7
 
 - type: technology
   id: UsspAdvancedGuns
@@ -45,7 +45,7 @@
   entityIcon: WeaponDP29
   discipline: UsspWeapons
   tier: 3
-  cost: 80000
+  cost: 38000 # Aurum - Lowered from 80k to 38k
   recipeUnlocks:
   - WeaponDP29USSP
   - MagazineDP29

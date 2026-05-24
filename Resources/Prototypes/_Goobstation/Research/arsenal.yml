@@ -7,8 +7,9 @@
   cost: 25000
   recipeUnlocks:
   - WeaponSubMachineSmart
+  - WeaponSubMachineSmartMLA34
   - MagazineSmart
-  - MagazineSmartLMG
+#  - MagazineSmartLMG - Aurum change, moved into it's own research.
   - ASMGTUniversallyHostile
   technologyPrerequisites:
   - BasicParts

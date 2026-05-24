@@ -4,7 +4,7 @@
   entityIcon: MachineCarpCaller
   discipline: Experimental
   tier: 1
-  cost: 35000
+  cost: 5000 # Aurum change, from 35000 back to the original 5000, I genuinely don't see how a machine that functions every 3 mins and attracts ONE mob is worth 35k in research.
   recipeUnlocks:
   - CarpCallerMachineCircuitboard
   - ClothingOuterHardsuitCarp
@@ -22,8 +22,8 @@
   recipeUnlocks:
   - ClothingShoesBootsMagVoid
   technologyPrerequisites:
-  - MagnetsTech
-  position: -2, -2
+  - MagnetsTechAdvanced # Aurum Change - Why is space free movement available nearly roundstart?
+  position: -4, -2
 
 - type: technology
   id: BasicResearch

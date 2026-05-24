@@ -62,5 +62,6 @@
   id: SmartGun
   recipes:
   - WeaponSubMachineSmart # Goobstation
+  - WeaponSubMachineSmartMLA34 # Aurum Addon
   - MagazineSmart # Goobstation
   - ASMGTUniversallyHostile # Mono

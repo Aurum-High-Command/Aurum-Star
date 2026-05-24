@@ -58,6 +58,8 @@
     - ResearchedExplosives
     - SecurityEquipment
     - SmartGun
+    # Aurum Packs
+    - SmartLMGs
   - type: MaterialStorage
     whitelist:
       tags:

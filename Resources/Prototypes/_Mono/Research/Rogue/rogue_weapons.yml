@@ -4,7 +4,7 @@
   entityIcon: EnergySword
   discipline: RogueWeaponry
   tier: 3
-  cost: 25000
+  cost: 15000 # Aurum change - Melee's a bit iffy, lowered from 25k to 15k.
   recipeUnlocks:
   - EnergyShieldRogue
   - EnergySwordRogue
@@ -19,7 +19,7 @@
   entityIcon: WeaponVT7
   discipline: RogueWeaponry
   tier: 3
-  cost: 45000
+  cost: 25000 # Aurum - 45k for a single melee, lol no
   recipeUnlocks:
   - HFSwordVT7
   technologyPrerequisites:
@@ -49,7 +49,7 @@
   entityIcon: WeaponRifleM90
   discipline: RogueWeaponry
   tier: 2
-  cost: 55000
+  cost: 25000 # Aurum change - Sudden jump from 15k to 55k in research points for mid-tier weapons isnt ok
   recipeUnlocks:
   - WeaponSubMachineGunWt550Rogue
   - WeaponSubMachineGunAtreidesRogue
@@ -66,7 +66,7 @@
   entityIcon: WeaponSniperHristov
   discipline: RogueWeaponry
   tier: 3
-  cost: 55000
+  cost: 35000 # Aurum change - 55k for a single weapon isnt it.
   recipeUnlocks:
   - WeaponSniperHristovRogue
   - AmmoBox145x114mm

@@ -1,0 +1,24 @@
+﻿- type: latheRecipe
+  parent: WeaponSubMachineSmart
+  id: WeaponSubMachineSmartMLA34
+  result: WeaponRifleMla34
+  categories:
+  - SMGs
+  - SmartGuns
+  - Ballistic
+  - Weapons
+
+- type: latheRecipe
+  parent:  WeaponSubMachineSmart
+  id: WeaponSubMachineSmartLMGRECIPE
+  result: WeaponSmartLmg
+  categories:
+  - SMGs
+  - SmartGuns
+  - Ballistic
+  - Weapons
+  materials:
+    Steel: 3500
+    Plasteel: 2000
+    Plastic: 1200
+
