@@ -1,0 +1,9 @@
+- type: marking
+  id: BraidedPonytail
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Human, Dwarf, SlimePerson, Oni, Goblin, Felinid, Vulpkanin]
+  sprites:
+    - sprite: _Aurum/Mobs/Customization/human_hair.rsi
+      state: braidedponytail
+
