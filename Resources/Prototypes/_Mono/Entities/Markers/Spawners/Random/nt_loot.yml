@@ -67,7 +67,7 @@
     - id: ClothingBackpackRogueNanotrasenT1
       prob: 0.25
     - id: ClothingBackpackRogueNanotrasenT2
-      prob: 0.25
+      prob: 0.15 # Aurum -> 0.25 to 0.15
     - id: ClothingBackpackRogueNanotrasenT3
       prob: 0.05
 
@@ -76,22 +76,22 @@
   table: !type:AllSelector
     children:
     - id: ClothingBackpackRogueNanotrasenT1
-      prob: 0.5
+      prob: 0.4 # Aurum -> 0.5 to 0.4
     - id: ClothingBackpackRogueNanotrasenT2
     - id: ClothingBackpackRogueNanotrasenT2
       prob: 0.25
     - id: ClothingBackpackRogueNanotrasenT2
-      prob: 0.05
+      prob: 0.5 # Aurum -> 0.05 to 0.5
     - id: ClothingBackpackRogueNanotrasenT3
       prob: 0.1
     - id: PenCentcom
-      prob: 0.75
+      prob: 0.2 # Aurum -> 0.75 to 0.2
     - !type:NestedSelector
       tableId: NTLootBackpackTrunk
       prob: 0.3
     - !type:NestedSelector
       tableId: NTLootHardsuitTrunk
-      prob: 0.5
+      prob: 0.01 # Aurum Change - Making ERT Hardsuits harder to acquire
 
 - type: entityTable
   id: CrateNanotrasenLootFilledT3Trunk
@@ -99,17 +99,17 @@
     children:
     - id: ClothingBackpackRogueNanotrasenT2
     - id: ClothingBackpackRogueNanotrasenT2
-      prob: 0.05
+      prob: 0.3 # Aurum -> 0.05 to 0.3
     - id: ClothingBackpackRogueNanotrasenT3
     - id: ClothingBackpackRogueNanotrasenT3
-      prob: 0.5
+      prob: 0.4 # Aurum -> 0.5 to 0.4
     - id: ClothingBackpackRogueNanotrasenT3
-      prob: 0.1
+      prob: 0.7 # Aurum -> 0.1 to 0.7
     - id: PenCentcom
-      prob: 0.75
+      prob: 0.3 # Aurum -> 0.75 to 0.3
     - !type:NestedSelector
       tableId: NTLootBackpackTrunk
-      prob: 0.5
+      prob: 0.6 # Aurum -> 0.5 to 0.6
     - !type:NestedSelector
       tableId: NTLootHardsuitTrunk
       prob: 0.75
@@ -215,6 +215,7 @@
         - id: ClothingUniformJumpsuitCentcomOfficial
         - id: ClothingUniformJumpskirtCentcomFormalDress
         - id: ClothingUniformJumpsuitCentcomFormal
+        - id: ClothingUniformJumpskirtCentcomPencilSkirt # Aurum
         - id: ClothingOuterCoatCentralCommandWinter # Aurum Addon.
       - !type:GroupSelector
         weight: 1.745
@@ -224,10 +225,18 @@
         - id: ClothingShoesBootsMagAdv
         - id: ClothingShoesBootsWinterCentCom
         - id: ClothingNeckCloakCentcom
+        - id: ClothingNeckCloakCentComPoncho # Aurum
+        - id: ClothingHeadHatCowboyCentcom # Aurum
+        - id: ClothingNeckCloakHighCommand # Aurum
+        - id: ClothingNeckCloakHighCommandCape # Aurum
+        - id: ClothingUniformJumpsuitCentralCommandLiaison # Aurum
         - id: ClothingUniformJumpsuitCentcomOfficer
       - !type:GroupSelector
         weight: 0.05
         children:
+        - id: ClothingNeckCloakGoldenCentComm # Aurum
+        - id: ClothingHeadHatGoldCentcom # Aurum
+        - id: ClothingUniformJumpsuitGoldenLiaison # Aurum
         - id: ClothingUniformJumpsuitCentcomAgent
         - id: ClothingNeckScarfStripedCentcom
         - id: ClothingMaskGasDeathSquad

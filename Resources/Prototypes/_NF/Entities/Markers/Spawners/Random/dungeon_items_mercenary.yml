@@ -491,7 +491,7 @@
     - CrateNanotrasenLootFilledT2
     - CrateNanotrasenLootFilledT3
 # End Mono Additions
-    rareChance: 0.65
+    rareChance: 0.35 # Aurum - 0.65 to 0.35
     chance: 1
     offset: 0.0
 

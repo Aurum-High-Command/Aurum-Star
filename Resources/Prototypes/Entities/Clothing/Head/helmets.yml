@@ -330,6 +330,9 @@
     sprite: Clothing/Head/Helmets/ert_leader.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_leader.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 800
 
 #ERT Security Helmet
 - type: entity
@@ -342,6 +345,9 @@
     sprite: Clothing/Head/Helmets/ert_security.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_security.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 800
 
 #ERT Medic Helmet
 - type: entity
@@ -354,6 +360,9 @@
     sprite: Clothing/Head/Helmets/ert_medic.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_medic.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 800
 
 #ERT Engineer Helmet
 - type: entity
@@ -366,6 +375,9 @@
     sprite: Clothing/Head/Helmets/ert_engineer.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_engineer.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 800
 
 #ERT Janitor Helmet
 - type: entity
@@ -378,6 +390,9 @@
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 800
 
 - type: entity
   parent: ClothingHeadHelmetBase

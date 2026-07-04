@@ -40,3 +40,33 @@
     sprite: _Goobstation/Clothing/Head/Hats/sanabi.rsi
   - type: StaticPrice # Monolith
     vendPrice: 220
+
+- type: entity
+  parent: ClothingHeadHatCentcomcap
+  id: ClothingHeadHatGoldCentcom
+  name: golden Centcom cap
+  description: A gold-and-white gilded cap worn by the highest-ranking members of Central Command.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Head/Hats/golden_centcom.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Head/Hats/golden_centcom.rsi
+  - type: Item
+    sprite: _Goobstation/Clothing/Head/Hats/golden_centcom.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 12000
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCowboyCentcom
+  name: centcom cowboy hat
+  description: A black and green cowboy hat with a gold band, worn by 'southerner' Central Command officers.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Head/Hats/cowboyhat_centcom.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Head/Hats/cowboyhat_centcom.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 800

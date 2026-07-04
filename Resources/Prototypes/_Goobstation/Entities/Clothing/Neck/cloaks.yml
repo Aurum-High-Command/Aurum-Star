@@ -9,3 +9,95 @@
     sprite: _Goobstation/Clothing/Neck/Cloaks/sanabi.rsi
   - type: StaticPrice # Monolith
     vendPrice: 220
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakResonant
+  name: resonant cape
+  description: The stage calls for us. We should gladly play along.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Cloaks/breverb.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Neck/Cloaks/breverb.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakHighCommand
+  name: high central command cloak
+  description: A magnificent green cloak featuring luxurious gold-lined edges.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Cloaks/cchighcommand.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Neck/Cloaks/cchighcommand.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 1500
+
+# High command CAPE
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakHighCommandCape
+  name: high central command cape
+  description: A lavish green-and-red cape decorated with gold trim and ornate epaulettes.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Cloaks/highcmdcape.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Neck/Cloaks/highcmdcape.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 1700
+
+# Golden central command cloak
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakGoldenCentComm
+  name: gilded central command cloak
+  description: A luxurious gold-gilded cloak worn by the highest-ranking officials.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Cloaks/goldcentcom.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Neck/Cloaks/goldcentcom.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 12000 # Cape made out of SOLELY GOLD.
+
+# Central command poncho
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakCentComPoncho
+  name: central command poncho
+  description: A regal green-and-black poncho embellished with rich golden accents.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Cloaks/centcom_poncho.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Neck/Cloaks/centcom_poncho.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 1200
+
+- type: entity
+  parent:  ClothingNeckBase
+  id: ClothingNeckCloakCarp
+  name: carp cloak
+  description: Getting up to some fishy business are we?
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Cloaks/carpcloak.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Neck/Cloaks/carpcloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakCarpAlt
+  name: carp cloak
+  description: Restricted to extraterrestrial entities. That means NOT you.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Cloaks/carpcloakalt.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Neck/Cloaks/carpcloakalt.rsi

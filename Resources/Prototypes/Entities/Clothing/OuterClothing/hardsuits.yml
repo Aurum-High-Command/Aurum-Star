@@ -1050,6 +1050,9 @@
       head: ClothingHeadHelmetHardsuitERTLeader
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 25000
 
 #ERT Chaplain Hardsuit
 - type: entity
@@ -1070,6 +1073,9 @@
       head: ClothingHeadHelmetHardsuitERTChaplain
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 18000
 
 #ERT Engineer Hardsuit
 - type: entity
@@ -1090,6 +1096,9 @@
       head: ClothingHeadHelmetHardsuitERTEngineer
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 23500
 
 
 #ERT Medic Hardsuit
@@ -1111,6 +1120,9 @@
       head: ClothingHeadHelmetHardsuitERTMedical
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 21000
 
 #ERT Security Hardsuit
 - type: entity
@@ -1135,6 +1147,9 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 23000
 
 #ERT Janitor Hardsuit
 - type: entity
@@ -1155,6 +1170,9 @@
       head: ClothingHeadHelmetHardsuitERTJanitor
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 14000
 
 #Deathsquad
 - type: entity
@@ -1200,6 +1218,9 @@
       head: ClothingHeadHelmetHardsuitDeathsquad
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 80000
 
 #CBURN Hardsuit
 - type: entity
@@ -1245,6 +1266,9 @@
       head: ClothingHeadHelmetCBURN
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 22000
 
 #MISC. HARDSUITS
 #Clown Hardsuit

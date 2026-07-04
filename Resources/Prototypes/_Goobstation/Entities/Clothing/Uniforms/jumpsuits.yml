@@ -17,6 +17,44 @@
         Heat: 0.75
 
 - type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitResonant
+  name: resonant jumpsuit
+  description: Lets not play too rough. Neither you nor I can reach it just yet…
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/breverb.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/breverb.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitNanotrasenRepresentativeFancy
+  name: fancy nanotrasen representative suit
+  description: A fancy black suit worn by officials, embellished with more golden threads than Normal.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/fancy_nanotrasen_representative.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/fancy_nanotrasen_representative.rsi
+
+# Baggy (but fancy) centcomm jumpsuit
+- type: entity
+  parent: ClothingUniformJumpsuitNavyGold
+  id: ClothingUniformJumpsuitCentralCommandLiaison
+  name: CentComm Liaison Jumpsuit
+  description: Rumor has it, the CCO that first saw the Outer Command uniform was so jealous that they stained it green with their envy.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/centcomsuit_liaison.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/centcomsuit_liaison.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 1200
+
+
+- type: entity
   parent: [ClothingUniformBase]
   id: ClothingUniformJumpsuitSpecOps
   name: special operations officer's jumpsuit
@@ -51,3 +89,18 @@
         Slash: 0.75
         Piercing: 0.70
         Heat: 0.75
+
+# Golden liaison jumpsuit
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitGoldenLiaison
+  name: Golden Liaison CentCom Jumpsuit
+  description: A finely-tailored white-and-gold uniform worn by senior officials of Central Command.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/golden_liaison.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/golden_liaison.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 12000 # Made out of gold and shit, you can guess why it's pricey.

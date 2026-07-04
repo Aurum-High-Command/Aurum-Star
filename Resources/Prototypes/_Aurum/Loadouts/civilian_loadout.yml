@@ -1,6 +1,16 @@
 # Civilian Jumpsuits and Jumpskirts
 
 - type: loadout
+  id: ReverberationEnsembleJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitResonant
+
+- type: loadout
+  id: FancyNTRJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitNanotrasenRepresentativeFancy
+
+- type: loadout
   id: CargoTechnicianSweater
   equipment:
     jumpsuit: ClothingUniformJumpsuitCargotechSweater
@@ -51,11 +61,115 @@
     jumpsuit: ClothingUniformJumpsuitHoPTurtleneckSkirt
 
 # Civilian Neck Stuff
+- type: loadout
+  id: ReverberationEnsembleNeckCloak
+  equipment:
+    neck: ClothingNeckCloakResonant
+
+- type: loadout
+  id: TransEnsembleNeckClothing
+  equipment:
+    neck: ClothingNeckEnsembleTrans
 
 - type: loadout
   id: ResearchDirectorDecoratedCloak
   equipment:
     neck: ClothingNeckCloakRdFancy
+
+- type: loadout
+  id: ResearchDirectorDecoratedMantle
+  equipment:
+    neck: ClothingNeckMantleResearchDirectorDecorated
+
+- type: loadout
+  id: ResearchDirectorEnsembleNeckClothing
+  equipment:
+    neck: ClothingNeckEnsembleResearchDirector
+
+- type: loadout
+  id: BlueShieldDecoratedPoncho
+  equipment:
+    neck: ClothingNeckMantleBlueshieldDecorated
+
+- type: loadout
+  id: BlueShieldDecoratedEnsembleNeckClothing
+  equipment:
+    neck: ClothingNeckEnsembleBlueshield
+
+- type: loadout
+  id: NanotrasenRepEnsembleNeckClothing
+  equipment:
+    neck: ClothingNeckEnsembleNanotrasenRepresentative
+
+- type: loadout
+  id: CaptainDecoratedMantle
+  equipment:
+    neck: ClothingNeckMantleCaptainDecorated
+
+- type: loadout
+  id: CaptainEnsembleNeckClothing
+  equipment:
+    neck: ClothingNeckEnsembleCaptain
+
+- type: loadout
+  id: ChiefEngineerOrangeMantleDecorated
+  equipment:
+    neck: ClothingNeckMantleChiefEngineerOrangeDecorated
+
+- type: loadout
+  id: ChiefEngineerOrangeEnsemble
+  equipment:
+    neck: ClothingNeckEnsembleChiefEngineerGreen
+
+- type: loadout
+  id: ChiefEngineerWhiteMantleDecorated
+  equipment:
+    neck: ClothingNeckMantleChiefEngineerWhiteDecorated
+
+- type: loadout
+  id: ChiefEngineerWhiteEnsemble
+  equipment:
+    neck: ClothingNeckEnsembleChiefEngineerWhite
+
+- type: loadout
+  id: HeadOfPersonnelMantleDecorated
+  equipment:
+    neck: ClothingNeckMantleHeadOfPersonnelDecorated
+
+- type: loadout
+  id: HeadOfPersonnelEnsemble
+  equipment:
+    neck: ClothingNeckEnsembleHeadOfPersonnel
+
+- type: loadout
+  id: HeadOfSecurityBlackRedPoncho
+  equipment:
+    neck: ClothingNeckMantleHeadOfSecurityDecorated
+
+- type: loadout
+  id: HeadOfSecurityEnsemble
+  equipment:
+    neck: ClothingNeckEnsembleHeadOfSecurity
+
+- type: loadout
+  id: SalvagerEnsembleNeckClothing
+  equipment:
+    neck: ClothingNeckEnsembleSalvager
+
+- type: loadout
+  id: QuartermasterEnsembleNeckClothing
+  equipment:
+    neck: ClothingNeckEnsembleQuarterMaster
+
+- type: loadout
+  id: ClothingNeckCloakCarpLOADOUT
+  equipment:
+    neck: ClothingNeckCloakCarp
+
+- type: loadout
+  id: ClothingNeckCloakCarpLOADOUTALT
+  equipment:
+    neck: ClothingNeckCloakCarpAlt
 
 
 # Civilian Grade OuterClothing
@@ -132,3 +246,10 @@
   price: 0
   equipment:
     head: ClothingHeadHatFishermanCap
+
+# Civilian Shoes
+
+- type: loadout
+  id: ReverberationEnsembleShoes
+  equipment:
+    shoes: ClothingShoesResonant
