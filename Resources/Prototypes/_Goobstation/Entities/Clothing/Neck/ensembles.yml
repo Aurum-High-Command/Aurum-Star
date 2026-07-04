@@ -24,7 +24,6 @@
     stealGroup: HeadCloak
   - type: ItemSwitch
     state: both
-    showLabel: true
     states:
       both: !type:ItemSwitchState
         verb: both
@@ -68,7 +67,6 @@
     stealGroup: HeadCloak
   - type: ItemSwitch
     state: both
-    showLabel: true
     states:
       both: !type:ItemSwitchState
         verb: both
@@ -112,7 +110,6 @@
     stealGroup: HeadCloak
   - type: ItemSwitch
     state: both
-    showLabel: true
     states:
       both: !type:ItemSwitchState
         verb: both
@@ -156,7 +153,6 @@
     stealGroup: HeadCloak
   - type: ItemSwitch
     state: all
-    showLabel: true
     states:
       all: !type:ItemSwitchState
         verb: all
@@ -219,7 +215,6 @@
     stealGroup: HeadCloak
   - type: ItemSwitch
     state: both
-    showLabel: true
     states:
       both: !type:ItemSwitchState
         verb: both
@@ -263,7 +258,6 @@
     stealGroup: HeadCloak
   - type: ItemSwitch
     state: all
-    showLabel: true
     states:
       all: !type:ItemSwitchState
         verb: all
@@ -327,7 +321,6 @@
     stealGroup: HeadCloak
   - type: ItemSwitch
     state: both
-    showLabel: true
     states:
       both: !type:ItemSwitchState
         verb: both
@@ -371,7 +364,6 @@
     stealGroup: HeadCloak
   - type: ItemSwitch
     state: both
-    showLabel: true
     states:
       both: !type:ItemSwitchState
         verb: both
@@ -413,7 +405,6 @@
     - Neck
   - type: ItemSwitch
     state: cloakblackmantle
-    showLabel: true
     states:
       cloakblackmantle: !type:ItemSwitchState
         verb: cloakblack&mantle
@@ -465,7 +456,6 @@
     - Neck
   - type: ItemSwitch
     state: both
-    showLabel: true
     states:
       both: !type:ItemSwitchState
         verb: both
@@ -506,7 +496,6 @@
     - Neck
   - type: ItemSwitch
     state: all
-    showLabel: true
     states:
       all: !type:ItemSwitchState
         verb: all
@@ -558,7 +547,6 @@
     - Neck
   - type: ItemSwitch
     state: both
-    showLabel: true
     states:
       both: !type:ItemSwitchState
         verb: both
