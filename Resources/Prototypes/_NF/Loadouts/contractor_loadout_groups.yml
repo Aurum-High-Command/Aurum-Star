@@ -330,8 +330,8 @@
   - CivilianUseLongScienceLabcoat
   - MedicalDispatchLongLabcoat
   - MedicalDispatchLongChemLabcoat
-  - MDAndMercSpacerDavidJacket
-  - MDAndMercSpacerEMTJacket
+  - MDAndMercSpacerDavidJacket # Aurum
+  - MDAndMercSpacerEMTJacket # Aurum
   ## Aurum End
   ## Mono start
   - ContractorClothingOuterHardsuitAtmos
@@ -758,8 +758,8 @@
   - BlueShieldDecoratedPoncho # Aurum
   - BlueShieldDecoratedEnsembleNeckClothing # Aurum
   - NanotrasenRepEnsembleNeckClothing # Aurum
-  - ClothingNeckCloakCarpLOADOUT
-  - ClothingNeckCloakCarpLOADOUTALT
+  - ClothingNeckCloakCarpLOADOUT # Aurum
+  - ClothingNeckCloakCarpLOADOUTALT # Aurum
 
 - type: loadoutGroup
   id: ContractorPDA

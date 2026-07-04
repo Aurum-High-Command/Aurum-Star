@@ -192,7 +192,7 @@
     - id: WeaponHeavyPulseCannon
       prob: 0.005
     - id: MedkitCombatFilled
-      prob: 0.3
+      prob: 0.3 # Aurum -> 0.5 to 0.3
     #Clothings
     - id: NTLootT3Clothing
 #      amount: 1
