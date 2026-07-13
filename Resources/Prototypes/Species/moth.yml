@@ -56,23 +56,23 @@
       points: 1
       required: false
     HeadTop:
-      points: 1
+      points: 4 # Aurum, 1 to 4
       required: true
       defaultMarkings: [ MothAntennasDefault ]
     HeadSide:
       points: 1
       required: false
     Head:
-      points: 4 # imp 1<4
+      points: 8 # Aurum, 4 to 8
       required: false
     Chest:
-      points: 4 # imp 1<4
+      points: 8 # Aurum, 4 to 8
       required: false
     Legs:
-      points: 4 # imp 2<4
+      points: 8 # Aurum, 4 to 8
       required: false
     Arms:
-      points: 4 # imp 2<4
+      points: 8 # Aurum, 4 to 8
       required: false
 
 - type: humanoidBaseSprite

@@ -47,13 +47,13 @@
       points: 1
       required: false
     Legs:
-      points: 2
+      points: 6 # Aurum, 2 to 6
       required: false
     Arms:
-      points: 2
+      points: 6 # Aurum, 2 to 6
       required: false
     Overlay:
-      points: 1
+      points: 3 # Aurum 1 to 3
       required: true
       defaultMarkings: [ DionaVineOverlay ]
 

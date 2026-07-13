@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2025 BloodfiendishOperator <141253729+Diggy0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 # Chest
 
 - type: marking
@@ -253,7 +248,7 @@
 - type: marking
   id: DwarfMarkKangarooLHand
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Arms
   speciesRestriction: [ Dwarf, Human, Oni ]
   coloring:
     default:
@@ -285,7 +280,7 @@
 - type: marking
   id: DwarfMarkKangarooRHand
   bodyPart: RHand
-  markingCategory: RightHand
+  markingCategory: Arms
   speciesRestriction: [ Dwarf, Human, Oni ]
   coloring:
     default:

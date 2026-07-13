@@ -48,10 +48,10 @@
       required: true
       defaultMarkings: [ RodentiaTailDefault ]
     Legs:
-      points: 4
+      points: 6 # Aurum 4 to 6
       required: false
     Arms:
-      points: 4
+      points: 6 # Aurum 4 to 6
       required: false
     Snout:
       points: 1
@@ -64,7 +64,7 @@
       points: 1
       required: false
     Chest:
-      points: 2
+      points: 6 # Aurum 2 to 6
       required: false
 
 - type: humanoidBaseSprite

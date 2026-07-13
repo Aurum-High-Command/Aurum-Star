@@ -1,8 +1,3 @@
-# SPDX-FileCopyrightText: 2025 BloodfiendishOperator <141253729+Diggy0@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 # Chest
 
 - type: marking
@@ -51,7 +46,7 @@
 
 - type: marking
   id: WhipSpiderMouth
-  bodyPart: Snout
+  bodyPart: HeadSide
   markingCategory: HeadSide
   speciesRestriction: [ Arachnid ]
   sprites:
@@ -154,7 +149,7 @@
 - type: marking
   id: ArachnidRArmSegments
   bodyPart: RArm
-  markingCategory: RightArm
+  markingCategory: Arms
   speciesRestriction: [ Arachnid ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Arachnid/rarm.rsi
@@ -167,7 +162,7 @@
 - type: marking
   id: ArachnidLArmSegments
   bodyPart: LArm
-  markingCategory: LeftArm
+  markingCategory: Arms
   speciesRestriction: [ Arachnid ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Arachnid/larm.rsi
@@ -180,7 +175,7 @@
 - type: marking
   id: ArachnidRLegSegments
   bodyPart: RLeg
-  markingCategory: RightLeg
+  markingCategory: Legs
   speciesRestriction: [ Arachnid ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Arachnid/rleg.rsi
@@ -193,7 +188,7 @@
 - type: marking
   id: ArachnidLLegSegments
   bodyPart: LLeg
-  markingCategory: LeftLeg
+  markingCategory: Legs
   speciesRestriction: [ Arachnid ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Arachnid/lleg.rsi

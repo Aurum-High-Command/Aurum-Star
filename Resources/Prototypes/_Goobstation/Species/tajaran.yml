@@ -30,13 +30,13 @@
       required: true
       defaultMarkings: [ TajaranEarsBasic ]
     Chest:
-      points: 1
+      points: 8 # Aurum - 1 to 8
       required: false
     Legs:
-      points: 2
+      points: 8 # Aurum - 2 to 8
       required: false
     Arms:
-      points: 2
+      points: 8 # Aurum - 2 to 8
       required: false
 
 - type: speciesBaseSprites
