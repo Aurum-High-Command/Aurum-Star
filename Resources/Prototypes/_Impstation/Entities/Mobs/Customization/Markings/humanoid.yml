@@ -636,7 +636,7 @@
 - type: marking
   id: VitiligoLegR
   bodyPart: RLeg
-  markingCategory: RightLeg
+  markingCategory: Legs
   speciesRestriction: [ Human, Dwarf ]
   forcedColoring: true
   coloring:

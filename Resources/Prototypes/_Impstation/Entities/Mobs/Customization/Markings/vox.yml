@@ -274,7 +274,7 @@
 - type: marking
   id: SpotsArmR
   bodyPart: RArm
-  markingCategory: RightArm
+  markingCategory: Arms
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/rarm.rsi
@@ -283,7 +283,7 @@
 - type: marking
   id: VoxArmsStripesRHand # what i would pay to be able to rename prototypes
   bodyPart: RArm
-  markingCategory: RightArm
+  markingCategory: Arms
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/rarm.rsi
@@ -294,7 +294,7 @@
 - type: marking
   id: SpotsArmL
   bodyPart: LArm
-  markingCategory: LeftArm
+  markingCategory: Arms
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/larm.rsi
@@ -303,7 +303,7 @@
 - type: marking
   id: VoxArmsStripesLHand
   bodyPart: LArm
-  markingCategory: LeftArm
+  markingCategory: Arms
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/larm.rsi
@@ -314,7 +314,7 @@
 - type: marking
   id: FeatheredLegR
   bodyPart: RLeg
-  markingCategory: RightLeg
+  markingCategory: Legs
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/rleg.rsi
@@ -323,7 +323,7 @@
 - type: marking
   id: VoxLegGradientRLeg
   bodyPart: RLeg
-  markingCategory: RightLeg
+  markingCategory: Legs
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/rleg.rsi
@@ -332,7 +332,7 @@
 - type: marking
   id: VoxLegsStripesRLeg
   bodyPart: RLeg
-  markingCategory: RightLeg
+  markingCategory: Legs
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/rleg.rsi
@@ -343,7 +343,7 @@
 - type: marking
   id: FeatheredLegL
   bodyPart: LLeg
-  markingCategory: LeftLeg
+  markingCategory: Legs
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/lleg.rsi
@@ -352,7 +352,7 @@
 - type: marking
   id: VoxLegGradientLLeg
   bodyPart: LLeg
-  markingCategory: LeftLeg
+  markingCategory: Legs
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/lleg.rsi
@@ -361,7 +361,7 @@
 - type: marking
   id: VoxLegsStripesLLeg
   bodyPart: LLeg
-  markingCategory: LeftLeg
+  markingCategory: Legs
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/lleg.rsi
@@ -372,7 +372,7 @@
 - type: marking
   id: VoxFootGradientLFoot
   bodyPart: LFoot
-  markingCategory: LeftFoot
+  markingCategory: Legs
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/lfoot.rsi
@@ -383,7 +383,7 @@
 - type: marking
   id: VoxFootGradientRFoot
   bodyPart: RFoot
-  markingCategory: RightFoot
+  markingCategory: Legs
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/rfoot.rsi
@@ -394,7 +394,7 @@
 - type: marking
   id: VoxHandGradientLHand
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Arms
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/lhand.rsi
@@ -407,7 +407,7 @@
 - type: marking
   id: VoxLArmProsthetic
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Arms
   speciesRestriction: [ Vox ]
   coloring:
     default:
@@ -423,7 +423,7 @@
 - type: marking
   id: VoxHandGradientRHand
   bodyPart: RHand
-  markingCategory: RightHand
+  markingCategory: Arms
   speciesRestriction: [ Vox ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Vox/rhand.rsi
@@ -436,7 +436,7 @@
 - type: marking
   id: VoxRArmProsthetic
   bodyPart: RHand
-  markingCategory: RightHand
+  markingCategory: Arms
   speciesRestriction: [ Vox ]
   coloring:
     default:

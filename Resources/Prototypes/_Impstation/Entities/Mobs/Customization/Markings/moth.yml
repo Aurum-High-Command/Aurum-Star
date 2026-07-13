@@ -274,7 +274,7 @@
 - type: marking
   id: ProstheticArmRightMoth
   bodyPart: RArm
-  markingCategory: RightArm
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/rarm.rsi
@@ -283,7 +283,7 @@
 - type: marking
   id: TwistingArmRightMoth
   bodyPart: RArm
-  markingCategory: RightArm
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/rarm.rsi
@@ -294,7 +294,7 @@
 - type: marking
   id: ChimeraArmLeftMoth
   bodyPart: LArm
-  markingCategory: LeftArm
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/larm.rsi
@@ -303,7 +303,7 @@
 - type: marking
   id: ProstheticArmLeftMoth
   bodyPart: LArm
-  markingCategory: LeftArm
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/larm.rsi
@@ -312,7 +312,7 @@
 - type: marking
   id: TwistingArmLeftMoth
   bodyPart: LArm
-  markingCategory: LeftArm
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/larm.rsi
@@ -323,7 +323,7 @@
 - type: marking
   id: LegProstheticRightMoth
   bodyPart: RLeg
-  markingCategory: RightLeg
+  markingCategory: Legs
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/rleg.rsi
@@ -332,7 +332,7 @@
 - type: marking
   id: LegTwistingRightMoth
   bodyPart: RLeg
-  markingCategory: RightLeg
+  markingCategory: Legs
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/rleg.rsi
@@ -343,7 +343,7 @@
 - type: marking
   id: LegChimeraLeftMoth
   bodyPart: LLeg
-  markingCategory: LeftLeg
+  markingCategory: Legs
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/lleg.rsi
@@ -352,7 +352,7 @@
 - type: marking
   id: LegProstheticLeftMoth
   bodyPart: LLeg
-  markingCategory: LeftLeg
+  markingCategory: Legs
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/lleg.rsi
@@ -361,7 +361,7 @@
 - type: marking
   id: LegTwistingLeftMoth
   bodyPart: Lleg
-  markingCategory: LeftLeg
+  markingCategory: Legs
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/lleg.rsi
@@ -372,7 +372,7 @@
 - type: marking
   id: FootChimeraLeftMoth
   bodyPart: LFoot
-  markingCategory: LeftFoot
+  markingCategory: Legs
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/lfoot.rsi
@@ -381,7 +381,7 @@
 - type: marking
   id: FootProstheticLeftMoth
   bodyPart: LFoot
-  markingCategory: LeftFoot
+  markingCategory: Legs
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/lfoot.rsi
@@ -392,7 +392,7 @@
 - type: marking
   id: FootProstheticRightMoth
   bodyPart: RFoot
-  markingCategory: RightFoot
+  markingCategory: Legs
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/rfoot.rsi
@@ -403,7 +403,7 @@
 - type: marking
   id: HandChimeraLeftMoth
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/lhand.rsi
@@ -412,7 +412,7 @@
 - type: marking
   id: HandProstheticLeftMoth
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/lhand.rsi
@@ -421,7 +421,7 @@
 - type: marking
   id: HandTwistingLeftMoth
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/lhand.rsi
@@ -432,7 +432,7 @@
 - type: marking
   id: HandProstheticRightMoth
   bodyPart: RHand
-  markingCategory: RightHand
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/rhand.rsi
@@ -441,7 +441,7 @@
 - type: marking
   id: HandTwistingRightMoth
   bodyPart: RHand
-  markingCategory: RightHand
+  markingCategory: Arms
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/rhand.rsi
@@ -566,8 +566,8 @@
 
 - type: marking
   id: LunaWings
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -577,8 +577,8 @@
 
 - type: marking
   id: MothBee
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -590,8 +590,8 @@
 
 - type: marking
   id: MothBeetleTail
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -603,8 +603,8 @@
 
 - type: marking
   id: MothFirefly
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -612,8 +612,8 @@
 
 - type: marking
   id: MothFireflyOverlay
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Overlay
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -622,8 +622,8 @@
 
 - type: marking
   id: MothGlasswing
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -635,8 +635,8 @@
 
 - type: marking
   id: MothRhinoBeetle
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -648,8 +648,8 @@
 
 - type: marking
   id: MothSnoth
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -659,8 +659,8 @@
 
 - type: marking
   id: MothTrueButterfly
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -672,8 +672,8 @@
 
 - type: marking
   id: WingsBackstabbed
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -681,8 +681,8 @@
 
 - type: marking
   id: WingsDragonfly
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -694,8 +694,8 @@
 
 - type: marking
   id: WingsFly
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
@@ -707,8 +707,8 @@
 
 - type: marking
   id: WingsLanternfly
-  bodyPart: Wings #Omu - Tail to Wings
-  markingCategory: Wings #Omu - Tail to Wings
+  bodyPart: Tail
+  markingCategory: Tail
   speciesRestriction: [ Moth ]
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/tail.rsi
