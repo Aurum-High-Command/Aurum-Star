@@ -10,7 +10,7 @@
 
 - type: entity
   id: OrganAsakimEyes
-  parent: [ OrganHumanEyes ]
+  parent: [ BaseCyberneticEyes ] # Aurum
   name: asakim eyes
   description: They reflect off the darkness.
   components:
@@ -25,8 +25,9 @@
   id: OrganAsakimHeart
   parent: [ OrganAnimalHeart ]
   name: asakim heart
-  description: A large heart, capable of metabolizing more chemicals at once.
+  description: A large mechanical heart, capable of metabolizing more chemicals at once.
   components:
+  - type: Cybernetics # Aurum - Cybernetic Asakim or smth
   - type: Metabolizer
     maxReagents: 5
     metabolizerTypes: [ Animal ]

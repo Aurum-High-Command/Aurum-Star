@@ -1,7 +1,7 @@
 - type: species
   id: Asakim
   name: species-name-asakim
-  roundStart: false # sad...
+  roundStart: true # Aurum - Asakim reworked.
   prototype: MobAsakim
   sprites: MobAsakimSprites
   dollPrototype: MobAsakimDummy
