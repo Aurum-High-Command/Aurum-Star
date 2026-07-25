@@ -225,18 +225,20 @@
   name: Play MIDI
   description: Sing your heart out! Right click yourself to set an instrument.
   components:
-  - type: InstantAction
+  - type: Action
     checkCanInteract: false
     icon: _DV/Interface/Actions/harpy_sing.png
     event: !type:OpenUiActionEvent
       key: enum.InstrumentUiKey.Key
+  - type: InstantAction
 
 - type: entity
   id: ActionSyrinxChangeVoiceMask
   name: Set name
   description: Change the name others hear to something else.
   components:
-  - type: InstantAction
+  - type: Action
     icon: _DV/Interface/Actions/harpy_syrinx.png
     itemIconStyle: BigAction
     event: !type:VoiceMaskSetNameEvent
+  - type: InstantAction

@@ -31,8 +31,9 @@
   name: Toggle Moon Boots
   description: Toggles the moon boots on and off.
   components:
-  - type: InstantAction
+  - type: Action
     itemIconStyle: BigItem
+  - type: InstantAction
     event: !type:ToggleActionEvent
 
 - type: entity

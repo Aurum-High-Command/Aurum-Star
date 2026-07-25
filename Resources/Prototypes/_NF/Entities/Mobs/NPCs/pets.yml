@@ -359,7 +359,7 @@
   name: "[color=yellow]Force Push[/color]"
   description: "Summon forth an eldritch hand. [color=yellow]5 minute cooldown.[/color]"
   components:
-  - type: WorldTargetAction
+  - type: Action
     icon: { sprite : _NF/Effects/bloodcultprojectiles.rsi, state: hand }
     event: !type:ActionGunShootEvent
     priority: 2
@@ -367,7 +367,7 @@
     range: 0
     itemIconStyle: BigAction
     useDelay: 300
-
+  - type: WorldTargetAction
 # Adopted from space-wizards #26265 (Thank you, PolterTzi)
 - type: entity
   name: Yip Yip

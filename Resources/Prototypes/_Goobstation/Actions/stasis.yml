@@ -4,7 +4,7 @@
   description: Changes your coordinates, allowing you to teleport to nearby locations
   categories: [ HideSpawnMenu ]
   components:
-  - type: WorldTargetAction
+  - type: Action
     icon:
       sprite: _Goobstation/Actions/chronoblink.rsi
       state: effect
@@ -17,5 +17,5 @@
       path: /Audio/Magic/blink.ogg
       params:
         volume: 5
-
+  - type: WorldTargetAction
 

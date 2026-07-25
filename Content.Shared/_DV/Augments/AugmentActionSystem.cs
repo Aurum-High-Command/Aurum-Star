@@ -1,5 +1,6 @@
 using Content.Shared._Shitmed.Body.Organ;
 using Content.Shared.Actions;
+using Content.Shared.Actions.Components;
 using Content.Shared.Body.Organ;
 
 namespace Content.Shared._DV.Augments;

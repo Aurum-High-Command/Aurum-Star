@@ -49,9 +49,11 @@ public abstract class SharedBorgSwitchableTypeSystem : EntitySystem
         EnsureComp<BorgSwitchableSubtypeComponent>(ent.Owner); // Mono - Temp fix for borg sprites
         Dirty(ent);
 
-        if (ent.Comp.SelectedBorgType != null)
+        if (ent.Comp.SelectedBorgType != null &&
+            TryComp(ent, out BorgSwitchableSubtypeComponent? subtype) &&
+            subtype.BorgSubtype != null)
         {
-            SelectBorgModule(ent, ent.Comp.SelectedBorgType.Value);
+            SelectBorgModule(ent, ent.Comp.SelectedBorgType.Value, subtype.BorgSubtype.Value);
         }
     }
 

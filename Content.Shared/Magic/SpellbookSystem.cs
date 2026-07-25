@@ -33,7 +33,7 @@ public sealed class SpellbookSystem : EntitySystem
             if (spell == null)
                 continue;
 
-            _sharedCharges.SetCharges(spell.Value, charges);
+            _sharedCharges.AddCharges(spell.Value, charges);
             ent.Comp.Spells.Add(spell.Value);
         }
     }
@@ -74,7 +74,7 @@ public sealed class SpellbookSystem : EntitySystem
             {
                 EntityUid? actionId = null;
                 if (_actions.AddAction(args.Args.User, ref actionId, id))
-                    _sharedCharges.SetCharges(actionId.Value, charges);
+                    _sharedCharges.AddCharges(actionId.Value, charges);
             }
         }
 

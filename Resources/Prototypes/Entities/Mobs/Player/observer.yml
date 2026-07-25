@@ -171,7 +171,7 @@
   id: ActionObserverShowRadar
   parent: ActionAGhostShowRadar
   components:
-  - type: InstantAction
+  - type: Action
     checkCanInteract: false
 # End Frontier
 
