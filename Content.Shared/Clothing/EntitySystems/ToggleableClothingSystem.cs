@@ -509,7 +509,7 @@ public sealed class ToggleableClothingSystem : EntitySystem
         Dirty(toggleable, comp);
 
         if (_actionContainer.EnsureAction(toggleable, ref comp.ActionEntity, out var action, comp.Action))
-            _actionsSystem.SetEntityIcon(comp.ActionEntity.Value, toggleable, action);
+            _actionsSystem.SetEntityIcon(comp.ActionEntity.Value, toggleable.Owner);
     }
 
     // Checks status of all attached clothings toggle status
@@ -555,8 +555,6 @@ public sealed class ToggleableClothingSystem : EntitySystem
             newList.Add(attachee.Key);
 
         return newList;
-        if (_actionContainer.EnsureAction(uid, ref component.ActionEntity, out var action, component.Action))
-            _actionsSystem.SetEntityIcon((component.ActionEntity.Value, action), component.ClothingUid);
     }
 }
 

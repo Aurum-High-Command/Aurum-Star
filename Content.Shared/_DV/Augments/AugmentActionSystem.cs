@@ -29,11 +29,11 @@ public sealed class AugmentActionSystem : EntitySystem
             var ev = new GetItemActionsEvent(_actionContainer, body, augment);
             RaiseLocalEvent(augment, ev);
 
-            _actions.GrantActions(body, ev.Actions, augment, actionsComponent);
+            _actions.GrantActions(body, ev.Actions, augment.Owner);
         }
         else
         {
-            _actions.RemoveProvidedActions(body, augment, actionsComponent);
+            _actions.RemoveProvidedActions(body, augment.Owner);
         }
     }
 }
