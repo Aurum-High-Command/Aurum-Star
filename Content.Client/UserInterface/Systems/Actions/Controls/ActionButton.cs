@@ -30,6 +30,8 @@ public sealed class ActionButton : Control, IEntityControl
     private bool _depressed;
     private bool _toggled;
 
+    private int _lastCharges;
+
     public BoundKeyFunction? KeyBind
     {
         set

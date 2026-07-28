@@ -2,23 +2,27 @@
 using Content.Shared.Charges.Systems;
 using Content.Shared.Whitelist;
 using Robust.Shared.GameStates;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 namespace Content.Shared.Charges.Components;
 
-[RegisterComponent, NetworkedComponent]
-[Access(typeof(SharedChargesSystem))]
-[AutoGenerateComponentState]
+/// <summary>
+/// Specifies the attached action has discrete charges, separate to a cooldown.
+/// </summary>
+[RegisterComponent, NetworkedComponent, AutoGenerateComponentState, Access(typeof(SharedChargesSystem))]
 public sealed partial class LimitedChargesAmmoComponent : Component
 {
-    /// <summary>
-    /// How many charges to refill, per item in stack (if stack)
-    /// </summary>
     [DataField, AutoNetworkedField]
-    public int Charges = 1;
+    public int LastCharges;
+    /// <summary>
+    ///     The max charges this action has.
+    /// </summary>
+    [DataField, AutoNetworkedField, Access(Other = AccessPermissions.Read)]
+    public int MaxCharges = 1;
 
     /// <summary>
-    /// What entities can we refill.
+    /// Last time charges was changed. Used to derive current charges.
     /// </summary>
-    [DataField(required: true), AutoNetworkedField]
-    public EntityWhitelist Whitelist = new();
+     [DataField(customTypeSerializer:typeof(TimeOffsetSerializer)), AutoNetworkedField]
+    public TimeSpan LastUpdate;
 }

@@ -43,7 +43,7 @@ public class RCDSystem : EntitySystem
     [Dependency] private readonly ITileDefinitionManager _tileDefMan = default!;
     [Dependency] private readonly FloorTileSystem _floors = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
-    [Dependency] private readonly SharedChargesSystem _charges = default!;
+    [Dependency] private readonly SharedChargesSystem _sharedcharges = default!;
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedInteractionSystem _interaction = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
@@ -284,7 +284,7 @@ public class RCDSystem : EntitySystem
 
         // Play audio and consume charges
         _audio.PlayPredicted(component.SuccessSound, uid, args.User);
-        _charges.UseCharges(uid, args.Cost);
+        _sharedcharges.UseCharges(uid, args.Cost);
     }
 
     private void OnRCDconstructionGhostRotationEvent(RCDConstructionGhostRotationEvent ev, EntitySessionEventArgs session)
@@ -320,7 +320,7 @@ public class RCDSystem : EntitySystem
         TryComp<LimitedChargesComponent>(uid, out var charges);
 
         // Both of these were messages were suppose to be predicted, but HasInsufficientCharges wasn't being checked on the client for some reason?
-        if (_charges.IsEmpty(uid, charges))
+        if (_sharedcharges.IsEmpty(uid))
         {
             if (popMsgs)
                 _popup.PopupClient(Loc.GetString("rcd-component-no-ammo-message"), uid, user);
@@ -328,7 +328,7 @@ public class RCDSystem : EntitySystem
             return false;
         }
 
-        if (_charges.HasInsufficientCharges(uid, component.CachedPrototype.Cost, charges))
+        if (_sharedcharges.HasInsufficientCharges(uid, component.CachedPrototype.Cost, charges))
         {
             if (popMsgs)
                 _popup.PopupClient(Loc.GetString("rcd-component-insufficient-ammo-message"), uid, user);

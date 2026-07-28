@@ -6,6 +6,8 @@
   id: BaseAction
   components:
   - type: Action
+  - type: LimitedCharges
+    maxCharges: 3
 
 # an action that is done all in le head and cant be prevented by any means
 - type: entity
@@ -161,6 +163,8 @@
   name: Activate EMP
   description: Triggers a small EMP pulse around you
   components:
+  - type: LimitedCharges
+    maxCharges: 3
   - type: InstantAction
     checkCanInteract: false
     useDelay: 15
