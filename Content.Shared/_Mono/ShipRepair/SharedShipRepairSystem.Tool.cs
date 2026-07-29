@@ -202,7 +202,7 @@ public abstract partial class SharedShipRepairSystem : EntitySystem
         if (_charges.HasInsufficientCharges(ent, args.Cost))
         {
             _popup.PopupEntity(Loc.GetString("ship-repair-tool-insufficient-ammo"), ent, args.User);
-            return;
+            return false;
         }
 
         if (args.RepairId != null)

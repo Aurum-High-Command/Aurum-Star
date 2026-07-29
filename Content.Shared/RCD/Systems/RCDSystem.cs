@@ -284,7 +284,7 @@ public class RCDSystem : EntitySystem
 
         // Play audio and consume charges
         _audio.PlayPredicted(component.SuccessSound, uid, args.User);
-        _sharedcharges.UseCharges(uid, args.Cost);
+        _sharedcharges.TryUseCharges(uid, args.Cost);
     }
 
     private void OnRCDconstructionGhostRotationEvent(RCDConstructionGhostRotationEvent ev, EntitySessionEventArgs session)
@@ -313,14 +313,13 @@ public class RCDSystem : EntitySystem
 
     public bool IsRCDOperationStillValid(EntityUid uid, RCDComponent component, MapGridData mapGridData, EntityUid? target, EntityUid user, bool popMsgs = true)
     {
-        // Update cached prototype if required
-        UpdateCachedPrototype(uid, component);
+        var prototype = _protoManager.Index(component.ProtoId);
 
         // Check that the RCD has enough ammo to get the job done
-        TryComp<LimitedChargesComponent>(uid, out var charges);
+        var charges = _sharedcharges.GetCurrentCharges(uid);
 
         // Both of these were messages were suppose to be predicted, but HasInsufficientCharges wasn't being checked on the client for some reason?
-        if (_sharedcharges.IsEmpty(uid))
+        if (charges == 0)
         {
             if (popMsgs)
                 _popup.PopupClient(Loc.GetString("rcd-component-no-ammo-message"), uid, user);
@@ -328,7 +327,7 @@ public class RCDSystem : EntitySystem
             return false;
         }
 
-        if (_sharedcharges.HasInsufficientCharges(uid, component.CachedPrototype.Cost, charges))
+        if (prototype.Cost > charges)
         {
             if (popMsgs)
                 _popup.PopupClient(Loc.GetString("rcd-component-insufficient-ammo-message"), uid, user);

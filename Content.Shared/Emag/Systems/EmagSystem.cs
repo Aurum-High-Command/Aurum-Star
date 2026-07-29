@@ -111,8 +111,9 @@ public sealed class EmagSystem : EntitySystem
         if (!HasComp<EmaggedComponent>(target))
             return false;
 
+        Entity<LimitedChargesComponent?> chargesEnt = ent.Owner;
         TryComp<LimitedChargesComponent>(ent, out var charges);
-        if (_charges.IsEmpty(ent, charges))
+        if (_sharedCharges.IsEmpty(chargesEnt))
         {
             _popup.PopupClient(Loc.GetString("emag-no-charges"), user, user);
             return false;
