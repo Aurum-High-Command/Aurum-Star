@@ -11,7 +11,7 @@
   - type: Organ
     onAdd:
     - type: SandevistanUser # This is worse than the mieyo one, because its reverse engineered or something. My secrets are propietary to my company. I mean, the only difference though is that it cools down a little bit slower.
-      loadPerActiveSecond: 8
+      loadPerActiveSecond: 5
       loadPerInactiveSecond: -0.15
 
 - type: entity
@@ -90,11 +90,11 @@
       critThreshold: 75 # 25% less stamina
       decay: 2
     - type: WillToLive
-      deadIncrease: 20
-    - type: SlowOnDamage
-      speedModifierThresholds:
-        70: 0.6
-        90: 0.4
+      deadIncrease: 40
+#    - type: SlowOnDamage - Aurum - THIS SHIT BREAKS.
+#      speedModifierThresholds:
+#        70: 0.6
+#        90: 0.4
   - type: Gibbable
   - type: Cybernetics
   - type: Sprite
