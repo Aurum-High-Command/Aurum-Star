@@ -18,19 +18,27 @@
     # Mats
     #MONO CHANGES (Uncommented weights *10 for digit brevity)
     - id: SheetSteel
-      weight: 1.5
+      weight: 2 # Aurum
     - id: SheetGlass
-      weight: 1.5
+      weight: 2 # Aurum
     - id: SheetPlasma
+      weight: 1.2 # Aurum
     - id: IngotGold
+      weight: 0.8 # Aurum
     - id: IngotSilver
+      weight: 1.2 # Aurum
     - id: SheetPlastic
+      weight: 1.5 # Aurum
     - id: SheetUranium
+      weight: 0.5 # Aurum
     - id: SheetPlasteel
+      weight: 0.3 # Aurum - Craft it yourself chud
     - id: MaterialWoodPlank
+      weight: 1.8 # Aurum
     - id: MaterialCloth
+      weight: 1.6 # Aurum
     - id: MaterialDurathread
-      weight: 0.1 #0.01 >> 0.1
+      weight: 0.3 #Aurum - From 0.1 to 0.3
     - id: MaterialCardboard
       weight: 0.1
     - id: SheetPaper
@@ -44,6 +52,12 @@
     - id: MaterialBluespace
       weight: 0.02 #0.00000001 Yes they meant it >> 0.02
       # Disk
+    # Aurum changes start - this is honestly just small boosts to research because artifacts are kinda sucky rn, we wanna have xenoarch at some point ideally.
+    - id: ResearchDisk5000
+      weight: 0.4
+    - id: ResearchDisk10000
+      weight: 0.3
+    # Aurum changes end
     - id: ResearchDisk35000
       weight: 0.1 #0.001 >> 0.1
     - id: ResearchDisk65000

@@ -842,9 +842,9 @@
     - SpawnMobKangarooSalvage
     - PlushieCarp
     - DehydratedSpaceCarp
-    - NFMobTick
-    - NFMobTick
-    - NFMobTick
+#    - NFMobTick
+#    - NFMobTick - Aurum change, nukes this fucking thing out of existance genuinely not even fun to fight agaisnt
+#    - NFMobTick
     - SpawnMobCobraSalvage
     chance: 0.95
     rarePrototypes:
