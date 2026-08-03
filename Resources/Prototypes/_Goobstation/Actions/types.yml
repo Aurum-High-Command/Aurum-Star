@@ -13,3 +13,18 @@
       sprite: _Goobstation/Effects/bluespace_lifeline.rsi
       state: bluespace_lifeline
     event: !type:ActivateImplantEvent
+
+- type: entity
+  # parent: BaseAction
+  id: ActionToggleSandevistan
+  name: Toggle Sandevistan
+  description: Enable or disable your improved reflexes provided by the Sandevistan.
+  components:
+  - type: Action
+    checkCanInteract: false
+    useDelay: 3
+    icon: { sprite: _Goobstation/Objects/Misc/sandevistan.rsi, state: icon }
+    itemIconStyle: NoItem
+    raiseOnUser: true
+  - type: InstantAction
+    event: !type:ToggleSandevistanEvent

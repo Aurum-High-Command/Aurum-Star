@@ -7,6 +7,7 @@ using Content.Shared.Damage.Events;
 using Content.Shared.Database;
 using Content.Shared.Effects;
 using Content.Shared.IdentityManagement;
+using Content.Shared.Inventory; // Aurum - Sandevistan
 using Content.Shared.Jittering;
 using Content.Shared.Popups;
 using Content.Shared.Projectiles;
@@ -439,4 +440,8 @@ public sealed partial class StaminaSystem : EntitySystem
 ///     Raised before stamina damage is dealt to allow other systems to cancel it.
 /// </summary>
 [ByRefEvent]
-public record struct BeforeStaminaDamageEvent(float Value, bool Cancelled = false);
+// Goobstation change, added Source param.
+public record struct BeforeStaminaDamageEvent(float Value, EntityUid? Source = null, bool Cancelled = false) : IInventoryRelayEvent
+{
+    SlotFlags IInventoryRelayEvent.TargetSlots =>  ~SlotFlags.POCKET;
+}

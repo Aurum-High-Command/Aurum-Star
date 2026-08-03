@@ -4,6 +4,7 @@ using Content.Server._Mono.FireControl;
 using Content.Server.Cargo.Systems;
 using Content.Server.Power.EntitySystems;
 using Content.Server.Weapons.Ranged.Components;
+using Content.Shared._Goobstation.Weapons.Ranged; // Aurum
 using Content.Shared._Mono;
 using Content.Shared._RMC14.Weapons.Ranged.Prediction;
 using Content.Shared.Damage;
@@ -114,7 +115,7 @@ public sealed partial class GunSystem : SharedGunSystem
         {
             offset = offset == -1f ? 0f : offset + 1f / ammo.Count;
             // Mono - move into foreach
-            var angle = GetRecoilAngle(Timing.CurTime, gun, mapDirection.ToAngle());
+            var angle = GetRecoilAngle(Timing.CurTime, gun, mapDirection.ToAngle(), user);  // Goobstation user
             // Update shot based on the recoil
             toMap = fromMap.Position + angle.ToVec() * mapDirection.Length();
             mapDirection = toMap - fromMap.Position;
@@ -195,6 +196,15 @@ public sealed partial class GunSystem : SharedGunSystem
         {
             FiredProjectiles = shotProjectiles,
         });
+
+        // Goobstation start
+        if (user.HasValue)
+            RaiseLocalEvent(user.Value, new AmmoShotUserEvent()
+            {
+                Gun = gunUid,
+                FiredProjectiles = shotProjectiles,
+            });
+        // Goobstation end
 
         void CreateAndFireProjectiles(EntityUid ammoEnt, AmmoComponent ammoComp, float offset = 0f)
         {
@@ -281,7 +291,7 @@ public sealed partial class GunSystem : SharedGunSystem
         return angles;
     }
 
-    private Angle GetRecoilAngle(TimeSpan curTime, GunComponent component, Angle direction)
+    private Angle GetRecoilAngle(TimeSpan curTime, GunComponent component, Angle direction, EntityUid? user = null) // Goobstation user
     {
         var timeSinceLastFire = (curTime - component.LastFire).TotalSeconds;
         var newTheta = MathHelper.Clamp(component.CurrentAngle.Theta + component.AngleIncreaseModified.Theta - component.AngleDecayModified.Theta * timeSinceLastFire, component.MinAngleModified.Theta, component.MaxAngleModified.Theta);
@@ -290,6 +300,19 @@ public sealed partial class GunSystem : SharedGunSystem
 
         // Convert it so angle can go either side.
         var random = Random.NextFloat(-0.5f, 0.5f);
+
+        // Goobstation start
+        var angleEv = new GetRecoilModifiersEvent()
+        {
+            Gun = component.Owner,
+            User = user ?? component.Owner
+        };
+        if (user != null)
+            RaiseLocalEvent(user.Value, angleEv);
+        RaiseLocalEvent(component.Owner, angleEv);
+        random *= angleEv.Modifier;
+        // Goobstation end
+
         var spread = component.CurrentAngle.Theta * random;
         var angle = new Angle(direction.Theta + component.CurrentAngle.Theta * random);
         DebugTools.Assert(spread <= component.MaxAngleModified.Theta);
