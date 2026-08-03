@@ -90,7 +90,7 @@
       critThreshold: 75 # 25% less stamina
       decay: 2
     - type: WillToLive
-      deadIncrease: 40
+      deadIncrease: 120
 #    - type: SlowOnDamage - Aurum - THIS SHIT BREAKS.
 #      speedModifierThresholds:
 #        70: 0.6
