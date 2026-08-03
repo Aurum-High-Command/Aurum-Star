@@ -1,0 +1,43 @@
+- type: entity
+  parent: BaseItem
+  id: OrganCyberHeart
+  name: cybernetic heart
+  description: Mechanical replacement for a heart, allows for faster chemical absorbtion, seems to slow down the loss of blood in the body when installed.
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi
+    state: cyber-heart
+  - type: Heart
+  - type: Gibbable
+  - type: EmitSoundOnPickup
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnDrop
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnLand
+    sound:
+      collection: OrganInteraction
+  - type: Organ
+    slotId: heart
+  - type: Metabolizer
+    maxReagents: 4
+    metabolizerTypes: [Human]
+    groups:
+    - id: Medicine
+      rateModifier: 1.2
+    - id: Cryogenic
+      rateModifier: 1.2
+    - id: Poison
+      rateModifier: 2.8
+    - id: Narcotic
+      rateModifier: 1.2
+  - type: PassiveDamage
+    allowedStates:
+    - Alive
+    damage:
+      types:
+        Bloodloss: -0.05 # Ik this seems like a bad idea but I think it having a niche would be nice.
+
+

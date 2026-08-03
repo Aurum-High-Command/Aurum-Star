@@ -14,22 +14,22 @@
       loadPerActiveSecond: 5
       loadPerInactiveSecond: -0.15
 
-- type: entity
-  parent: OrganHumanHeart
-  id: OrganHeartTSFShunt
-  name: TSF KR-22 "Zenit" implant suite
-  description: A highly experimental piece of cyberware developed in some hellish TSF blacksite that replaces the heart. Allows the user to do a short localized teleport to any position in their line of sight.
-  components:
-  - type: Cybernetics
-  - type: Sprite
-    sprite: _Mono/Objects/Misc/cybernetics.rsi
-    state: cranial_aug
-  - type: Organ
-    onAdd:
-    - type: DashAbility # Hilarious
-      dashAction: ActionEnergyCyberneticsShuntTSF
-      requireItem: false
-      isUser: true
+#- type: entity - Aurum, ts doesnt even work
+#  parent: OrganHumanHeart
+#  id: OrganHeartTSFShunt
+#  name: TSF KR-22 "Zenit" implant suite
+#  description: A highly experimental piece of cyberware developed in some hellish TSF blacksite that replaces the heart. Allows the user to do a short localized teleport to any position in their line of sight.
+#  components:
+#  - type: Cybernetics
+#  - type: Sprite
+#    sprite: _Mono/Objects/Misc/cybernetics.rsi
+#    state: cranial_aug
+#  - type: Organ
+#    onAdd:
+#    - type: DashAbility # Hilarious
+#      dashAction: ActionEnergyCyberneticsShuntTSF
+#      requireItem: false
+#      isUser: true
 
 - type: entity
   parent: BaseItem
@@ -90,7 +90,9 @@
       critThreshold: 75 # 25% less stamina
       decay: 2
     - type: WillToLive
-      deadIncrease: 120
+      deadIncrease: 30 # Aurum change
+    - type: Tenacity # Aurum change - Okay so this would ideally give you 30 more hp and 30 more crit HP
+      critIncrease: 30
 #    - type: SlowOnDamage - Aurum - THIS SHIT BREAKS.
 #      speedModifierThresholds:
 #        70: 0.6

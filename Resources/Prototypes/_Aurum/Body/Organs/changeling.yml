@@ -1,0 +1,93 @@
+- type: entity
+  parent: BaseItem
+  id: OrganHeartChangelingFleshcore
+  name: Fleshcore
+  description: It seems to keep it's warmth and pulse despite being detached from it's host. It feels tingly in your hand, it's trying to spread in your hand.
+  components:
+  - type: Gibbable
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi
+    state: lingcore
+  - type: EmitSoundOnPickup
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnDrop
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnLand
+    sound:
+      collection: OrganInteraction
+  - type: Organ
+    slotId: heart
+  - type: Heart
+  - type: Metabolizer
+    maxReagents: 8
+    metabolizerTypes: [Human]
+    groups:
+    - id: Medicine
+      rateModifier: 1
+    - id: Cryogenic
+      rateModifier: 1
+    - id: Poison
+      rateModifier: 0.8
+    - id: Narcotic
+      rateModifier: 1.2
+  - type: Tenacity
+    critIncrease: 20 # Secret changeling buff of having 40 more hp to shred through ggs
+  - type: WillToLive
+    deadIncrease: 20
+  - type: PassiveDamage
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+    damage:
+      groups: # It's a "sentient" organ meant to fix the body soooo.
+        Brute: -0.08
+        Burn: -0.02
+        Genetic: -0.01
+  - type: Item
+    size: Small
+
+- type: entity
+  parent: BaseItem
+  id: OrganLungsChangelingBerserkSac
+  name: Fleshbeast Lungs
+  description: Fleshy, bloated lungs that once belonged to a changeling, they seem to consume air at the same pace as a harpy. You can see small bits of bone covering them.
+  components:
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi
+    state: berserk_sac
+  - type: EmitSoundOnPickup
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnDrop
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnLand
+    sound:
+      collection: OrganInteraction
+  - type: Organ
+    slotId: lungs
+  - type: Gibbable
+  - type: Lung
+  - type: Metabolizer
+    removeEmpty: true
+    solutionOnBody: false
+    solution: "Lung"
+    metabolizerTypes: [ IAS ]
+    groups:
+    - id: Gas
+      rateModifier: 200.0
+  - type: SolutionContainerManager
+    solutions:
+      Lung:
+        maxVol: 200.0
+        canReact: false
+  - type: PassiveDamage
+    allowedStates:
+    - Alive
+    damage:
+      groups:
+        Airloss: -0.05
+
