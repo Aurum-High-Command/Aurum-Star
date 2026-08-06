@@ -11,3 +11,70 @@
   technologyPrerequisites:
   - RogueHypospray
   position: 19, -2
+
+- type: technology
+  id: CyberneticOrgans
+  name: research-technology-mechanical-organ-replacement
+  entityIcon: OrganCyberneticHeartReplacement
+  discipline: CivilianServices
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - OrganRoboticHeartReplacement
+  - OrganCyberneticHeartRecipe
+  - OrganRoboticLungsReplacement
+  - OrganRoboticLiverReplacement
+  - OrganRoboticStomachReplacement
+  technologyPrerequisites:
+  - CyberneticEnhancements
+  position: -2, 13
+
+- type: technology
+  id: CyberneticOrgansAdvanced
+  name: research-technology-advanced-organs-augments
+  entityIcon: OrganCyberHeartAdvanced
+  discipline: CivilianServices
+  tier: 3
+  cost: 25000
+  recipeUnlocks:
+  - OrganCyberneticAdvancedHeartRecipe
+  - OrganCyberneticLungsAdvancedRecipe
+  - OrganHeartSandevistanInferiorRecipe
+  - OrganHeartAirSystemLungsRecipe
+  technologyPrerequisites:
+  - CyberneticOrgans
+  position: -2, 14
+
+- type: technology
+  id: CyberneticOrgansAdvHighTech
+  name: research-technology-advanced-organs-augments-hightech
+  entityIcon: OrganCyberHeartBluespace
+  discipline: CivilianServices
+  tier: 3
+  cost: 35000
+  recipeUnlocks:
+  - OrganHeartBluespaceReactorRecipe
+  - OrganCybersunSandevistanRecipe
+  - OrganSHIHeartRecipe
+  technologyPrerequisites:
+  - CyberneticOrgansAdvanced
+  position: -2, 15
+
+- type: technology
+  id: CyberneticOrgansAutoSurgeonOrgans
+  name: research-technology-advanced-implementation-autosurgeon
+  entityIcon: AutosurgeonSandevistanTSF
+  discipline: CivilianServices
+  tier: 3
+  cost: 25000
+  recipeUnlocks:
+  - AutosurgeonSandevistanTSFRecipe
+  - AutosurgeonIASSHIRecipe
+  - AutosurgeonAdvHeartSHIRecipe
+  - AutosurgeonDermalArmorSAGRecipe
+  - AutosurgeonRightMantisBladeSHIRecipe
+  - AutosurgeonLeftMantisBladeSHIRecipe
+  - AutosurgeonSandevistanSHIRecipe
+  technologyPrerequisites:
+  - CyberneticOrgansAdvHighTech
+  position: -3, 15

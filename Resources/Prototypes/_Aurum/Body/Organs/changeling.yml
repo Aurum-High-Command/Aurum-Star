@@ -56,8 +56,9 @@
   description: Fleshy, bloated lungs that once belonged to a changeling, they seem to consume air at the same pace as a harpy. You can see small bits of bone covering them.
   components:
   - type: Sprite
-    sprite: _Aurum/Objects/Misc/cybernetics.rsi
-    state: berserk_sac
+    layers:
+    - state: lung-l
+    - state: lung-r
   - type: EmitSoundOnPickup
     sound:
       collection: OrganInteraction

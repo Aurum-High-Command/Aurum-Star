@@ -272,6 +272,10 @@
     - SmartGun # Goobstation
     # Aurum Packs
     - SmartLMGs
+    - OrganReplacements
+    - CyberneticOrgansAdvanced
+    - CyberneticsOrgansHighestTech
+    - CyberneticsOrgansAutosurgeons
     # Einstein Engines Packs
     - Translators
   - type: EmagLatheRecipes
@@ -417,6 +421,11 @@
     - S2Mechs
     - SpaceMechaWeapons
     - SpaceMechaIFF
+    # Aurum
+    - OrganReplacements
+    - CyberneticOrgansAdvanced
+    - CyberneticsOrgansHighestTech
+    - CyberneticsOrgansAutosurgeons
   - type: MaterialStorage
     whitelist:
       tags:
@@ -625,6 +634,10 @@
     - Translators # Language
     - TranslatorImplanters # Language
     - NFPouches # Aurum
+    - OrganReplacements
+    - CyberneticOrgansAdvanced
+    - CyberneticsOrgansHighestTech
+    - CyberneticsOrgansAutosurgeons
   - type: Machine
     board: MedicalTechFabCircuitboard
   - type: StealTarget

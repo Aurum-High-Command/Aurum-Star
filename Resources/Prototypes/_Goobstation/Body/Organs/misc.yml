@@ -1,7 +1,7 @@
 - type: entity
   parent: OrganHumanHeart #, BaseSyndicateContraband ]
   id: OrganHeartSandevistan
-  name: Sandevistan
+  name: CSI-038S "WarpStep" Sandevistan Implant # Aurum - Larp name
   description: Advanced cyberware that replaces the user's heart and allows them to greatly increase their agility for a short period, at the cost of their endurance.
   components:
   - type: Cybernetics

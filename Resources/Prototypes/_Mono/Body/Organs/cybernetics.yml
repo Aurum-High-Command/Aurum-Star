@@ -2,7 +2,7 @@
   parent: OrganHumanHeart
   id: OrganHeartTSFSandevistan
   name: TSF WJY-21X "Leuko" implant suite
-  description: An experimental piece of cyberware developed under contract by Erebus HI that replaces the heart. Equipped with an experimental reverse-engineered slower-recharging design of a MMC sandevistan.
+  description: An experimental piece of cyberware developed under contract by Cybersun Industries that replaces the heart. Equipped with an experimental slower-recharging design resembling the original implant. # Aurum - Lore changes.
   components:
   - type: Cybernetics
   - type: Sprite
@@ -11,7 +11,7 @@
   - type: Organ
     onAdd:
     - type: SandevistanUser # This is worse than the mieyo one, because its reverse engineered or something. My secrets are propietary to my company. I mean, the only difference though is that it cools down a little bit slower.
-      loadPerActiveSecond: 5
+      loadPerActiveSecond: 3.5
       loadPerInactiveSecond: -0.15
 
 #- type: entity - Aurum, ts doesnt even work
@@ -34,7 +34,7 @@
 - type: entity
   parent: BaseItem
   id: OrganInternalAirSystem
-  name: PD-VI LS-210 IAS
+  name: SHI LS-210 IAS # Aurum - Switching PDV for another corp i'll expand on later
   description: A cybernetic organ that replaces the lungs with a suite of filters and other devices. Not enough to keep you breathing in space, but filters out toxic gases and makes you need a little less to breathe.
   components:
   - type: EmitSoundOnPickup
@@ -71,7 +71,7 @@
 - type: entity
   parent: BaseItem
   id: OrganPDVAdvancedHeart
-  name: PD-VI VV/KE prosthetic heart
+  name: SHI VV/KE prosthetic heart # Aurum - Switching PDV for another corp i'll expand on later
   description: A fast-pumping compact artifical heart. Can process a lot of reagents at once, and lets you take more damage before going down, but lowers your stamina and processes medicine slower.
   components:
   - type: EmitSoundOnPickup
