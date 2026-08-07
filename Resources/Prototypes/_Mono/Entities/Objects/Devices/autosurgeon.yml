@@ -50,11 +50,11 @@
 #    layers:
 #    - state: medical_lathe
 
-# PDV
+# General autosurgeons
 
 - type: entity
   parent: BaseAutosurgeon
-  id: AutosurgeonIASPDV
+  id: AutosurgeonIASSHI
   name: SHI autosurgeon (LS-210 IAS) # Aurum - Lore changes.
   description: Replaces the lungs with an advanced internal-air-system. Capable of filtering out most atmos gases and increasing respiratory efficiency greatly.
   components:
@@ -70,7 +70,7 @@
   description: A flatpack used for constructing a SHI autosurgeon.
   components:
   - type: Flatpack
-    entity: AutosurgeonIASPDV
+    entity: AutosurgeonIASSHI
   - type: StaticPrice
     price: 4000
   - type: Sprite
@@ -107,7 +107,7 @@
   description: A flatpack used for constructing a Scarborough Arms Guild autosurgeon. # Aurum - Lore changes.
   components:
   - type: Flatpack
-    entity: AutosurgeonDermalArmorPDV
+    entity: AutosurgeonDermalArmorSAG
   - type: StaticPrice
     price: 2500
   - type: Sprite
