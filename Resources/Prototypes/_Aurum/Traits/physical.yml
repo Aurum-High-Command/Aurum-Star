@@ -34,7 +34,7 @@
   - MedicalTrainingExpert
   components:
   - type: SurgerySpeedModifier
-    SpeedModifier: 1.15
+    speedModifier: 1.15
 
 - type: trait
   id: MedicalTrainingExpert
@@ -46,5 +46,5 @@
   - MedicalTraining
   components:
   - type: SurgerySpeedModifier
-    SpeedModifier: 1.40
+    speedModifier: 1.40
 
