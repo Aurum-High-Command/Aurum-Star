@@ -28,6 +28,7 @@ public sealed class DashAbilitySystem : EntitySystem
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly PullingSystem _pullingSystem = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedActionsSystem _actions = default!; // Mono
 
     public override void Initialize()
     {
@@ -36,6 +37,8 @@ public sealed class DashAbilitySystem : EntitySystem
         SubscribeLocalEvent<DashAbilityComponent, GetItemActionsEvent>(OnGetActions);
         SubscribeLocalEvent<DashAbilityComponent, DashEvent>(OnDash);
         SubscribeLocalEvent<DashAbilityComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<DashAbilityComponent, ComponentInit>(OnComponentInit); // Mono
+        SubscribeLocalEvent<DashAbilityComponent, ComponentShutdown>(OnComponentShutdown); // Mono
     }
 
     private void OnMapInit(Entity<DashAbilityComponent> ent, ref MapInitEvent args)
@@ -43,6 +46,18 @@ public sealed class DashAbilitySystem : EntitySystem
         var (uid, comp) = ent;
         _actionContainer.EnsureAction(uid, ref comp.DashActionEntity, comp.DashAction);
         Dirty(uid, comp);
+    }
+
+    private void OnComponentInit(EntityUid uid, DashAbilityComponent comp, ref ComponentInit args)
+    {
+        if (comp.IsUser)
+            comp.DashActionEntity = _actions.AddAction(uid, comp.DashAction);
+    }
+
+    private void OnComponentShutdown(EntityUid uid, DashAbilityComponent comp, ref ComponentShutdown args)
+    {
+        if (comp.IsUser)
+            _actions.RemoveAction(comp.DashActionEntity);
     }
 
     private void OnGetActions(Entity<DashAbilityComponent> ent, ref GetItemActionsEvent args)

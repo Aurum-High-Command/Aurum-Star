@@ -1,0 +1,198 @@
+# This section here just has organs that are literally just the same as the fleshy ones but with the cybernetic component added
+# Mostly designed as quick replacements.
+
+- type: entity
+  parent: OrganHumanHeart
+  id: OrganCyberneticHeartReplacement
+  name: robotic heart
+  description: Mechanical replacement for a heart, this one seems to not have any additional functions.
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi # At one point ill port shiptest sprites to replace ts for a different looking one
+    state: cyber-heart
+
+- type: entity
+  parent: OrganHumanLungs
+  id: OrganCyberneticLungsReplacement
+  name: robotic lungs
+  description: Mechanical replacement for the lungs, this one seems to only fill in for damaged lungs, doesn't do anything special.
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    layers:
+    - state: lung-l
+    - state: lung-r
+
+
+- type: entity
+  parent: OrganHumanLiver
+  id: OrganCyberneticLiverReplacement
+  name: robotic liver
+  description: Mechanical replacement for a liver, sadly it won't let you drink the entire bar away.
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi # Same thing as the heart above.
+    state: cyber-liver
+
+- type: entity
+  parent: OrganHumanStomach
+  id: OrganCyberneticStomachReplacement
+  name: robotic stomach
+  description: Mechanical replacement for a stomach that works just as fine as the one you just lost.
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi # Same thing as the heart above.
+    state: cyber-stomach
+
+# Yeah these are just reskinned organs with the downside of a EMP fucking them over WHEN WE ADD THE FUNCTION.
+
+
+- type: entity
+  parent: BaseItem
+  id: OrganCyberHeart
+  name: cybernetic heart
+  description: Mechanical replacement for a heart, allows for faster chemical absorbtion, slows down toxins in the body when installed.
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi
+    state: cyber-heart
+  - type: Heart
+  - type: Gibbable
+  - type: EmitSoundOnPickup
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnDrop
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnLand
+    sound:
+      collection: OrganInteraction
+  - type: Organ
+    slotId: heart
+  - type: Metabolizer
+    maxReagents: 4
+    metabolizerTypes: [Human]
+    groups:
+    - id: Medicine
+      rateModifier: 1.2
+    - id: Cryogenic
+      rateModifier: 1.2
+    - id: Poison
+      rateModifier: 0.8
+    - id: Narcotic
+      rateModifier: 1.2
+
+- type: entity
+  parent: BaseItem
+  id: OrganCyberHeartAdvanced
+  name: advanced cybernetic heart
+  description: A next-gen circulatory core that rapidly delivers medicine throughout the body while heavily delaying and weakening toxins and narcotics.
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi
+    state: cyber-heart-adv
+  - type: Heart
+  - type: Gibbable
+  - type: EmitSoundOnPickup
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnDrop
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnLand
+    sound:
+      collection: OrganInteraction
+  - type: Organ
+    slotId: heart
+  - type: Metabolizer
+    maxReagents: 6
+    metabolizerTypes: [Human]
+    groups:
+    - id: Medicine
+      rateModifier: 2.5
+    - id: Cryogenic
+      rateModifier: 1.5
+    - id: Poison
+      rateModifier: 0.35
+    - id: Narcotic
+      rateModifier: 0.5 # 50% slower narcotic effect.
+
+- type: entity
+  parent: BaseItem
+  id: OrganCyberHeartBluespace
+  name: bluespace reactor heart
+  description: A bluespace reactor fit inside a heart, handles chemicals five times faster and increases your body's endurance when installed.
+  components:
+  - type: Cybernetics
+  - type: Sprite
+    sprite: _Aurum/Objects/Misc/cybernetics.rsi
+    state: bluespace-heart
+  - type: Heart
+  - type: Gibbable
+  - type: EmitSoundOnPickup
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnDrop
+    sound:
+      collection: OrganInteraction
+  - type: EmitSoundOnLand
+    sound:
+      collection: OrganInteraction
+  - type: Metabolizer
+    maxReagents: 12
+    metabolizerTypes: [Human]
+    groups:
+    - id: Medicine # Okay so the funny gimmick of this thing is EVERYTHING is sped up, don't ask why, it just is fun.
+      rateModifier: 5.5
+    - id: Cryogenic
+      rateModifier: 5.5
+    - id: Poison
+      rateModifier: 5.5
+    - id: Narcotic
+      rateModifier: 5.5
+  - type: Organ
+    slotId: heart
+    onAdd:
+    - type: Tenacity
+      critIncrease: 25
+    - type: PressureImmunity
+
+
+- type: entity
+  id: OrganCyberneticLungsAdvanced
+  parent: [ OrganHumanLungs ]
+  name: advanced cybernetic lungs
+  description: Heavy cybernetic lungs designed to improve the user's breathing, allowing them to improve their melee damage and to breathe in most atmospheres.
+  components:
+  - type: Sprite
+    layers:
+    - state: lung-l
+    - state: lung-r
+  - type: Cybernetics
+  - type: Organ
+    onAdd:
+    - type: BonusMeleeDamage
+      damageModifierSet:
+        coefficients:
+          Blunt: 1.1
+          Slash: 1.1
+          Piercing: 1.1
+          Asphyxiation: 1
+  - type: Metabolizer
+    removeEmpty: true
+    solutionOnBody: false
+    solution: "Lung"
+    metabolizerTypes: [ Hydrakin ] # Yeah ik this is lazy but honestly otherwise it's a merge bait conflict and yeah it's ass
+    groups:
+    - id: Gas
+      rateModifier: 100.0
+  - type: SolutionContainerManager
+    solutions:
+      Lung:
+        maxVol: 100.0
+        canReact: false

@@ -228,6 +228,9 @@
     - SmartLMGs
     - LargeChestRigs
     - NFPouches
+    - CyberneticOrgansAdvanced
+    - CyberneticsOrgansHighestTech
+    - CyberneticsOrgansAutosurgeons
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFMercenaryTechfabDeprecatedEmag
@@ -283,6 +286,9 @@
     # Aurum Packs
     - SmartLMGs
     - LargeChestRigs
+    - CyberneticOrgansAdvanced
+    - CyberneticsOrgansHighestTech
+    - CyberneticsOrgansAutosurgeons
     # Mono start
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged
