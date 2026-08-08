@@ -82,7 +82,7 @@
   - type: SolutionContainerManager
     solutions:
       Lung:
-        maxVol: 200.0
+        maxVol: 100.0
         canReact: false
   - type: PassiveDamage
     allowedStates:
