@@ -44,6 +44,7 @@
     - NFServiceTechfabDeprecatedStatic
     dynamicPacks:
     - NFServiceTechfabDeprecated
+    - NFPouches # Aurum
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFServiceTechfabDeprecatedEmagStatic
@@ -84,6 +85,7 @@
     dynamicPacks:
     - NFEngineeringTechfabDeprecated
     - RCD # Mono
+    - NFPouches # Aurum
   - type: PirateBountyItem # Mono
     id: Techfab
 
@@ -116,6 +118,7 @@
     - NFSalvageTechfabDeprecatedStatic
     dynamicPacks:
     - NFSalvageTechfabDeprecated
+    - NFPouches # Aurum
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFSalvageTechfabDeprecatedEmag
@@ -223,6 +226,11 @@
     # Mono end
     # Aurum Packs
     - SmartLMGs
+    - LargeChestRigs
+    - NFPouches
+    - CyberneticOrgansAdvanced
+    - CyberneticsOrgansHighestTech
+    - CyberneticsOrgansAutosurgeons
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFMercenaryTechfabDeprecatedEmag
@@ -277,6 +285,10 @@
     - SmartGun # Goobstation
     # Aurum Packs
     - SmartLMGs
+    - LargeChestRigs
+    - CyberneticOrgansAdvanced
+    - CyberneticsOrgansHighestTech
+    - CyberneticsOrgansAutosurgeons
     # Mono start
     - MonoTSFWeaponsDynamicMelee
     - MonoTSFWeaponsDynamicRanged

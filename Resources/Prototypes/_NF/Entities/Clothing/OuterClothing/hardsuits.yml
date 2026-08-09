@@ -184,7 +184,7 @@
 # Tactical Maid Hardsuit
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: ClothingOuterHardsuitJuggernaut # Aurum Change from base hardsuit to Juggernaut
   id: ClothingOuterHardsuitTacticalMaid
   name: tactical maid hardsuit
   description: Layers of stain resistant alloys built into a single suit. It even comes with a reinforced apron!
@@ -193,21 +193,21 @@
     sprite: _NF/Clothing/OuterClothing/Hardsuits/tactical_hardsuit.rsi
   - type: Clothing
     sprite: _NF/Clothing/OuterClothing/Hardsuits/tactical_hardsuit.rsi
-  - type: Armor # Remains perfectly clean of stains
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.9
-        Piercing: 0.9
-        Caustic: 0.05
-  - type: ExplosionResistance
-    damageCoefficient: 0.8
-  - type: PressureProtection
-    highPressureMultiplier: 0.5
-    lowPressureMultiplier: 1000
-  - type: ClothingSpeedModifier # So many layers of stain protection makes it very heavy
-    walkModifier: 0.75
-    sprintModifier: 0.75
+#  - type: Armor # Remains perfectly clean of stains
+#    modifiers:
+#      coefficients:
+#        Blunt: 0.9
+#        Slash: 0.9
+#        Piercing: 0.9
+#        Caustic: 0.05
+#  - type: ExplosionResistance
+#    damageCoefficient: 0.8
+#  - type: PressureProtection
+#    highPressureMultiplier: 0.5
+#    lowPressureMultiplier: 1000
+#  - type: ClothingSpeedModifier # So many layers of stain protection makes it very heavy
+#    walkModifier: 0.75
+#    sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: FootstepModifier
     footstepSoundCollection:

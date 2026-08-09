@@ -49,11 +49,14 @@
     Head:
       points: 3
       required: false
+    Chest: # Aurum addition since Vulps seemed to be missing these.
+      points: 8 # Aurum 1 to 8
+      required: false
     Legs:
-      points: 1
+      points: 8 # Aurum - 1 to 8
       required: false
     Arms:
-      points: 1
+      points: 8 # Aurum - 1 to 8
       required: false
     Snout:
       points: 1

@@ -60,6 +60,7 @@
   - DocClothingNeckMantleCMO
   - DoCClothingCloakFancyCMO # Aurum
   - DoCClothingMantleFancyCMO # Aurum
+  - DoCClothingCMOEnsembleNeck # Aurum
 
 - type: loadoutGroup
   id: DocPDA

@@ -1,0 +1,265 @@
+# TSF
+
+- type: entity
+  parent: BaseAutosurgeon
+  id: AutosurgeonSandevistanTSF
+  name: TSF autosurgeon (WJY-21X sandevistan)
+  description: Replaces the heart with a inferior version of the Cybersun Sandevistan. Doesn't cool down as fast as the real thing. # Aurum - Lore changes.
+  components:
+  - type: AutoSurgeon
+    targetBodyPart: Torso
+    targetOrgan: Heart
+    newPartProto: OrganHeartTSFSandevistan
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: AutosurgeonSandevistanTSFFlatpack
+  name: TSF autosurgeon (WJY-21X sandevistan) flatpack
+  description: A flatpack used for constructing a TSF autosurgeon.
+  components:
+  - type: Flatpack
+    entity: AutosurgeonSandevistanTSF
+  - type: StaticPrice
+    price: 15000
+  - type: Sprite
+    layers:
+    - state: medical_lathe
+
+#- type: entity
+#  parent: BaseAutosurgeon
+#  id: AutosurgeonShuntTSF
+#  name: TSF autosurgeon (KR-22 shunt device)
+#  description: Replaces the heart with a highly experimental shunt device. Thats some scary tech.
+#  components:
+#  - type: AutoSurgeon
+#    targetBodyPart: Torso
+#    targetOrgan: Heart
+#    newPartProto: OrganHeartTSFShunt
+
+#- type: entity
+#  parent: BaseNFFlatpack
+#  id: AutosurgeonShuntTSFFlatpack
+#  name: TSF autosurgeon (KR-22 shunt device) flatpack
+#  description: A flatpack used for constructing a TSF autosurgeon.
+#  components:
+#  - type: Flatpack
+#    entity: AutosurgeonShuntTSF
+#  - type: StaticPrice
+#    price: 50000
+#  - type: Sprite
+#    layers:
+#    - state: medical_lathe
+
+# General autosurgeons
+
+- type: entity
+  parent: BaseAutosurgeon
+  id: AutosurgeonIASSHI
+  name: SHI autosurgeon (LS-210 IAS) # Aurum - Lore changes.
+  description: Replaces the lungs with an advanced internal-air-system. Capable of filtering out most atmos gases and increasing respiratory efficiency greatly.
+  components:
+  - type: AutoSurgeon
+    targetBodyPart: Torso
+    targetOrgan: Lungs
+    newPartProto: OrganInternalAirSystem
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: AutosurgeonIASnSHIFlatpack
+  name: SHI autosurgeon (LS-210 IAS) flatpack # Aurum - Lore changes.
+  description: A flatpack used for constructing a SHI autosurgeon.
+  components:
+  - type: Flatpack
+    entity: AutosurgeonIASSHI
+  - type: StaticPrice
+    price: 4000
+  - type: Sprite
+    layers:
+    - state: medical_lathe
+
+
+# Dermal armor
+
+- type: entity
+  parent: BaseAutosurgeonMieyo
+  id: AutosurgeonDermalArmorSAG
+  name: SAG autosurgeon (E-SAPI dermal armor) # Aurum - Lore changes.
+  description: Implants an array of E-SAPI dermal armor plates into the body. Makes you more vulnerable to heat and shock, but makes you more resistant to bullets.
+  components:
+  - type: AutoSurgeon
+    targetBodyPart: Torso
+    componentsToUser:
+    - type: DamageProtectionBuff
+      modifiers:
+        dermal:
+          id: DermalArmorCybernetics
+          coefficients:
+            Shock: 1.25
+            Heat: 1.1
+            Piercing: 0.85
+            Blunt: 0.9
+            Slash: 0.9
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: AutosurgeonDermalArmorSAGFlatpack
+  name: SAG autosurgeon (E-SAPI dermal armor) flatpack # Aurum - Lore changes.
+  description: A flatpack used for constructing a Scarborough Arms Guild autosurgeon. # Aurum - Lore changes.
+  components:
+  - type: Flatpack
+    entity: AutosurgeonDermalArmorSAG
+  - type: StaticPrice
+    price: 2500
+  - type: Sprite
+    layers:
+    - state: medical_lathe
+
+- type: entity
+  parent: BaseAutosurgeon
+  id: AutosurgeonAdvHeartSHI
+  name: SHI autosurgeon (VV/KE prosthetic heart)
+  description: Replaces the heart with a more powerful one. Lets you process reagents faster and take more damage before going down, but lowers your stamina and processes medicine slower.
+  components:
+  - type: AutoSurgeon
+    targetBodyPart: Torso
+    targetOrgan: Heart
+    newPartProto: OrganPDVAdvancedHeart
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: AutosurgeonAdvHeartSHIFlatpack
+  name: SHI autosurgeon (VV/KE prosthetic heart) flatpack
+  description: A flatpack used for constructing a SHI autosurgeon. # Aurum - Lore changes.
+  components:
+  - type: Flatpack
+    entity: AutosurgeonAdvHeartSHI
+  - type: StaticPrice
+    price: 3000
+  - type: Sprite
+    layers:
+    - state: medical_lathe
+
+# Mieyo
+
+- type: entity
+  parent: BaseAutosurgeon
+  id: BaseAutosurgeonMieyo
+  abstract: true
+  components:
+  - type: Sprite
+    state: icon-mmc
+
+
+# Dash
+# This one is kinda broken right now for some reason. I think it's because of gravity refactor.
+
+- type: entity
+  parent: BaseAutosurgeonMieyo
+  id: AutosurgeonMuscleFibersSHI
+  name: SHI autosurgeon (muscle fibers suite) # Aurum - Faction change from MMC to SHI, will be added later on.
+  description: Implants a suite of muscle enhancements into the body.
+  components:
+  - type: AutoSurgeon
+    targetBodyPart: Torso
+    componentsToUser:
+    - type: DashAction
+      actionProto: ActionDashMuscleFibersImplant
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: AutosurgeonMuscleFibersSHIFlatpack
+  name: SHI autosurgeon (muscle fibers suite) flatpack # Aurum - Faction change from MMC to SHI, will be added later on.
+  description: A flatpack used for constructing a SHI autosurgeon. # Aurum - Faction change from MMC to SHI, will be added later on.
+  components:
+  - type: Flatpack
+    entity: AutosurgeonMuscleFibersSHI
+  - type: StaticPrice
+    price: 2500
+  - type: Sprite
+    layers:
+    - state: medical_lathe
+
+# Right mantis blade
+
+- type: entity
+  parent: BaseAutosurgeonMieyo
+  id: AutosurgeonRightMantisBladeSHI
+  name: SHI autosurgeon (right mantis blade) # Aurum - Faction change from MMC to SHI, will be added later on.
+  description: Implants a covert deployable mantis blade into your right arm. That's really cool.
+  components:
+  - type: AutoSurgeon
+    targetBodyPart: Arm
+    targetBodyPartSymmetry: Right
+    componentsToPart:
+    - type: MantisBladeArm
+      actionProto: ActionToggleRightMantisBlade
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: AutosurgeonRightMantisBladeSHIFlatpack
+  name: SHI autosurgeon (right mantis blade) flatpack
+  description: A flatpack used for constructing a SHI autosurgeon. # Aurum - Faction change from MMC to SHI, will be added later on.
+  components:
+  - type: Flatpack
+    entity: AutosurgeonRightMantisBladeSHI
+  - type: StaticPrice
+    price: 2500
+  - type: Sprite
+    layers:
+    - state: medical_lathe
+
+# Left mantis blade
+
+- type: entity
+  parent: BaseAutosurgeonMieyo
+  id: AutosurgeonLeftMantisBladeSHI
+  name: SHI autosurgeon (left mantis blade) # Aurum - Faction change from MMC to SHI, will be added later on.
+  description: Implants a covert deployable mantis blade into your left arm. That's really cool.
+  components:
+  - type: AutoSurgeon
+    targetBodyPart: Arm
+    targetBodyPartSymmetry: Left
+    componentsToPart:
+    - type: MantisBladeArm
+      actionProto: ActionToggleLeftMantisBlade
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: AutosurgeonLeftMantisBladeSHIFlatpack
+  name: SHI autosurgeon (left mantis blade) flatpack # Aurum - Faction change from MMC to SHI, will be added later on.
+  description: A flatpack used for constructing a SHI autosurgeon. # Aurum - Faction change from MMC to SHI, will be added later on.
+  components:
+  - type: Flatpack
+    entity: AutosurgeonLeftMantisBladeSHI
+  - type: StaticPrice
+    price: 2500
+  - type: Sprite
+    layers:
+    - state: medical_lathe
+
+# Sandevistan
+
+- type: entity
+  parent: BaseAutosurgeonMieyo
+  id: AutosurgeonSandevistanSHI
+  name: SHI autosurgeon (sandevistan) # Aurum - Faction change from MMC to SHI, will be added later on.
+  description: Replaces the heart with a SHI Sandevistan. # Aurum - Faction change from MMC to SHI, will be added later on.
+  components:
+  - type: AutoSurgeon
+    targetBodyPart: Torso
+    targetOrgan: Heart
+    newPartProto: OrganHeartSandevistan
+
+- type: entity
+  parent: BaseNFFlatpack
+  id: AutosurgeonSandevistanSHIFlatpack
+  name: SHI autosurgeon (sandevistan) flatpack # Aurum - Faction change from MMC to SHI, will be added later on.
+  description: A flatpack used for constructing a SHI autosurgeon. # Aurum - Faction change from MMC to SHI, will be added later on.
+  components:
+  - type: Flatpack
+    entity: AutosurgeonSandevistanSHI
+  - type: StaticPrice
+    price: 20000
+  - type: Sprite
+    layers:
+    - state: medical_lathe

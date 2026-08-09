@@ -1,0 +1,34 @@
+﻿- type: latheRecipePack
+  id: OrganReplacements
+  recipes:
+  - OrganRoboticHeartReplacement
+  - OrganCyberneticHeartRecipe
+  - OrganRoboticLungsReplacement
+  - OrganRoboticLiverReplacement
+  - OrganRoboticStomachReplacement
+
+- type: latheRecipePack
+  id: CyberneticOrgansAdvanced
+  recipes:
+  - OrganCyberneticAdvancedHeartRecipe
+  - OrganCyberneticLungsAdvancedRecipe
+  - OrganHeartSandevistanInferiorRecipe
+  - OrganHeartAirSystemLungsRecipe
+
+- type: latheRecipePack
+  id: CyberneticsOrgansHighestTech
+  recipes:
+  - OrganHeartBluespaceReactorRecipe
+  - OrganCybersunSandevistanRecipe
+  - OrganSHIHeartRecipe
+
+- type: latheRecipePack
+  id: CyberneticsOrgansAutosurgeons
+  recipes:
+  - AutosurgeonSandevistanTSFRecipe
+  - AutosurgeonIASSHIRecipe
+  - AutosurgeonAdvHeartSHIRecipe
+  - AutosurgeonDermalArmorSAGRecipe
+  - AutosurgeonRightMantisBladeSHIRecipe
+  - AutosurgeonLeftMantisBladeSHIRecipe
+  - AutosurgeonSandevistanSHIRecipe

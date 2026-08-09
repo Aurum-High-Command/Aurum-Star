@@ -8,5 +8,5 @@
     sprite: Clothing/OuterClothing/Coats/david_jacket.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/david_jacket.rsi
-  - type: AddAccentClothing
-    accent: StreetpunkAccent
+#  - type: AddAccentClothing - Aurum change - Smth smth not everyone wants this let people take decisions
+#    accent: StreetpunkAccent

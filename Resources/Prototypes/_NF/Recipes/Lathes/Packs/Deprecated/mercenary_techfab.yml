@@ -53,6 +53,12 @@
   - ClothingOuterVestWebMercenaryBlack
   - ClothingBeltMercenaryWebbing
   - ClothingBeltMilitaryWebbing
+  # Aurum Start
+  - ClothingBeltMilitaryWebbingBlack # Aurum - In-round choice ops
+  - ClothingBeltMilitaryWebbingOlive # Aurum - In-round choice ops
+  - ClothingBeltMilitaryWebbingRangerGreen # Aurum - In-round choice ops
+  - ClothingBeltMilitaryWebbingTan # Aurum - In-round choice ops
+  # Aurum End
   - ClothingHandsMercenaryGlovesCombat
   - ClothingHandsGlovesCombat
   - ClothingShoesBootsMercenary

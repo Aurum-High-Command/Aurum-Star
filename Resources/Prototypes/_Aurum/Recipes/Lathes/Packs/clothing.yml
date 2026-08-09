@@ -1,0 +1,8 @@
+﻿- type: latheRecipePack
+  id: LargeChestRigs
+  recipes:
+  - ClothingBeltMilitaryWebbingLarge
+  - ClothingBeltMilitaryWebbingLargeOlive
+  - ClothingBeltMilitaryWebbingLargeGreenRanger
+  - ClothingBeltMilitaryWebbingLargeTan
+  - ClothingBeltMilitaryWebbingLargeBlack

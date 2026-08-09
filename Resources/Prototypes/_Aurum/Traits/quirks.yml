@@ -1,0 +1,9 @@
+- type: trait
+  id: CRTEyeVision
+  name: trait-crteyevision-name
+  description: trait-crteyevision-desc
+  category: Quirks
+  components:
+  - type: RetroMonitorView
+
+

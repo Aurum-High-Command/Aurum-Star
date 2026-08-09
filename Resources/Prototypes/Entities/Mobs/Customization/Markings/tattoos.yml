@@ -125,10 +125,25 @@
     state: tattoo_eye_r
 
 - type: marking
-  id: TattooEyeLeft
+  id: TattooEyeRightGlowy
   bodyPart: Eyes
   markingCategory: Head
-  speciesRestriction: [Human, SlimePerson, Reptilian, Dwarf, Goblin, Felinid, Vulpkanin, Oni, Harpy, Rodentia, Tajaran] # Delta V - Felinid, Vulpkanin, Oni, Harpy; Goob - Tajaran
+  speciesRestriction: [Human, SlimePerson, Reptilian, Dwarf, Felinid, Harpy, Rodentia, Tajaran, Oni, Vulpkanin] # Delta V - Felinid, Harpy, Rodentia; Goob - Tajaran; EE- Oni,  Omu -  Vulpkanin
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+          negative: true
+  sprites:
+  - sprite: Mobs/Customization/tattoos.rsi
+    state: tattoo_eye_r
+  shader: unshaded
+
+- type: marking
+  id: TattooEyeLeftGlowy
+  bodyPart: Eyes
+  markingCategory: Head
+  speciesRestriction: [Human, SlimePerson, Reptilian, Dwarf, Felinid, Harpy, Rodentia, Tajaran, Oni, Vulpkanin] # Delta V - Felinid, Harpy, Rodentia; Goob - Tajaran; EE- Oni,  Omu - Vulpkanin
   coloring:
     default:
       type:
@@ -137,3 +152,4 @@
   sprites:
   - sprite: Mobs/Customization/tattoos.rsi
     state: tattoo_eye_l
+  shader: unshaded

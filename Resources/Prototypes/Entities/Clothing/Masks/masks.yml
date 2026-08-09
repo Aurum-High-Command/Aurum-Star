@@ -100,6 +100,9 @@
     sprite: Clothing/Mask/gascentcom.rsi
   - type: BreathMask
   - type: IngestionBlocker
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 2200
 
 - type: entity
   parent: ClothingMaskGas
@@ -433,6 +436,9 @@
         Slash: 0.95
         Piercing: 0.95
         Heat: 0.95
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 1200
 
 - type: entity
   parent: ClothingMaskGasERT
@@ -451,6 +457,9 @@
         Slash: 0.80
         Piercing: 0.90
         Heat: 0.90
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 2300
 
 - type: entity
   parent: ClothingMaskBase

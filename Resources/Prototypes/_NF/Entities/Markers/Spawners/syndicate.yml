@@ -61,7 +61,7 @@
         - CrateNanotrasenLootFilledT2
         - CrateNanotrasenLootFilledT2
 # End Mono Additions
-      rareChance: 0.1
+      rareChance: 0.05 # Aurum - Make ERT and similar rarer.
 
 - type: entity
   name: Syndicate POI Pinpointer

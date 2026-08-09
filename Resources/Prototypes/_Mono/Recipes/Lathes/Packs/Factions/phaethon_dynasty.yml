@@ -14,12 +14,14 @@
   - ClothingOuterHardsuitSyndieRogue
   - ClothingOuterHardsuitSyndieEliteRogue
   - ClothingOuterHardsuitJuggernautRogue
+  - ClothingOuterHardsuitMaidnautJuggernaut # Aurum
   - ClothingOuterHardsuitCybersunStealthRogue
   - ClothingOuterHardsuitSyndieCommanderRogue # Aurum - Uncommented it.
   - RogueModsuitRecipe # Aurum
   - BloodredHardsuitRecipe # Aurum
   - BloodredMedicHardsuitRecipe # Aurum
   - ClothingOuterHardsuitSyndicateEliteRecipe # Aurum
+  - ClothingShoesBootsAdvancedMagbootsTactical # Aurum
 
 - type: latheRecipePack
   id: MonoRogueWeaponsDynamicMelee

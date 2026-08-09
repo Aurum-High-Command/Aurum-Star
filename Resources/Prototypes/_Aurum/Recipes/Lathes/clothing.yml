@@ -80,4 +80,97 @@
     Plasteel: 5000
     Silver: 9000
     Gold: 9000
-# Aurum changes end
+
+# Trust the process
+- type: latheRecipe
+  id: ClothingOuterHardsuitMaidnautJuggernaut
+  parent: NFBaseEVASuitRecipe # Aurum changes start
+  completetime: 25
+  categories:
+  - CombatEva
+  - EVASuits
+  - ArmorNF
+  result: ClothingOuterHardsuitTacticalMaid
+  materials:
+    Steel: 35000
+    Durathread: 15000
+    Plastic: 3000
+    Plasteel: 8000
+    Silver: 2000
+    Gold: 2000
+    Cloth: 24000
+
+
+# Chest Rig Bloat
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingBlack
+  parent: ClothingBeltMilitaryWebbing
+  result: ClothingBeltWebbingsNormalBlack
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingOlive
+  parent: ClothingBeltMilitaryWebbing
+  result: ClothingBeltWebbingsNormalOlive
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingRangerGreen
+  parent: ClothingBeltMilitaryWebbing
+  result: ClothingBeltWebbingsNormalRangerGreen
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingTan
+  parent: ClothingBeltMilitaryWebbing
+  result: ClothingBeltWebbingsNormalTan
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingLarge
+  parent: NFBaseBeltRecipe
+  result: ClothingBeltWebbingsBigBase
+  materials:
+    Cloth: 800
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingLargeOlive
+  parent: NFBaseBeltRecipe
+  result: ClothingBeltWebbingsBigOlive
+  materials:
+    Cloth: 800
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingLargeGreenRanger
+  parent: NFBaseBeltRecipe
+  result: ClothingBeltWebbingsBigRangerGreen
+  materials:
+    Cloth: 800
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingLargeTan
+  parent: NFBaseBeltRecipe
+  result: ClothingBeltWebbingsBigTan
+  materials:
+    Cloth: 800
+
+- type: latheRecipe
+  id: ClothingBeltMilitaryWebbingLargeBlack
+  parent: NFBaseBeltRecipe
+  result: ClothingBeltWebbingsBigBlack
+  materials:
+    Cloth: 800
+
+# Footwear - Boots, Magboots, etc.,
+
+- type: latheRecipe
+  id: ClothingShoesBootsAdvancedMagbootsTactical
+  categories:
+  - ClothesNF
+  - FactionEquipment
+  result: ClothingShoesBootsMagPDVAdvanced
+  completetime: 8
+  materials:
+    Steel: 2000
+    Silver: 950
+    Plasteel: 450
+    Plastic: 450
+    Plasma: 550
+    Uranium: 50

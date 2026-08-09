@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "eyes-c-kaleido, cyberheart and its variant, cyber liver and its variant, cyberlungs and its variant, nutriment implant and sandy taken from Paradise Station, Berserk Sac, Endoarmor, lingcore, thermal eyes taken from Baystation, bluespace organs and the cyber-stomach and cyber-stomach-adv taken from Shiptest",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "eyes-c-kaleido"
+    },
+    {
+      "name": "cyber-heart"
+    },
+    {
+      "name": "cyber-heart-adv"
+    },
+    {
+      "name": "cyber-liver"
+    },
+    {
+      "name": "cyber-liver-adv"
+    },
+    {
+      "name": "cyber-lungs"
+    },
+    {
+      "name": "cyber-lungs-adv"
+    },
+    {
+      "name": "nutriment_implant"
+    },
+    {
+      "name": "sandy"
+    },
+    {
+      "name": "berserk_sac"
+    },
+	{
+      "name": "endoarmor"
+    },
+	{
+      "name": "lingcore"
+    },
+	{
+      "name": "thermal_eyes"
+    },
+	{
+      "name": "bluespace-heart"
+    },
+	{
+      "name": "bluespace-liver"
+    },
+	{
+      "name": "bluespace-lungs"
+    },
+	{
+      "name": "bluespace-stomach"
+    },
+	{
+      "name": "cyber-stomach-adv"
+    },
+    {
+      "name": "cyber-stomach"
+    }
+  ]
+}

@@ -12,6 +12,8 @@
   - ContractorClothingUniformJumpskirtBartender
   - ContractorClothingUniformJumpsuitCargo
   - ContractorClothingUniformJumpskirtCargo
+  - FancyNTRJumpsuit # Aurum
+  - ReverberationEnsembleJumpsuit # Aurum
   - CargoTechnicianSweater # Aurum
   - CargoTechnicianSweaterSkirt # Aurum
   - CargoTechnicianShortPantsIfuckinghateyouifyouwearthisbtw # Aurum
@@ -328,6 +330,8 @@
   - CivilianUseLongScienceLabcoat
   - MedicalDispatchLongLabcoat
   - MedicalDispatchLongChemLabcoat
+  - MDAndMercSpacerDavidJacket # Aurum
+  - MDAndMercSpacerEMTJacket # Aurum
   ## Aurum End
   ## Mono start
   - ContractorClothingOuterHardsuitAtmos
@@ -520,6 +524,7 @@
   - ContractorClothingShoesSkates
   - ContractorClothingShoesClownLarge
   - ContractorClothingShoesBling
+  - ReverberationEnsembleShoes # Aurum
   fallbacks:
   - ContractorClothingShoesColorBlack
 
@@ -719,15 +724,30 @@
   - ContractorClothingNeckMantleCap
   - ContractorClothingNeckCloakCap
   - ContractorClothingNeckCloakCapFormal
+  - CaptainDecoratedMantle # Aurum
+  - CaptainEnsembleNeckClothing # Aurum
+  - HeadOfSecurityBlackRedPoncho # Aurum
+  - HeadOfSecurityEnsemble # Aurum
+  - HeadOfPersonnelMantleDecorated # Aurum
+  - HeadOfPersonnelEnsemble # Aurum
   - ContractorClothingNeckCloakQm
   - ContractorClothingNeckMantleQM
+  - QuartermasterEnsembleNeckClothing # Aurum
+  - SalvagerEnsembleNeckClothing # Aurum
 #  - ContractorClothingCloakCmo # Temp removed for MOM. Will return if replaced.
 #  - ContractorClothingNeckMantleCMO # Temp removed for MOM. Will return if replaced.
+  - ReverberationEnsembleNeckCloak # Aurum
   - ContractorClothingNeckCloakRd
   - ResearchDirectorDecoratedCloak # Aurum
+  - ResearchDirectorDecoratedMantle # Aurum
+  - ResearchDirectorEnsembleNeckClothing # Aurum
   - ContractorClothingNeckMantleRD
   - ContractorClothingNeckCloakCe
   - ContractorClothingNeckMantleCE
+  - ChiefEngineerOrangeMantleDecorated # Aurum
+  - ChiefEngineerOrangeEnsemble # Aurum
+  - ChiefEngineerWhiteMantleDecorated # Aurum
+  - ChiefEngineerWhiteEnsemble # Aurum
   - ContractorClothingNeckCloakVoid
   - ContractorClothingNeckBling
   - ContractorClothingNeckArmbandUNSA
@@ -735,6 +755,11 @@
   - ContractorClothingNeckCloakSanabi # Mono
   - ContractorClothingNeckUIOvercoat # Mono
   - BlueshieldOfficerOuterBlueshieldMantleBlack # Aurum
+  - BlueShieldDecoratedPoncho # Aurum
+  - BlueShieldDecoratedEnsembleNeckClothing # Aurum
+  - NanotrasenRepEnsembleNeckClothing # Aurum
+  - ClothingNeckCloakCarpLOADOUT # Aurum
+  - ClothingNeckCloakCarpLOADOUTALT # Aurum
 
 - type: loadoutGroup
   id: ContractorPDA

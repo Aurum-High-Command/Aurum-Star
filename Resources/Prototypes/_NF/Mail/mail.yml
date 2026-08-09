@@ -1811,7 +1811,7 @@
       - id: ClothingHeadHatTacticalMaidHeadband
       - id: MegaSprayBottle
       - id: ClothingHandsTacticalMaidGloves
-      - id: ClothingOuterHardsuitTacticalMaid
+    #  - id: ClothingOuterHardsuitTacticalMaid - Aurum - Turned this into a proper hardsuit :Godo:
 
 # These could use separate sprites.  That would be a nice touch.
 - type: entity

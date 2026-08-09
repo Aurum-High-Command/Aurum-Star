@@ -53,16 +53,16 @@
       points: 2
       required: false
     HeadSide:
-      points: 2 # WWDP-Edit
+      points: 5 # Aurum, 2 to 5
       required: false
     Chest:
-      points: 3
+      points: 8 # Aurum, 3 to 8
       required: false
     Legs:
-      points: 2
+      points: 8 # Aurum, 2 to 8
       required: false
     Arms:
-      points: 2
+      points: 8 # Aurum, 2 to 8
       required: false
 
 - type: humanoidBaseSprite

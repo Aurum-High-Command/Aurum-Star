@@ -62,10 +62,10 @@
       points: 1
       required: false
     Head:
-      points: 1
+      points: 6 # Aurum - 1 to 6
       required: false
     Chest:
-      points: 1
+      points: 6 # Aurum - 1 to 6
       required: false
     Legs:
       points: 6

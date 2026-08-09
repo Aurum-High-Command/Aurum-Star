@@ -60,6 +60,10 @@
     - SmartGun
     # Aurum Packs
     - SmartLMGs
+    - LargeChestRigs
+    - CyberneticOrgansAdvanced
+    - CyberneticsOrgansHighestTech
+    - CyberneticsOrgansAutosurgeons
   - type: MaterialStorage
     whitelist:
       tags:

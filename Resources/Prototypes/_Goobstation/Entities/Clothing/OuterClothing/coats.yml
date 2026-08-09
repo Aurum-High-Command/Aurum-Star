@@ -1,0 +1,49 @@
+#central command jacket
+- type: entity
+  parent: [ ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase]
+  id: ClothingOuterArmoredJacketCentralCommand
+  name: central command jacket
+  description: A formal green coat-like jacket accented with gilded shoulder armor and a high collar.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/OuterClothing/Coats/centcommjacket.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/OuterClothing/Coats/centcommjacket.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 1200
+
+#central command ike
+- type: entity
+  parent: [ ClothingOuterStorageBase]
+  id: ClothingOuterJacketCentralCommandIke
+  name: central command ike jacket
+  description: A utilitarian green-and-black jacket featuring a sharp, military-inspired design, worn within Central Command.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/OuterClothing/Coats/centcom_ike.rsi
+  - type: Clothing
+    sprite: _Goobstation/Clothing/OuterClothing/Coats/centcom_ike.rsi
+  # Aurum change - CentComm shit is valuable now
+  - type: StaticPrice
+    price: 1200
+
+- type: entity
+  parent: ClothingOuterDavidsJacket
+  id: ClothingOuterDavidsJacketValid
+  name: edgerunner jacket
+  description: You're right on the edge. Show 'em you got this.
+  components:
+  - type: Clothing
+    clothingVisuals:
+      outerClothing:
+      - state: valid-equipped-OUTERCLOTHING
+      outerClothing-vox:
+      - state: valid-equipped-OUTERCLOTHING-vox
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.8

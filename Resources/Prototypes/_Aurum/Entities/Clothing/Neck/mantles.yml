@@ -1,0 +1,90 @@
+# The reason why these are in Aurum is because these replace the mantles in Goob, but since i'm agaisnt that, im following what I did on Omu by making a RD Cape and a "decorated" version.
+# Keeping both available to players.
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleBlueshieldDecorated
+  name: blueshield poncho
+  description: A fancy blue-and-grey poncho embellished with grey accents.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Mantles/bsomantle.rsi
+  - type: StaticPrice # Monolith
+    vendPrice: 220
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleCaptainDecorated
+  name: decorated blue mantle # Aurum - No mention of captain since we don't have that.
+  description: A blue mantle with golden accents, probably was made to signify authority, or competence.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Mantles/capmantle.rsi
+  - type: StaticPrice # Monolith
+    vendPrice: 220
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleChiefEngineerOrangeDecorated
+  name: decorated orange mantle # Aurum - No mention of the chief engineer because we don't have that, and it feels kinda out of tune
+  description: A orange mantle with golden accents along the fabric.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Mantles/ChiefEngineer/orangecemantle.rsi
+  - type: StaticPrice # Monolith
+    vendPrice: 220
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleChiefEngineerWhiteDecorated
+  name: decorated white mantle # Aurum - No mention of the chief engineer because we don't have that, and it feels kinda out of tune
+  description: A white mantle with blue and gold decor, reminds you of some old engineering hardsuits.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Mantles/ChiefEngineer/whitecemantle.rsi
+  - type: StaticPrice # Monolith
+    vendPrice: 220
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleChiefMedicalOfficerDecorated
+  name: decorated medical mantle # Aurum - No mention of the cmo because we don't have that, and it feels kinda out of tune
+  description: A blue-cyan mantle with a green cross detailed in the fabric, has a even larger cross in the back.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Mantles/cmomantle.rsi
+  - type: StaticPrice # Monolith
+    vendPrice: 220
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleHeadOfPersonnelDecorated
+  name: regal blue-red mantle # Aurum - No mention of the hop because we don't have that, and it feels kinda out of tune
+  description: A regal blue-red mantle with golden decorations all over, having it's own golden neck part, fancy!
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Mantles/hopmantle.rsi
+  - type: StaticPrice # Monolith
+    vendPrice: 220
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleHeadOfSecurityDecorated
+  name: black-red poncho # Aurum - No mention of the HoS because we don't have that, and it feels kinda out of tune
+  description: A black-red poncho that smells faintly of gunpowder.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Mantles/hosmantle.rsi
+  - type: StaticPrice # Monolith
+    vendPrice: 220
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleResearchDirectorDecorated
+  name: purple-white mantle # Aurum - No mention of the RD because we don't have that, and it feels kinda out of tune
+  description: A large purple mantle with silver lining that covers most of the upper body, you feel unlucky wearing this.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Neck/Mantles/rdmantle.rsi
+  - type: StaticPrice # Monolith
+    vendPrice: 220

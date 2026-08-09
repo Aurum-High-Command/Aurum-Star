@@ -1,0 +1,217 @@
+﻿# These are the same as fleshy organs so they are cheap.
+- type: latheRecipe
+  id: OrganRoboticHeartReplacement
+  result: OrganCyberneticHeartReplacement
+  completetime: 20
+  materials:
+   Steel: 2500
+   Plastic: 1000
+   Plasteel: 500
+
+- type: latheRecipe
+  id: OrganRoboticLungsReplacement
+  result: OrganCyberneticLungsReplacement
+  completetime: 15
+  materials:
+   Steel: 3500
+   Plastic: 500
+   Plasteel: 1000
+
+- type: latheRecipe
+  id: OrganRoboticLiverReplacement
+  result: OrganCyberneticLiverReplacement
+  completetime: 10
+  materials:
+   Steel: 1500
+   Plastic: 500
+   Plasteel: 500
+
+- type: latheRecipe
+  id: OrganRoboticStomachReplacement
+  result: OrganCyberneticStomachReplacement
+  completetime: 5
+  materials:
+   Steel: 1000
+   Plastic: 500
+   Plasteel: 500
+
+# Actual cybernetics with stuff.
+- type: latheRecipe
+  id: OrganCyberneticHeartRecipe
+  result: OrganCyberHeart
+  completetime: 20
+  materials:
+   Steel: 3500
+   Glass: 2500
+   Plastic: 500
+   Plasteel: 500
+   Silver: 500
+   Gold: 500
+
+- type: latheRecipe
+  id: OrganCyberneticAdvancedHeartRecipe
+  result: OrganCyberHeartAdvanced
+  completetime: 20
+  materials:
+   Steel: 4500
+   Glass: 3000
+   Plastic: 2000
+   Plasteel: 500
+   Silver: 1500
+   Gold: 500
+   Durathread: 500
+
+- type: latheRecipe
+  id: OrganCyberneticLungsAdvancedRecipe
+  result: OrganCyberneticLungsAdvanced
+  completetime: 20
+  materials:
+   Steel: 3300
+   Glass: 2500
+   Plastic: 3500
+   Plasteel: 1500
+   Durathread: 1000
+   Silver: 1500
+   Gold: 500
+
+- type: latheRecipe
+  id: OrganHeartSandevistanInferiorRecipe
+  result: OrganHeartTSFSandevistan
+  completetime: 25
+  materials:
+   Steel: 4500
+   Glass: 5500
+   Plastic: 5500
+   Plasteel: 2500
+   Silver: 3500
+   Gold: 2500
+   Durathread: 1500
+
+- type: latheRecipe
+  id: OrganHeartAirSystemLungsRecipe
+  result: OrganInternalAirSystem
+  completetime: 25
+  materials:
+   Steel: 2000
+   Plastic: 3500
+   Glass: 2200
+   Plasteel: 1600
+
+- type: latheRecipe
+  id: OrganHeartBluespaceReactorRecipe
+  result: OrganCyberHeartBluespace
+  completetime: 30
+  materials:
+   Steel: 6500
+   Glass: 6500
+   Plastic: 8000
+   Durathread: 2500
+   Plasteel: 3500
+   Silver: 3500
+   Gold: 2500
+   Bluespace: 500
+
+- type: latheRecipe
+  id: OrganCybersunSandevistanRecipe
+  result: OrganHeartSandevistan
+  completetime: 30
+  materials:
+   Steel: 5500
+   Glass: 8500
+   Plastic: 5500
+   Plasteel: 2500
+   Silver: 4500
+   Gold: 1500
+   Durathread: 1500
+   Diamond: 100
+
+- type: latheRecipe
+  id: OrganSHIHeartRecipe
+  result: OrganPDVAdvancedHeart
+  completetime: 30
+  materials:
+   Steel: 2000
+   Plastic: 2500
+   Glass: 400
+   Plasteel: 2500
+   Durathread: 2400
+   Plasma: 500
+
+# Auto surgeons down here
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: AutosurgeonSandevistanTSFRecipe
+  result: AutosurgeonSandevistanTSFFlatpack
+  materials:
+    Steel: 8500
+    Glass: 8500
+    Plastic: 9000
+    Plasteel: 5500
+    Silver: 5500
+    Gold: 500
+    Durathread: 3500
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: AutosurgeonIASSHIRecipe
+  result: AutosurgeonIASnSHIFlatpack
+  materials:
+    Steel: 3500
+    Plastic: 4500
+    Glass: 800
+    Plasteel: 2500
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: AutosurgeonAdvHeartSHIRecipe
+  result: AutosurgeonAdvHeartSHIFlatpack
+  materials:
+    Steel: 4000
+    Plastic: 3500
+    Glass: 800
+    Plasteel: 5500
+    Durathread: 3500
+    Plasma: 1000
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: AutosurgeonDermalArmorSAGRecipe
+  result: AutosurgeonDermalArmorSAGFlatpack
+  materials:
+    Steel: 4000
+    Plastic: 2500
+    Glass: 400
+    Plasteel: 4500
+    Durathread: 1000
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: AutosurgeonRightMantisBladeSHIRecipe
+  result: AutosurgeonRightMantisBladeSHIFlatpack
+  materials:
+    Steel: 3000
+    Plastic: 2500
+    Glass: 400
+    Plasteel: 1600
+    Plasma: 750
+    Gold: 1000
+
+- type: latheRecipe
+  parent: AutosurgeonRightMantisBladeSHIRecipe
+  id: AutosurgeonLeftMantisBladeSHIRecipe
+  result: AutosurgeonLeftMantisBladeSHIFlatpack
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: AutosurgeonSandevistanSHIRecipe
+  result: AutosurgeonSandevistanSHIFlatpack
+  materials:
+    Steel: 10000
+    Glass: 8500
+    Plastic: 8500
+    Plasteel: 3500
+    Silver: 5500
+    Gold: 3500
+    Durathread: 2500
+    Diamond: 100

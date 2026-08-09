@@ -44,6 +44,7 @@
   - RogueModsuitRecipe # Aurum - Bring the modsuit back to research
   - ClothingOuterHardsuitPDVMedic # Aurum - Bring the strong T2 to later T2.
   - ClothingOuterHardsuitSyndieEliteRogue
+  - ClothingShoesBootsAdvancedMagbootsTactical # Aurum
   technologyPrerequisites:
   - RogueAdvancedEquipment
   - UniversalMaterialResearchT3
@@ -59,6 +60,7 @@
   recipeUnlocks:
   - ClothingOuterHardsuitCybersunStealthRogue
   - ClothingOuterHardsuitJuggernautRogue
+  - ClothingOuterHardsuitMaidnautJuggernaut # Aurum
   - ClothingOuterHardsuitSyndieCommanderRogue
   - ClothingOuterHardsuitSyndicateEliteRecipe # Aurum
   technologyPrerequisites:

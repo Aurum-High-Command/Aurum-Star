@@ -37,6 +37,18 @@
     outerClothing: ClothingJacketBrigmed
 
 - type: loadout
+  id: MDAndMercSpacerEMTJacket
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterDavidsJacket
+
+- type: loadout
+  id: MDAndMercSpacerDavidJacket
+  price: 0
+  equipment:
+    outerClothing: ClothingOuterDavidsJacketValid
+
+- type: loadout
   id: DoCOuterClothignLabcoatCMO
   price: 0
   equipment:
@@ -103,6 +115,16 @@
   id: DoCClothingMantleFancyCMO
   equipment:
     neck: ClothingNeckMantleCMOModern
+
+- type: loadout
+  id: DoCClothingMantleCMODecorated
+  equipment:
+    neck: ClothingNeckMantleChiefMedicalOfficerDecorated
+
+- type: loadout
+  id: DoCClothingCMOEnsembleNeck
+  equipment:
+    neck: ClothingNeckEnsembleChiefMedicalOfficer
 
 # Head
 - type: loadout

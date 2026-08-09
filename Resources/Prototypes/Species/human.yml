@@ -58,10 +58,10 @@
       points: 1
       required: false
     Chest:
-      points: 1
+      points: 8 # Aurum 1 to 8
       required: false
     Legs:
-      points: 8 # imp 2<8
+      points: 8 # Aurum - 1 to 8
       required: false
     Arms:
       points: 8 # imp 2<8

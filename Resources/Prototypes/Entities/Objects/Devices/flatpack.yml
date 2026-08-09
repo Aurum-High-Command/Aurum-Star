@@ -7,7 +7,7 @@
   - HideSpawnMenu
   components:
   - type: Item
-    size: Large
+    size: Normal # Aurum - It being massive didn't make sense.
   - type: Sprite
     sprite: Objects/Devices/flatpack.rsi
     layers:

@@ -34,7 +34,7 @@
   parent: BaseTradeItemVolatile
   id: TradeGoodAmmo
   name: ammo crate
-  description: A sealed crate of ammunition. A label on the side indicates it as explosive if damaged.
+  description: A sealed crate of ammunition. A label on the side indicates it as explosive if damaged. Selling sites include Cargo Depots, Trade Mall, Camelot and Colossus Central. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: ammo
@@ -45,7 +45,7 @@
   parent: BaseTradeItem
   id: TradeGoodSupplies
   name: supplies crate
-  description: A sealed crate of generic supplies.
+  description: A sealed crate of generic supplies. Selling sites include Cargo Depots, Trade Mall, Camelot, Medical Dispatch and Colossus Central. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: supplies
@@ -56,7 +56,7 @@
   parent: BaseTradeItem
   id: TradeGoodMedicalSupplies
   name: medical supplies crate
-  description: A sealed crate of medical supplies.
+  description: A sealed crate of medical supplies. Selling sites include Cargo Depots, Trade Mall, Camelot, Medical Dispatch and Colossus Central. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: supplies-med
@@ -67,7 +67,7 @@
   parent: BaseTradeItem
   id: TradeGoodChemicalSupplies
   name: chemical supplies crate
-  description: A sealed crate of chemical supplies.
+  description: A sealed crate of chemical supplies. Selling sites include Cargo Depots, Trade Mall and Medical Dispatch. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: chems
@@ -78,7 +78,7 @@
   parent: BaseTradeItemVolatile
   id: TradeGoodChemicalsVolatile
   name: volatile chemical supplies crate
-  description: A sealed crate of volatile chemicals. A label on the side indicates it as explosive if damaged.
+  description: A sealed crate of volatile chemicals. A label on the side indicates it as explosive if damaged. Selling sites include Cargo Depots, Trade Mall and Medical Dispatch. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: chems-volatile
@@ -89,7 +89,7 @@
   parent: BaseTradeItem
   id: TradeGoodFissionFuel
   name: fission reactor fuel crate
-  description: A sealed crate of packaged nuclear fuel rods. Radioactive. Handle with care.
+  description: A sealed crate of packaged nuclear fuel rods. Radioactive. Handle with care. Can only be sold at Cargo Depots. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: fission
@@ -102,7 +102,7 @@
   parent: BaseTradeItemVolatile
   id: TradeGoodFusionFuel
   name: fusion reactor fuel crate
-  description: A sealed crate of packaged D-T fuel cells for use in large fusion reactors. Radioactive and volatile if damaged. Handle with care.
+  description: A sealed crate of packaged D-T fuel cells for use in large fusion reactors. Radioactive and volatile if damaged. Handle with care. Selling sites include Trade Mall and Camelot. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: fusion
@@ -143,7 +143,7 @@
   parent: BaseTradeItem
   id: TradeGoodWeaponParts
   name: weapon parts crate
-  description: A sealed crate of various firearm components.
+  description: A sealed crate of various firearm components. Selling sites include Cargo Depots, Camelot and Colossus Central. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: weapon-components
@@ -154,7 +154,7 @@
   parent: BaseTradeItem
   id: TradeGoodScrap
   name: scrap crate
-  description: A sealed crate of scrap and salvage.
+  description: A sealed crate of scrap and salvage. Selling sites include Cargo Depots and Trade Mall. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: scrap
@@ -165,7 +165,7 @@
   parent: BaseTradeItem
   id: TradeGoodLuxuries
   name: luxury goods crate
-  description: A sealed crate of luxuries.
+  description: A sealed crate of luxuries. Selling sites include Cargo Depots and Camelot. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: luxury
@@ -176,7 +176,7 @@
   parent: BaseTradeItem
   id: TradeGoodEquipment
   name: equipment crate
-  description: A sealed crate of various pieces of equipment and gear.
+  description: A sealed crate of various pieces of equipment and gear. Selling sites include Camelot and Colossus Central. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: equipment
@@ -187,7 +187,7 @@
   parent: BaseTradeItem
   id: TradeGoodComponents
   name: components crate
-  description: A sealed crate of various machine parts.
+  description: A sealed crate of various machine parts. Selling sites include Cargo Depots and Trade Mall. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: components
@@ -198,7 +198,7 @@
   parent: BaseTradeItem
   id: TradeGoodShipComponents
   name: ship components crate
-  description: A sealed crate of various ship parts.
+  description: A sealed crate of various ship parts. Selling sites include Cargo Depots, Camelot, Colossus Central, Trade Mall and Medical Dispatch. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: ship-components
@@ -209,7 +209,7 @@
   parent: BaseTradeItemVolatile
   id: TradeGoodFertilizer
   name: fertilizer crate
-  description: A sealed crate of fertilizer. A label on the side indicates it as explosive if damaged.
+  description: A sealed crate of fertilizer. A label on the side indicates it as explosive if damaged. Selling sites include Cargo Depots, Camelot, Medical Dispatch and Trade Mall. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: fertilizer
@@ -220,7 +220,7 @@
   parent: BaseTradeItem
   id: TradeGoodFabric
   name: fabric crate
-  description: A sealed crate of various fabrics.
+  description: A sealed crate of various fabrics. Selling sites include Trade Mall, Camelot, Medical Dispatch and Colossus Central. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: fabric
@@ -231,7 +231,7 @@
   parent: BaseTradeItem
   id: TradeGoodMetals
   name: metals crate
-  description: A sealed crate of various metals.
+  description: A sealed crate of various metals. Selling sites include Trade Mall, Camelot, Medical Dispatch and Colossus Central. # Aurum - Adds indications of which places accept the crate.
   components:
   - type: Sprite
     state: metal

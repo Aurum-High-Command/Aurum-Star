@@ -59,6 +59,14 @@
     id: ClothingOuterHardsuitTacsuit
   - type: StaminaDamageResistance
     coefficient: 0.4
+  - type: DamageOnUnequip # DeltaV
+    unequipDamage:
+      types:
+        Blunt: 10 # Aurum 20 to 10
+        Slash: 25 # Aurum 30 to 25
+        Piercing: 10 # Aurum 40 to 10 - The reasoning behind this being that this hardsuit isn't that integrated with the user compared to other versions.
+    unequipSound: "/Audio/_Mono/Effects/Computer/rattle.ogg" # Aurum - Changed to a computer noise cuz, well, robot soldiers.
+    screamOnUnequip: false # Aurum - True to false cuz uh, idk.
 
 - type: entity
   parent: ClothingOuterHardsuitAsakim

@@ -5,10 +5,9 @@
   discipline: TsfmcGear
   tier: 1
   cost: 5000
-  recipeUnlocks:
+  recipeUnlocks: # Aurum change: Removed NVGs cause 10k RP shortcut for civs, etc. Factionslop
   - ForensicsScannerTSF
   - DemagTSF
-  - ClothingEyesNightVisionGoggles
   - MotionDetectorTSF
   - CrowbarPocketTSF
   technologyPrerequisites:

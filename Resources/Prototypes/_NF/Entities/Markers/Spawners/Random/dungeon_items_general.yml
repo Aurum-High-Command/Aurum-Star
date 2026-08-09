@@ -493,11 +493,11 @@
     chance: 1
     offset: 0.0
     rarePrototypes:
-    # - VendingMachineChemicalsSyndicate # A bit less Syndicate loot
+    - VendingMachineChemicalsSyndicate # Aurum change, uncomments it, why not, at the exchange of maybe not finding a full syndi vend
     - VendingMachineArcadia
     # - VendingMachineSyndieDrobe # A bit less Syndicate loot
     - VendingMachineSyndieContraband
-    rareChance: 0.03 # actually rare vs. entry frequencies
+    rareChance: 0.2 # Aurum change - 0.03 to 0.2 - Reasoning? We added the chem vending machine back.
 
 - type: entity
   name: random vendomat
@@ -804,9 +804,9 @@
     - SheetPGlass
     - SheetUGlass
     - SheetPlasma
-    - SheetUranium
+#    - SheetUranium - Aurum - Rarer spawn
     - MaterialCloth
-    chance: 1
+    chance: 1.2 # Aurum - A few more mat spawn chances in Expeds.
     offset: 0.0
     rarePrototypes:
     - SheetPaper
@@ -838,9 +838,10 @@
     - IngotSilver
     - SheetRPGlass
     - SheetRUGlass
+    - SheetUranium # Aurum
     - SheetPlasteel
     - MaterialDurathread
-    chance: 0.9
+    chance: 0.6 # Aurum - 0.9 to 0.6, rarer
     offset: 0.0
     rarePrototypes:
     - MaterialDiamond1
@@ -879,7 +880,7 @@
     - CableMVStack1
     - CableApcStack1
     - ShardGlass
-    chance: 0.95
+    chance: 0.4 # Aurum - From 0.95 to 0.4 - I understand we're supposed to lower how stakced you can get but a single mat in every exped is a bit of a kick in the balls
     offset: 0.0
     rarePrototypes:
     - MaterialBananium1
@@ -909,7 +910,7 @@
     - SheetPlasteel1
     - MaterialDurathread1
     - ShardGlass
-    chance: 0.95
+    chance: 0.5 # Aurum - 0.95 to 0.5, see above.
     offset: 0.0
     rarePrototypes:
     - MaterialDiamond1
@@ -942,7 +943,7 @@
     - SpaceQuartz
     - UraniumOre
     - Coal
-    chance: 0.95
+    chance: 1.2 # Aurum - 0.9 to 1.2, gives players with ore processors some stuff :p
     offset: 0.0
     rarePrototypes:
     - BananiumOre
@@ -972,7 +973,7 @@
     - SpaceQuartz1
     - UraniumOre1
     - Coal1
-    chance: 0.95
+    chance: 0.35 # Aurum - 0.95 to 0.35, see above.
     offset: 0.0
     rarePrototypes:
     - BananiumOre1
@@ -1030,7 +1031,7 @@
     - BriefcaseSyndieLobbyingBundleFilled
     - BriefcaseThiefBribingBundleFilled
     - BriefcaseSyndieSniperBundleFilled
-    rareChance: 0.01
+    rareChance: 0.15 # Aurum - From 0.01 to 0.15
 
 - type: entity
   name: random flatpack
@@ -1070,7 +1071,7 @@
     offset: 0.0
     rarePrototypes:
     - AmmoTechFabFlatpack
-#    - VendingMachineSyndieContrabandFlatpack # A bit less Syndicate loot
+    - VendingMachineSyndieContrabandFlatpack # Aurum change, uncomments it, seems harmless, plus starts with 0 tc, so.
     rareChance: 0.05
 
 - type: entity

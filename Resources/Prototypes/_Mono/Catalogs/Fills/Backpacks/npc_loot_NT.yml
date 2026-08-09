@@ -13,7 +13,7 @@
     items:
     #Weapons/ammo/gears
     - id: WeaponPistolMk58
-      prob: 0.6
+      prob: 0.3 # Aurum -> 0.6 to 0.3 - This item appears every single time.
     - id: Magazine45_ACPPistolHighCapacityFMJ
       prob: 0.2
       amount: 2
@@ -26,7 +26,7 @@
       prob: 0.2
       amount: 2
     - id: WeaponRifleNtsfLtr
-      prob: 0.05
+      prob: 0.1 # Aurum -> 0.05 to 0.1
     - id: Magazine556x45mmPlasteelAP
       prob: 0.05
       amount: 2
@@ -57,16 +57,16 @@
       prob: 0.04
     #NT branded bullshit
     - id: TowelColorNT
-      prob: 0.33
+      prob: 0.2 # Aurum -> 0.33 to 0.2
     - id: BalloonNT
-      prob: 0.33
+      prob: 0.2 # Aurum -> 0.33 to 0.2
     - id: NTHandyFlag
-      prob: 0.33
+      prob: 0.2 # Aurum -> 0.33 to 0.2
     #Blueprint
     - id: BlueprintWeaponSubMachineGunVectorNtsfHclm
-      prob: 0.08
+      prob: 0.1 # Aurum -> 0.08 to 0.1
     - id: WeaponRifleNtsfLtr
-      prob: 0.08
+      prob: 0.1 # Aurum -> 0.08 to 0.1
     sound:
       path: /Audio/Machines/windoor_open.ogg
 
@@ -103,20 +103,20 @@
     #Clothings
     - id: NTLootT2Clothing
       amount: 1
-      prob: 0.8
+      prob: 0.4 # Aurum -> 0.8 to 0.4
     - id: NTLootT2Clothing
       amount: 2
-      prob: 0.1
+      prob: 0.3 # Aurum -> 0.1 to 0.3
     - id: NTLootT2Clothing
       amount: 3
-      prob: 0.04
+      prob: 0.1 # Aurum -> 0.03 to 0.1
     #NT branded bullshit
     - id: TowelColorNT
-      prob: 0.33
+      prob: 0.1 # Aurum -> 0.33 to 0.1
     - id: BalloonNT
-      prob: 0.33
+      prob: 0.1 # Aurum -> 0.33 to 0.1
     - id: NTHandyFlag
-      prob: 0.33
+      prob: 0.1 # Aurum -> 0.33 to 0.1
     #Cash
     - id: SpaceCash5000
     - id: SpaceCash10000
@@ -134,7 +134,7 @@
   parent: RogueSiliconGiftBox
   name: NT Spec Ops equipement crate
   id: ClothingBackpackRogueNanotrasenT3
-  description: A Nanotrasen special operation gear crate. Containing clothing, or gear handed to Central Command Officals, ERT units, or Central Command personnel. # Aurum - Lore Slop
+  description: A Nanotrasen special operation gear crate. Containing clothing, or gear handed to Central Command Officials, ERT units, or Central Command personnel. # Aurum - Lore Slop
   suffix: NPC Loot, T3
   # categories: [ HideSpawnMenu ] #Mono: spawnable for easier testing, why tf wasnt it spawnable anyway
   components:
@@ -142,23 +142,40 @@
     state: NTSpecOps-base
   - type: SpawnItemsOnUse
     items:
-    #Weapons/ammo/gears
+    # Aurum - Adding the T2 shit because this T3 is so fucking cursed it ONLY drops one thing.
+    - id: WeaponPistolN1984
+      prob: 0.4
+    - id: Magazine45_magnumPistolPlasteelAP
+      prob: 0.2
+#      amount: 2 # Aurum
+    - id: Magazine45_magnumPistolFMJ
+      prob: 0.4
+#      amount: 2 # Aurum
+    - id: WeaponPulsePistol
+      prob: 0.3
+    - id: WeaponPulseCarbine
+      prob: 0.3
+    - id: ClothingBeltSheathFilledNavy
+      prob: 0.3
+    - id: WeaponEnergyShotgun
+      prob: 0.3
+    # Aurum changes end
     - id: WeaponPulseRifle
-      prob: 0.1
+      prob: 0.2 # Aurum -> 0.1 to 0.2
     - id: WeaponRevolverMateba
       prob: 0.2
     - id: AmmoBox45_magnumAP
-      amount: 2
+#      amount: 2 # Aurum
       prob: 0.2
     - id: WeaponLRC21PPL
       prob: 0.08
     - id: PulsedPlasmaLaserCanister
-      amount: 3
+#      amount: 3 # Aurum
       prob: 0.1
     - id: WeaponLauncherMk348
       prob: 0.005
     - id: AmmoBox9x19mmPlasteelAP
-      amount: 2
+#      amount: 2 # Aurum
       prob: 0.2
     - id: AmmoBox9x19mmEmp
       prob: 0.1
@@ -167,32 +184,32 @@
     - id: WeaponLauncherMPSSM
       prob: 0.04
     - id: CartridgeMPSSMHEAT
-      amount: 3
+#      amount: 3 # Aurum
       prob: 0.09
     - id: CartridgeMPSSMMissile
-      amount: 3
+#      amount: 3 # Aurum
       prob: 0.09
     - id: WeaponHeavyPulseCannon
       prob: 0.005
     - id: MedkitCombatFilled
-      prob: 0.5
+      prob: 0.3 # Aurum -> 0.5 to 0.3
     #Clothings
     - id: NTLootT3Clothing
-      amount: 1
-      prob: 0.8
-    - id: NTLootT3Clothing
-      amount: 2
-      prob: 0.1
-    - id: NTLootT3Clothing
-      amount: 3
-      prob: 0.04
-    #NT branded bullshit
-    - id: TowelColorNT
-      prob: 0.33
-    - id: BalloonNT
-      prob: 0.33
-    - id: NTHandyFlag
-      prob: 0.33
+#      amount: 1
+      prob: 0.4 # Aurum -> 0.8 to 0.4
+#    - id: NTLootT3Clothing
+#      amount: 2
+#      prob: 0.1
+#    - id: NTLootT3Clothing
+#      amount: 3
+#      prob: 0.04
+    #NT branded bullshit - Aurum change, remove this directly from T3 as it bloats out the loot table and pretty much makes you miss out on actual gear.
+#    - id: TowelColorNT
+#      prob: 0.33
+#    - id: BalloonNT
+#      prob: 0.33
+#    - id: NTHandyFlag
+#      prob: 0.33
     #Blueprint
     - id: BlueprintAmmoMPSSMMissile
       prob: 0.01
