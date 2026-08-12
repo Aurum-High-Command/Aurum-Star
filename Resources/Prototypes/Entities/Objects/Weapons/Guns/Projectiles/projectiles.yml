@@ -108,8 +108,8 @@
       path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
   - type: TimedDespawn
     lifetime: 10
-  - type: Tracer # Mono
-    color: "#FFFFFFFF"
+#  - type: Tracer # Mono
+#    color: "#FFFFFFFF"
     length: 3
   - type: LagCompensation
 

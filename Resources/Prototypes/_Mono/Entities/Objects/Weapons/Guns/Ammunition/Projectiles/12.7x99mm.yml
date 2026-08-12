@@ -10,9 +10,9 @@
         Piercing: 65
         Structural: 100
     armorPenetration: 0.4
-  - type: Tracer
-    color: "#FFFFFFFF"
-    length: 3
+#  - type: Tracer
+#    color: "#FFFFFFFF"
+#    length: 3
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -44,6 +44,6 @@
     layers:
     - state: bullet
       shader: unshaded
-  - type: Tracer
-    color: "#FFFFFFFF"
-    length: 3
+#  - type: Tracer
+#    color: "#FFFFFFFF"
+#    length: 3
