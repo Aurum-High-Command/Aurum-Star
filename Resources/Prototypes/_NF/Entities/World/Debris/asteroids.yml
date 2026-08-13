@@ -32,7 +32,7 @@
     - type: RandomEntityPopulator
       entries:
       - params:
-          prob: 0.5
+          prob: 0.7 # Aurum - 0.5 -> 0.7
           min: 1
           max: 2
           canBeAirSealed: true
@@ -97,7 +97,7 @@
     - type: RandomEntityPopulator
       entries:
       - params:
-          prob: 0.66
+          prob: 0.8 # Aurum, 0.66 to 0.8
           min: 1
           max: 4
           canBeAirSealed: true
@@ -166,7 +166,7 @@
     - type: RandomEntityPopulator
       entries:
       - params:
-          prob: 0.33
+          prob: 0.55 # Aurum 0.33 to 0.55
           min: 1
           max: 1
           canBeAirSealed: true
@@ -225,7 +225,7 @@
     - type: RandomEntityPopulator
       entries:
       - params:
-          prob: 0.5
+          prob: 0.7 # Aurum 0.5 to 0.7
           min: 4
           max: 6
           canBeAirSealed: true
@@ -278,7 +278,7 @@
     - type: RandomEntityPopulator
       entries:
       - params:
-          prob: 0.5
+          prob: 0.6 # Aurum - 0.5 -> 0.6
           min: 2
           max: 4
           canBeAirSealed: true
@@ -398,7 +398,7 @@
     - type: RandomEntityPopulator
       entries:
       - params:
-          prob: 0.4
+          prob: 0.7 # Aurum 0.4 to 0.7
           min: 2
           max: 6
           canBeAirSealed: true
