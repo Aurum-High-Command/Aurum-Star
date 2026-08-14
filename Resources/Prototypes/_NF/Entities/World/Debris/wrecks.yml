@@ -74,7 +74,7 @@
         - id: SalvageSuitStorageSpawner
           prob: 0.1
         - id: RandomArtifactSpawner
-          prob: 0.05
+          prob: 0.3 # Aurum - 0.05 to 0.3 - Boost artifact findings in wrecks
         - id: SalvageTankSpawnerHighCapacity
           prob: 0.0005
         # Medical
@@ -82,7 +82,7 @@
           prob: 0.03
         # Mobs
         - id: NFSalvageMobSpawner
-          prob: 0.09 # Mono
+          prob: 0.15 # Aurum - 0.09 to 0.15 - Make wrecks a bit more dangerous
         # Room
         - id: NFWreckRoomMarker
           prob: 0.01

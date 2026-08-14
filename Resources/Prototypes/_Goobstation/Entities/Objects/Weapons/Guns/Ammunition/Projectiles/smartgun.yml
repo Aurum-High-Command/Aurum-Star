@@ -15,6 +15,6 @@
       shader: unshaded
   - type: HomingProjectile
     homingSpeed: 1280 # Mono
-  - type: Tracer # Mono
-    color: "#2897c9ff"
-    length: 3
+#  - type: Tracer # Mono
+#    color: "#2897c9ff"
+#    length: 3

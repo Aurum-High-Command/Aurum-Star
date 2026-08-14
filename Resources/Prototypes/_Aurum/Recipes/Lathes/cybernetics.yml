@@ -66,10 +66,10 @@
   result: OrganCyberneticLungsAdvanced
   completetime: 20
   materials:
-   Steel: 3300
+   Steel: 2500
    Glass: 2500
-   Plastic: 3500
-   Plasteel: 1500
+   Plastic: 2500
+   Plasteel: 500
    Durathread: 1000
    Silver: 1500
    Gold: 500
@@ -79,11 +79,11 @@
   result: OrganHeartTSFSandevistan
   completetime: 25
   materials:
-   Steel: 4500
-   Glass: 5500
-   Plastic: 5500
-   Plasteel: 2500
-   Silver: 3500
+   Steel: 2500
+   Glass: 3000
+   Plastic: 2500
+   Plasteel: 500
+   Silver: 2500
    Gold: 2500
    Durathread: 1500
 
@@ -95,18 +95,18 @@
    Steel: 2000
    Plastic: 3500
    Glass: 2200
-   Plasteel: 1600
+   Plasteel: 500
 
 - type: latheRecipe
   id: OrganHeartBluespaceReactorRecipe
   result: OrganCyberHeartBluespace
   completetime: 30
   materials:
-   Steel: 6500
-   Glass: 6500
-   Plastic: 8000
+   Steel: 3500
+   Glass: 3500
+   Plastic: 2500
    Durathread: 2500
-   Plasteel: 3500
+   Plasteel: 1500
    Silver: 3500
    Gold: 2500
    Bluespace: 500
@@ -116,11 +116,11 @@
   result: OrganHeartSandevistan
   completetime: 30
   materials:
-   Steel: 5500
-   Glass: 8500
-   Plastic: 5500
-   Plasteel: 2500
-   Silver: 4500
+   Steel: 2500
+   Glass: 3500
+   Plastic: 1000
+   Plasteel: 1000
+   Silver: 2500
    Gold: 1500
    Durathread: 1500
    Diamond: 100
@@ -133,7 +133,7 @@
    Steel: 2000
    Plastic: 2500
    Glass: 400
-   Plasteel: 2500
+   Plasteel: 1000
    Durathread: 2400
    Plasma: 500
 
@@ -144,13 +144,13 @@
   id: AutosurgeonSandevistanTSFRecipe
   result: AutosurgeonSandevistanTSFFlatpack
   materials:
-    Steel: 8500
-    Glass: 8500
-    Plastic: 9000
-    Plasteel: 5500
-    Silver: 5500
+    Steel: 5500
+    Glass: 5500
+    Plastic: 3000
+    Plasteel: 1500
+    Silver: 3500
     Gold: 500
-    Durathread: 3500
+    Durathread: 1500
 
 - type: latheRecipe
   parent: BaseToolRecipe
@@ -160,7 +160,7 @@
     Steel: 3500
     Plastic: 4500
     Glass: 800
-    Plasteel: 2500
+    Plasteel: 500
 
 - type: latheRecipe
   parent: BaseToolRecipe
@@ -170,7 +170,7 @@
     Steel: 4000
     Plastic: 3500
     Glass: 800
-    Plasteel: 5500
+    Plasteel: 2500
     Durathread: 3500
     Plasma: 1000
 
@@ -182,8 +182,19 @@
     Steel: 4000
     Plastic: 2500
     Glass: 400
-    Plasteel: 4500
+    Plasteel: 500
     Durathread: 1000
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: AutosurgeonMuscleFiberSHIRecipe
+  result: AutosurgeonMuscleFibersSHIFlatpack
+  materials:
+    Steel: 2500
+    Plastic: 2500
+    Glass: 200
+    Plasteel: 500
+    Durathread: 1500
 
 - type: latheRecipe
   parent: BaseToolRecipe
@@ -207,11 +218,11 @@
   id: AutosurgeonSandevistanSHIRecipe
   result: AutosurgeonSandevistanSHIFlatpack
   materials:
-    Steel: 10000
-    Glass: 8500
-    Plastic: 8500
-    Plasteel: 3500
-    Silver: 5500
-    Gold: 3500
+    Steel: 5500
+    Glass: 4500
+    Plastic: 3500
+    Plasteel: 1500
+    Silver: 2500
+    Gold: 2500
     Durathread: 2500
     Diamond: 100
