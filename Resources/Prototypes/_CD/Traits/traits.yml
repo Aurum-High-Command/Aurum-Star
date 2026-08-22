@@ -3,16 +3,10 @@
   id: Synthetic
   name: trait-synth-name
   description: trait-synth-desc
-  # Begin DeltaV Additions - blacklist IPCs
+  speciesBlacklist:
+  - IPC
   blacklist:
     components:
-      - Silicon
-      - BorgChassis
-  # End DeltaV Additions - blacklist IPCs
-  requirements:
-    - !type:SpeciesRequirement
-      inverted: true
-      species:
-        - IPC
+    - BorgChassis
   components:
     - type: Synth

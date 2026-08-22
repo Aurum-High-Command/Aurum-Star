@@ -1,2 +1,2 @@
-reagent-name-synth-blood = synth blood
-reagent-desc-synth-blood = Not quite coolant, not quite blue powerade.
+reagent-name-synth-blood = oxidant
+reagent-desc-synth-blood = A substitute for blood, meant for machines, don't drink it.
