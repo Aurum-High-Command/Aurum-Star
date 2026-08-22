@@ -46,8 +46,9 @@
   - type: Sprite
     sprite: _Mono/Clothing/Shoes/Modsuits/rogue.rsi
   - type: Magboots
-    requiresGrid: false
-    enabledPrefix: null
+#    requiresGrid: false - Aurum change - Voidboots should be able to keep their gimmick instead of it being given to a random faction modsuit
+#    enabledPrefix: null
+  - type: NoSlip # Aurum
   - type: SealableClothingVisuals
     spriteLayer: sealed
     clothingVisuals:
