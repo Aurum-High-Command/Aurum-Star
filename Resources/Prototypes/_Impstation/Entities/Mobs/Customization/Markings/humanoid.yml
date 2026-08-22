@@ -618,7 +618,7 @@
 - type: marking
   id: ArmProstheticRight2
   bodyPart: RArm
-  markingCategory: RightArm
+  markingCategory: Arms
   speciesRestriction: [Human, Dwarf, Oni, Reptilian, SlimePerson, Arachnid, Tajaran, Vulpkanin, Rodentia]
   coloring:
     default:
@@ -721,7 +721,7 @@
 - type: marking
   id: ArmProstheticLeft2
   bodyPart: LArm
-  markingCategory: LeftArm
+  markingCategory: Arms
   speciesRestriction: [Human, Dwarf, Oni, Reptilian, SlimePerson, Arachnid, Tajaran, Vulpkanin, Rodentia]
   coloring:
     default:
