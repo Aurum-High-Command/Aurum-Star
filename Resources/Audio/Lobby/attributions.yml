@@ -1,8 +1,4 @@
 # Mono
-- files: ["scp_isd.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Made by PurpleJester"
-  source: "https://www.youtube.com/watch?v=J_JXKZvLi3Q"
 
 - files: ["bucsi_singularity.ogg"]
   license: "CC-BY-NC-SA-3.0"
@@ -29,17 +25,17 @@
   copyright: "Absconditus by ZhayTee. Converted from MP3 to OGG."
   source: "https://bandcamp.zhaytee.net/track/absconditus"
 
-- files: ["NIGHTCALL.ogg"]
+- files: ["nightcall.ogg"]
   license: "Custom"
   copyright: "Synthc4t"
   source: "https://soundcloud.com/nightmarecorpstarstriker/nightcall"
   
-- files: ["Galaxies.ogg"]
+- files: ["galaxies.ogg"]
   license: "Custom"
   copyright: "Synthc4t"
   source: "https://soundcloud.com/nightmarecorpstarstriker/galaxies"
   
-- files: ["Focus.ogg"]
+- files: ["focus.ogg"]
   license: "Custom"
   copyright: "Synthc4t"
   source: "https://soundcloud.com/nightmarecorpstarstriker/focus"
@@ -49,7 +45,7 @@
   copyright: "Synthc4t"
   source: "https://soundcloud.com/nightmarecorpstarstriker/drive"
   
-- files: ["Calamity.ogg"]
+- files: ["calamity.ogg"]
   license: "Custom"
   copyright: "Synthc4t"
   source: "https://soundcloud.com/nightmarecorpstarstriker/calamity"
