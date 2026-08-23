@@ -18,5 +18,8 @@
     prototype: FrontierBirthdayGift
   - !type:AddComponentSpecial
     components:
-      - type: SurgerySpeedModifier
-        SpeedModifier: 1.25
+      #- type: SurgerySpeedModifier - Aurum change, why did pilots even get surgery speed dawg
+      #  SpeedModifier: 1.25
+      - type: ShuttleBoostingPilot
+        angularMultiplier: 1.35
+        accelerationMultiplier: 1.35
