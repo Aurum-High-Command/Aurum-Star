@@ -1,0 +1,15 @@
+- type: soundCollection
+  id: AurumLobbyMusic
+  files:
+    - /Audio/Lobby/scp_isd.ogg
+    - /Audio/Lobby/bucsi_singularity.ogg
+    - /Audio/Lobby/across_the_void.ogg
+    - /Audio/Lobby/absconditus.ogg
+    - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
+    - /Audio/Lobby/in_amber_clad.ogg
+    - /Audio/Lobby/monument.ogg # A MONOLITH?....... NAH...
+    - /Audio/Lobby/NIGHTCALL.ogg
+    - /Audio/Lobby/calamity.ogg
+    - /Audio/Lobby/focus.ogg
+    - /Audio/Lobby/drive.ogg
+    - /Audio/Lobby/galaxies.ogg
