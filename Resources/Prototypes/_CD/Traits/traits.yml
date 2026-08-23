@@ -1,0 +1,12 @@
+- type: trait
+  category: Quirks # Doesn't have much effect on gameplay beyond changing blood and similar.
+  id: Synthetic
+  name: trait-synth-name
+  description: trait-synth-desc
+  speciesBlacklist:
+  - IPC
+  blacklist:
+    components:
+    - BorgChassis
+  components:
+    - type: Synth
