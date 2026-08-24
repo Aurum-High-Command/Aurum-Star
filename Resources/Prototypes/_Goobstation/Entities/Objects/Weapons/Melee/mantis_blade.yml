@@ -46,4 +46,4 @@
     pryPowered: true
     useSound: /Audio/Items/jaws_pry.ogg
   - type: Reflect
-    reflectProb: 0.30 # Uhhh 60% for two mantis blades trust me bro
+    reflectProb: 0.20 # Uhhh 40% if you held both out unless it doesnt stack.
