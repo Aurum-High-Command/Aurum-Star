@@ -22,7 +22,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
-    useDelay: 2
+    useDelay: 1 # Aurum - Holy microbalancing batman
     icon: { sprite: _Goobstation/Objects/Weapons/Melee/mantis_blade.rsi, state: icon }
     itemIconStyle: NoItem
     sound: !type:SoundPathSpecifier
@@ -37,7 +37,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
-    useDelay: 2
+    useDelay: 1 # Aurum - Holy microbalancing batman
     icon: { sprite: _Goobstation/Objects/Weapons/Melee/mantis_blade.rsi, state: icon-mirrored }
     itemIconStyle: NoItem
     event: !type:ToggleMantisBladeEvent
