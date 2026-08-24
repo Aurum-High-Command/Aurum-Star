@@ -7,7 +7,7 @@
   components:
   - type: Sharp
   - type: Execution
-    doAfterDuration: 4.0
+    doAfterDuration: 2.0 # Aurum - They are a extension of your own arm I don't see why they'd take so long.
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Melee/mantis_blade.rsi
     state: icon
@@ -19,8 +19,8 @@
     heavyPartDamageMultiplier: 1
     damage:
       types:
-        Slash: 14
-        Piercing: 7
+        Slash: 22 # Aurum 17 to 22
+        Piercing: 8 # Aurum 7 + 1
         Structural: 30
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
@@ -38,3 +38,12 @@
   - type: Tool
     qualities:
     - Slicing
+    # Aurum Start - Okay so hear me out but it's pretty sick to like open a door by prying it open with a mantis blade or smth, this is also super like late research so.
+    - Prying
+    useSound: /Audio/Items/jaws_pry.ogg
+  - type: Prying
+    speedModifier: 1.2
+    pryPowered: true
+    useSound: /Audio/Items/jaws_pry.ogg
+  - type: Reflect
+    reflectProb: 0.15 # Uhhh 30% for two mantis blades trust me bro
