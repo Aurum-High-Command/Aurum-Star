@@ -440,7 +440,7 @@
       prototypes:
         - SyndicateNavalSaboteurGearA
     - type: RechargeBasicEntityAmmo
-      rechargeCooldown: 1
+      rechargeCooldown: 10 # Aurum - Death of the EMP spam npc
       rechargeSound:
         path: /Audio/_NF/Effects/silence.ogg
     - type: BasicEntityAmmoProvider
@@ -449,7 +449,7 @@
       count: 4
     - type: Gun
       showExamineText: false
-      fireRate: 6
+      fireRate: 0.85 # Aurum 6 -> 0.85 - Death of the EMP spamming NPC
       selectedMode: FullAuto
       availableModes:
       - FullAuto

@@ -425,7 +425,7 @@
       color: "#678AD9" # WD EDIT
     - type: ItemTogglePointLight
     - type: Reflect
-      reflectProb: 0.9 # Mono EDIT
+      reflectProb: 0.7 # Aurum 90% to 70%
       damageOnReflectModifier: 0.2 # Mono edit
       reflects:
         - Energy
@@ -456,7 +456,7 @@
       startingCharge: 60
     - type: BatterySelfRecharger
       autoRecharge: true
-      autoRechargeRate: 5
+      autoRechargeRate: 1.5 # Aurum 5 to 1.5
     - type: RechargeableBlocking
       # WD EDIT END
 

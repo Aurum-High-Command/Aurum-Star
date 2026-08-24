@@ -119,6 +119,7 @@
     dynamicPacks:
     - NFSalvageTechfabDeprecated
     - NFPouches # Aurum
+    - Mining # Aurum - Salvage fab, look inside, NO MINING TOOLS.
   - type: EmagLatheRecipes
     emagStaticPacks:
     - NFSalvageTechfabDeprecatedEmag
@@ -225,6 +226,8 @@
     - SmartGun #Smart SMG
     # Mono end
     # Aurum Packs
+    - Equipment # Handheld mass scanner, welding mask,
+    - ScienceClothing # Magboots, jumpboots, etc, so
     - SmartLMGs
     - LargeChestRigs
     - NFPouches

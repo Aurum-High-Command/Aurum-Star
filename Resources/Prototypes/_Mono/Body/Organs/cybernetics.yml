@@ -10,9 +10,9 @@
     state: leuko
   - type: Organ
     onAdd:
-    - type: SandevistanUser # This is worse than the mieyo one, because its reverse engineered or something. My secrets are propietary to my company. I mean, the only difference though is that it cools down a little bit slower.
-      loadPerActiveSecond: 3.5
-      loadPerInactiveSecond: -0.15
+    - type: SandevistanUser # This is worse than the SHI one, because its reverse engineered or something. My secrets are propietary to my company. I mean, the only difference though is that it cools down a little bit slower.
+      loadPerActiveSecond: 6
+      loadPerInactiveSecond: -0.55
 
 #- type: entity - Aurum, ts doesnt even work
 #  parent: OrganHumanHeart

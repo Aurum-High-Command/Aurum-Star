@@ -23,13 +23,26 @@
     - Sidearm
   - type: Appearance
   - type: Battery
-    startingCharge: 1500
-    maxCharge: 1500
+    startingCharge: 2500 # Aurum change - Small buff
+    maxCharge: 2500 # Aurum change - Small buff
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 100
     autoRechargePause: true
     autoRechargePauseTime: 15
+  # Aurum Start
+  - type: Gun
+    minAngle: 18
+    maxAngle: 26
+    fireRate: 2
+    burstCooldown: 0.75
+    burstFireRate: 12
+    shotsPerBurst: 3
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - Burst
+  # Aurum End
   - type: MagazineVisuals
     magState: mag
     steps: 1

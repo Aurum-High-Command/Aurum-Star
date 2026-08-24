@@ -173,13 +173,13 @@
       count: 2
       minGroupSize: 1
       maxGroupSize: 1
-    - !type:OreDunGen # turret jumpscare
-      tileMask:
-      - Plating
-      entity: SpawnMobWeaponTurretSyndicate
-      count: 10
-      minGroupSize: 1
-      maxGroupSize: 1
+#    - !type:OreDunGen # Aurum - Commented out: Ilya sneaked these in the pr along with some LESS harmful things but makes 0 sense why a turret's here either way, no other vgroid has this btw.
+#      tileMask:
+#      - Plating
+#      entity: SpawnMobWeaponTurretSyndicate
+#      count: 10
+#      minGroupSize: 1
+#      maxGroupSize: 1
     # Mono - has less
     - !type:EntityTableDunGen
       minCount: 3
