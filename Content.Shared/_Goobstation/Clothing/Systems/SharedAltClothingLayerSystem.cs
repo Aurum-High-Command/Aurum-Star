@@ -3,7 +3,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-using Content.Goobstation.Common.Clothing;
+using Content.Shared._Goobstation.Clothing;
 using Content.Goobstation.Shared.Clothing.Components;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;
