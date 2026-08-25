@@ -1,10 +1,4 @@
-// SPDX-FileCopyrightText: 2025 Aviu00 <aviu00@protonmail.com>
-// SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later
-
-using Content.Shared._Goobstation.Clothing;
-using Content.Goobstation.Shared.Clothing.Components;
+using Content.Shared._Goobstation.Clothing.Components;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;
 using Content.Shared.Inventory.Events;
@@ -12,7 +6,7 @@ using Content.Shared.Item;
 using Content.Shared.Verbs;
 using Robust.Shared.Utility;
 
-namespace Content.Goobstation.Shared.Clothing.Systems;
+namespace Content.Shared._Goobstation.Clothing.Systems;
 
 public sealed class SharedAltClothingLayerSystem : EntitySystem
 {

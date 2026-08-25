@@ -9,7 +9,7 @@ using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
 using Content.Shared.Item;
 
-namespace Content.Goobstation.Client.Clothing.EntitySystems;
+namespace Content.Client._Goobstation.Clothing.EntitySystems;
 
 public sealed class HideClothingLayerClothingSystem : EntitySystem
 {

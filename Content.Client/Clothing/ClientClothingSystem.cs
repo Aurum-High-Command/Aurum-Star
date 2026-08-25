@@ -32,7 +32,7 @@ using System.Linq;
 using System.Numerics;
 using Content.Client.DisplacementMap;
 using Content.Client.Inventory;
-using Content.Shared.Goobstation.Clothing;
+using Content.Shared._Goobstation.Clothing;
 using Content.Shared.Clothing;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;

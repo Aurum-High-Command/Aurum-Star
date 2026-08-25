@@ -200,9 +200,6 @@
   id: MagazineSmartLMG
 
 - type: Tag
-  id: Mask
-
-- type: Tag
   id: GasMask
 
 - type: Tag
