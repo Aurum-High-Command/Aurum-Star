@@ -18,7 +18,7 @@
     viewCircleRadius: 400
     viewCircleCount: 4
     viewCircleSpacing: 260
-    phosphorColor: "#41D7D9"
+    phosphorColor: "#ebc42a" # Aurum - Phosphor color corresponding to visor color for larp value
     lightingColor: "#FFFFFF32"
   - type: PressureProtection
     highPressureMultiplier: 0.08
@@ -94,7 +94,7 @@
     viewCircleRadius: 400
     viewCircleCount: 2
     viewCircleSpacing: 260
-    phosphorColor: "#41D7D9"
+    phosphorColor: "#d1ae26" # Aurum - Phosphor color corresponding to visor color for larp value
     lightingColor: "#FFFFFF32"
   - type: PressureProtection
     highPressureMultiplier: 0.08

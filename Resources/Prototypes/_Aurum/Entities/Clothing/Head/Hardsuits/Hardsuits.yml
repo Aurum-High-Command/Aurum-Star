@@ -26,8 +26,8 @@
     viewCircleRadius: 400
     viewCircleCount: 1
     viewCircleSpacing: 280
-    phosphorColor: "#00FF00"
-    lightingColor: "#FFFFFF32"
+    phosphorColor: "#eeeeee"
+    lightingColor: "#ffffff44"
   - type: HideLayerClothing
     slots:
     - Hair

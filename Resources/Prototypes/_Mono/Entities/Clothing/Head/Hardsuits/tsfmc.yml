@@ -19,7 +19,7 @@
     viewCircleRadius: 400
     viewCircleCount: 2
     viewCircleSpacing: 280
-    phosphorColor: "#00FF00"
+    phosphorColor: "#5ea3d2" # Aurum - Phosphor color corresponding to visor color for larp value
     lightingColor: "#FFFFFF32"
   - type: Armor
     modifiers:
@@ -56,7 +56,7 @@
     viewCircleCount: 4
     viewCircleSpacing: 280
     action: ActionToggleNightVision
-    phosphorColor: "#00FF00"
+    phosphorColor: "#57d9c9" # Aurum - Phosphor color corresponding to visor color for larp value
     lightingColor: "#FFFFFF32"
   - type: Armor
     modifiers:
@@ -112,8 +112,8 @@
     viewCircleRadius: 450
     viewCircleCount: 2
     viewCircleSpacing: 280
-    phosphorColor: "#00FF00"
-    lightingColor: "#FFFFFF32"
+    phosphorColor: "#3a3d43" # Aurum - Phosphor color corresponding to visor color for larp value
+    lightingColor: "#dfdada31"
   - type: Armor
     modifiers:
       coefficients:
