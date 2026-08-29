@@ -1,6 +1,6 @@
 - type: entity
-  id: ToggleNightVision
-  name: WWDPToggleNightVision
+  id: WWDPToggleNightVision
+  name: ToggleNightVision
   description: Toggles night vision.
   categories: [ HideSpawnMenu ]
   components:
