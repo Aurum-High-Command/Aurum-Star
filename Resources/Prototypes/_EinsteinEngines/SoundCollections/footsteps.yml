@@ -1,0 +1,14 @@
+- type: soundCollection
+  id: FootstepHardsuitLight
+  files:
+  - /Audio/_EinsteinEngines/Effects/Footsteps/tacsuit_step_01.ogg
+
+- type: soundCollection
+  id: FootstepHardsuitMedium
+  files:
+  - /Audio/_EinsteinEngines/Effects/Footsteps/tacsuit_step_02.ogg
+
+- type: soundCollection
+  id: FootstepHardsuitHeavy
+  files:
+  - /Audio/_EinsteinEngines/Effects/Footsteps/tacsuit_step_00.ogg
