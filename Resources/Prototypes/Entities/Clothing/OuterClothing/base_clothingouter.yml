@@ -201,9 +201,9 @@
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepHardsuitLight
-  - type: Clothing # We'll start with like 2.5 seconds tbh and we'll see if people like it or want it tweaked.
-    equipDelay: 2.5 # Hardsuits are heavy and take a while to put on/off.
-    unequipDelay: 2.5
+  - type: Clothing # We'll start with like 1.5 seconds tbh and we'll see if people like it or want it tweaked.
+    equipDelay: 1.5 # Hardsuits are heavy and take a while to put on/off.
+    unequipDelay: 1.5
 
 - type: entity
   abstract: true

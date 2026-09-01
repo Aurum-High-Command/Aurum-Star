@@ -868,8 +868,8 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
     # Aurum changes start
-    equipDelay: 5.5 # MY ASS. IS. HEAVY.
-    unequipDelay: 5.5
+    equipDelay: 3.5 # MY ASS. IS. HEAVY.
+    unequipDelay: 3.5
     # Aurum changes end
   - type: PressureProtection
     highPressureMultiplier: 0.2
