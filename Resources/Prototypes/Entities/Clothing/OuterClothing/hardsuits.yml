@@ -1130,6 +1130,9 @@
   # Aurum change - CentComm shit is valuable now
   - type: StaticPrice
     price: 23500
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 
 #ERT Medic Hardsuit
