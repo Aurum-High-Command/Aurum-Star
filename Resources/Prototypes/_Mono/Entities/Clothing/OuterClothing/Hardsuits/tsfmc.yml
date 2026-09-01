@@ -135,6 +135,10 @@
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/tsfmc_colonel.rsi # Mono
   - type: Clothing
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/tsfmc_colonel.rsi # Mono
+    # Aurum changes start
+    equipDelay: 5.5 # MY ASS. IS. HEAVY.
+    unequipDelay: 5.5
+    # Aurum changes end
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     requiredSlot: outerclothing
     blockUnequipWhenAttached: false
@@ -179,6 +183,10 @@
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/tsfmc_experimental.rsi # Mono
   - type: Clothing
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/tsfmc_experimental.rsi # Mono
+    # Aurum changes start
+    equipDelay: 5.5 # MY ASS. IS. HEAVY.
+    unequipDelay: 5.5
+    # Aurum changes end
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     requiredSlot: outerclothing
     blockUnequipWhenAttached: false

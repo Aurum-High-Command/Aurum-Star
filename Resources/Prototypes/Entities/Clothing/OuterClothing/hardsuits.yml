@@ -867,6 +867,10 @@
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
+    # Aurum changes start
+    equipDelay: 5.5 # MY ASS. IS. HEAVY.
+    unequipDelay: 5.5
+    # Aurum changes end
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
@@ -1255,6 +1259,9 @@
   # Aurum change - CentComm shit is valuable now
   - type: StaticPrice
     price: 80000
+  - type: FootstepModifier # Aurum
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
 
 #CBURN Hardsuit
 - type: entity
