@@ -38,6 +38,10 @@
     id: ClothingOuterHardsuitTacsuit
   - type: StaminaDamageResistance
     coefficient: 0.6
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 # SCAF hardsuit
 - type: entity
@@ -80,3 +84,7 @@
     id: ClothingOuterHardsuitTacsuitHighValue
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.45
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium

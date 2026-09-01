@@ -272,3 +272,7 @@
     vendPrice: 25000
   - type: PirateBountyItem # Mono
     id: ClothingOuterHardsuitTacsuitHighValue
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium

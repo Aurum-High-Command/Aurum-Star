@@ -42,6 +42,10 @@
       head:  ClothingHeadHelmetHardsuitChronolegioneer
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitHeavy
 
 - type: entity
   parent: ClothingOuterHardsuitChronolegioneer
@@ -95,3 +99,6 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+  # Aurum addition
+  - type: FootstepModifier
+    footstepSoundCollection: null # Stealth suit, should be silent.

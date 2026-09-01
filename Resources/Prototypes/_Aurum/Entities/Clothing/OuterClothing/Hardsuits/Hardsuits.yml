@@ -37,3 +37,6 @@
       helmetattachment: ClothingHeadHelmetAttachmentBlock
   - type: StaminaDamageResistance
     coefficient: 0.6
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight

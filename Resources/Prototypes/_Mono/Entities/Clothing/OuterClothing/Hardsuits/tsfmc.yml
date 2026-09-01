@@ -41,6 +41,10 @@
   - type: StaticPrice
     price: 5000
     vendPrice: 7500
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 - type: entity
   parent: [ ClothingOuterHardsuitM82c, BaseFactionGearTSFT2 ]
@@ -67,6 +71,10 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.95
     sprintModifier: 0.95
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseFactionGearTSFT3]
@@ -112,6 +120,10 @@
   - type: StaticPrice
     price: 7500
     vendPrice: 1000
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
@@ -152,6 +164,10 @@
     coefficient: 0.35
   - type: PirateBountyItem # Mono
     id: ClothingOuterHardsuitTacsuitHighValue
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitHeavy
 
 - type: entity
   parent: [ClothingOuterHardsuitJuggernaut, EnergyShieldClothing, BaseFactionGearTSFT3 ] # Jugger Suit
@@ -228,6 +244,10 @@
   - type: RechargeableBlocking
   - type: UseDelay
     delay: 10
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitHeavy
 
 # MARSOC only
 
