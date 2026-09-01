@@ -1,13 +1,4 @@
 # Mono
-- files: ["scp_isd.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Made by PurpleJester"
-  source: "https://www.youtube.com/watch?v=J_JXKZvLi3Q"
-
-- files: ["when_day_breaks.ogg"]
-  license: "Custom"
-  copyright: "Camelidea"
-  source: "https://www.youtube.com/watch?v=mT79R_3mrkc"
 
 - files: ["bucsi_singularity.ogg"]
   license: "CC-BY-NC-SA-3.0"
@@ -34,22 +25,27 @@
   copyright: "Absconditus by ZhayTee. Converted from MP3 to OGG."
   source: "https://bandcamp.zhaytee.net/track/absconditus"
 
-- files: ["in_amber_clad.ogg"]
+- files: ["nightcall.ogg"]
   license: "Custom"
-  copyright: "In Amber Clad by Michael Salvatori and Martin O'Donnell. ℗ Microsoft Corporation, utilized under fair use. Converted from MP3 to OGG. "
-  source: "https://www.youtube.com/watch?v=mVDMTVIjrME"
-
-- files: ["at_any_cost.ogg"]
+  copyright: "Synthc4t"
+  source: "https://soundcloud.com/nightmarecorpstarstriker/nightcall"
+  
+- files: ["galaxies.ogg"]
   license: "Custom"
-  copyright: "At Any Cost by Michael Salvatori and Martin O'Donnell. ℗ Microsoft Corporation, utilized under fair use. Converted from MP3 to OGG. "
-  source: "https://www.youtube.com/watch?v=rjIF_M3hjtE"
-
-- files: ["a_walk_in_the_woods.ogg"]
+  copyright: "Synthc4t"
+  source: "https://soundcloud.com/nightmarecorpstarstriker/galaxies"
+  
+- files: ["focus.ogg"]
   license: "Custom"
-  copyright: "A Walk In The Woods by Michael Salvatori and Martin O'Donnell. ℗ Microsoft Corporation, utilized under fair use. Converted from MP3 to OGG. "
-  source: "https://www.youtube.com/watch?v=vDVDwgCQ6Qo"
-
-- files: ["brothers_in_arms.ogg"]
+  copyright: "Synthc4t"
+  source: "https://soundcloud.com/nightmarecorpstarstriker/focus"
+  
+- files: ["drive.ogg"]
   license: "Custom"
-  copyright: "Brothers In Arms by Michael Salvatori and Martin O'Donnell. ℗ Microsoft Corporation, utilized under fair use. Converted from MP3 to OGG. "
-  source: "https://www.youtube.com/watch?v=o6K1z2neEdo"
+  copyright: "Synthc4t"
+  source: "https://soundcloud.com/nightmarecorpstarstriker/drive"
+  
+- files: ["calamity.ogg"]
+  license: "Custom"
+  copyright: "Synthc4t"
+  source: "https://soundcloud.com/nightmarecorpstarstriker/calamity"
