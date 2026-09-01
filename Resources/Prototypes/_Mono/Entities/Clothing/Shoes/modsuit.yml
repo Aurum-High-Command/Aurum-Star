@@ -16,6 +16,10 @@
       - state: equipped-FEET-sealed-vox
   - type: ClothingSlowOnDamageModifier
     modifier: 0.75
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -35,6 +39,10 @@
       - state: equipped-FEET-sealed-vox
   - type: ClothingSlowOnDamageModifier
     modifier: 0.75
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -58,6 +66,10 @@
       - state: equipped-FEET-sealed-vox
   - type: ClothingSlowOnDamageModifier
     modifier: 0.75
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight
 
 # Volta
 - type: entity
@@ -82,6 +94,10 @@
       - state: equipped-FEET-sealed-vox
   - type: ClothingSlowOnDamageModifier
     modifier: 0.75
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight
 
 # Gallóglach
 - type: entity
@@ -113,3 +129,7 @@
       - state: equipped-FEET-sealed
       shoes-vox:
       - state: equipped-FEET-sealed-vox
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight

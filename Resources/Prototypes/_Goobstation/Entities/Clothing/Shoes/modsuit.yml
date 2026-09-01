@@ -52,6 +52,9 @@
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Modsuits/standard.rsi
+  - type: FootstepModifier # Aurum Addition
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -71,6 +74,9 @@
       - state: equipped-FEET-sealed-vox
   - type: ClothingSlowOnDamageModifier # Mono
     modifier: 0.75
+  - type: FootstepModifier # Aurum Addition
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -113,7 +119,7 @@
     jumpSound: /Audio/Effects/Footsteps/suitstep2.ogg
   - type: ActionGrant
     actions:
-    - ActionGravityJump 
+    - ActionGravityJump
   - type: ItemActionGrant
     actions:
     - ActionGravityJump
@@ -126,6 +132,9 @@
       - state: equipped-FEET-sealed-vox
   - type: ClothingSlowOnDamageModifier # Mono
     modifier: 0.75
+  - type: FootstepModifier # Aurum Addition
+    footstepSoundCollection:
+      collection: FootstepHardsuitHeavy
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -143,6 +152,9 @@
       - state: equipped-FEET-sealed
       shoes-vox:
       - state: equipped-FEET-sealed-vox
+  - type: FootstepModifier # Aurum Addition
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -160,6 +172,9 @@
       - state: equipped-FEET-sealed
       shoes-vox:
       - state: equipped-FEET-sealed-vox
+  - type: FootstepModifier # Aurum Addition
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -177,6 +192,9 @@
       - state: equipped-FEET-sealed
       shoes-vox:
       - state: equipped-FEET-sealed-vox
+  - type: FootstepModifier # Aurum Addition
+    footstepSoundCollection:
+      collection: FootstepHardsuitLight
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -194,6 +212,9 @@
       - state: equipped-FEET-sealed
       shoes-vox:
       - state: equipped-FEET-sealed-vox
+  - type: FootstepModifier # Aurum Addition
+    footstepSoundCollection:
+      collection: FootstepHardsuitHeavy
 
 - type: entity
   parent: ClothingModsuitBootsBase
@@ -213,3 +234,6 @@
       - state: equipped-FEET-sealed-vox
   - type: ClothingSlowOnDamageModifier # Mono
     modifier: 0.75
+  - type: FootstepModifier # Aurum Addition
+    footstepSoundCollection:
+      collection: FootstepHardsuitHeavy

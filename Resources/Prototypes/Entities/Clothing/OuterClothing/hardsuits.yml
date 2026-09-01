@@ -205,6 +205,10 @@
       head: ClothingHeadHelmetHardsuitSalvage
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 #Goliath Hardsuit
 - type: entity
@@ -248,6 +252,10 @@
     node: hardsuitGoliath
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.45
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 #Maxim Hardsuit
 - type: entity
@@ -328,6 +336,10 @@
       head: ClothingHeadHelmetHardsuitSecurity
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 #Brigmedic Hardsuit
 - type: entity
@@ -404,6 +416,10 @@
       head: ClothingHeadHelmetHardsuitWarden
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 #Captain's Hardsuit
 - type: entity
@@ -577,6 +593,10 @@
     id: ClothingOuterHardsuitRd # Frontier
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.4
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitHeavy
 
 #Head of Security's Hardsuit
 - type: entity
@@ -617,6 +637,10 @@
       head: ClothingHeadHelmetHardsuitSecurityRed
       helmetcover: ClothingHeadHelmetCoverBlock
       helmetattachment: ClothingHeadHelmetAttachmentBlock
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 #Luxury Mining Hardsuit
 - type: entity
@@ -814,8 +838,8 @@
         Radiation: 0.25
         Caustic: 0.4
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 0.8 # Aurum - 1 -> 0.8
+    sprintModifier: 0.75 # Aurum - 1 -> 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     requiredSlot: outerclothing
@@ -827,6 +851,10 @@
       helmetattachment: ClothingHeadHelmetAttachmentBlock
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.3
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 #Cybersun Juggernaut Hardsuit
 - type: entity
@@ -839,6 +867,10 @@
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
+    # Aurum changes start
+    equipDelay: 3.5 # MY ASS. IS. HEAVY.
+    unequipDelay: 3.5
+    # Aurum changes end
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
@@ -870,6 +902,9 @@
       helmetattachment: ClothingHeadHelmetAttachmentBlock
   - type: StaminaDamageResistance # Mono - Stamres
     coefficient: 0.4
+  - type: FootstepModifier # Mono
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
 
 #Wizard Hardsuit
 - type: entity
@@ -1099,6 +1134,9 @@
   # Aurum change - CentComm shit is valuable now
   - type: StaticPrice
     price: 23500
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 
 #ERT Medic Hardsuit
@@ -1221,6 +1259,9 @@
   # Aurum change - CentComm shit is valuable now
   - type: StaticPrice
     price: 80000
+  - type: FootstepModifier # Aurum
+    footstepSoundCollection:
+      path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
 
 #CBURN Hardsuit
 - type: entity

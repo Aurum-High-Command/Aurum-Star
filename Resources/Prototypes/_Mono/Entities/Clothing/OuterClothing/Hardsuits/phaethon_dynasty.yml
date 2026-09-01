@@ -44,6 +44,10 @@
   - type: Tag  # Mono
     tags:
     - RogueHardsuit
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 - type: entity
   parent: [ ClothingOuterHardsuitSyndie, BaseFactionGearPDVT2 ]
@@ -66,6 +70,10 @@
   - type: Tag
     tags:
     - RogueHardsuit
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitMedium
 
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseFactionGearPDVT2 ]
@@ -135,6 +143,10 @@
   - type: Tag
     tags:
     - RogueHardsuit
+  # Aurum Addition
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHardsuitHeavy
 
 - type: entity
   parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
