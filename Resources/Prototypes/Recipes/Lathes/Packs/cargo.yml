@@ -22,6 +22,8 @@
   - MineralScannerEmpty
   - AdvancedMineralScannerEmpty
   - OreBagOfHolding
+  - ToolsHeavyMiningLaserRecipe # Aurum
+  - ToolsConcussiveGlovesRecipe # Aurum
 
 - type: latheRecipePack
   id: CargoBoards

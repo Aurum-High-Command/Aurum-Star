@@ -214,7 +214,7 @@
   - ShipRepairDevice
   - ShipRepairDeviceAmmo
   - NFBlueprintRCDAmmo
-  # Mono edit end 
+  # Mono edit end
   technologyPrerequisites:
   - SuperParts
   position: -1, 18
@@ -235,6 +235,8 @@
   - NFBlueprintAdvancedMineralScannerEmpty # Frontier
   - BorgModuleAdvancedMining # Frontier
   - MechEquipmentDrillDiamond
+  - ToolsConcussiveGlovesRecipe # Aurum
+  - ToolsHeavyMiningLaserRecipe # Aurum
   technologyPrerequisites:
   - SalvageEquipment
   - AdvancedParts
