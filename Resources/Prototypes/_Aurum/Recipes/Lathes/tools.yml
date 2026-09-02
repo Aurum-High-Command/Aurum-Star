@@ -1,0 +1,20 @@
+﻿- type: latheRecipe
+  id: ToolsConcussiveGlovesRecipe
+  parent: MiningDrill
+  result: ClothingHandsConcussiveGauntlets
+  materials:
+    Steel: 1500
+    Plasteel: 200
+    Plastic: 1500
+    Plasma: 500
+
+- type: latheRecipe
+  id: ToolsHeavyMiningLaserRecipe
+  parent: MiningDrill
+  result: WeaponHeavyMiningLaser
+  materials:
+    Steel: 2500
+    Plasteel: 2000
+    Plastic: 2000
+    Plasma: 1500
+
