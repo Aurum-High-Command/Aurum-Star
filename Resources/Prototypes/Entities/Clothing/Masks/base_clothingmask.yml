@@ -18,6 +18,11 @@
   - type: EmitSoundOnDrop
     sound:
       path: /Audio/_Goobstation/Items/handling/generic_small_drop.ogg
+  - type: AltClothingLayer
+    defaultLayer: mask
+    altLayer: maskalt
+    changeToAltMessage: alt-clothing-component-mask-alt
+    changeToDefaultMessage: alt-clothing-component-mask-default
   # Goobstation edit end
   - type: StaticPrice
     price: 25
