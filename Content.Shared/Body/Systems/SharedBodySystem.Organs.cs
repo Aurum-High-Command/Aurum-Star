@@ -10,6 +10,8 @@ using Robust.Shared.Containers;
 using Content.Shared.Damage;
 using Content.Shared._Shitmed.BodyEffects;
 using Content.Shared._Shitmed.Body.Organ;
+using Content.Shared.Tag; // Aurum Edit
+using Robust.Shared.Prototypes; // Aurum Edit
 
 namespace Content.Shared.Body.Systems;
 
@@ -306,12 +308,12 @@ public partial class SharedBodySystem
         if (!TryComp(organEnt.Comp.Body, out BodyComponent? body))
             return;
 
+        // Aurum - Skill issue.
         // I hate having to hardcode these checks so much.
-        if (HasComp<EyesComponent>(organEnt))
-        {
-            var ev = new OrganDisabledEvent(organEnt);
-            RaiseLocalEvent(organEnt, ref ev);
-        }
+        //if (!HasComp<EyesComponent>(organEnt))
+        //    return;
+        var ev = new OrganDisabledEvent(organEnt);
+        RaiseLocalEvent(organEnt, ref ev);
     }
 
     // Shitmed Change End
