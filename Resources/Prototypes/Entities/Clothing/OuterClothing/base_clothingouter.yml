@@ -192,6 +192,9 @@
       path: /Audio/_Goobstation/Items/handling/backpack_drop.ogg
       params:
         volume: -4
+  - type: HideClothingLayerClothing
+    hiddenSlots:
+    - jumpsuit
   # Goobstation edit end
   - type: HarpyHideWings # Frontier, needed for Harpies
   - type: StaticPrice # Frontier
@@ -230,6 +233,9 @@
       flatReductions:
         Heat: 10 # the average lightbulb only does around four damage!
     slots: OUTERCLOTHING
+  - type: HideClothingLayerClothing # Goobstation
+    hiddenSlots:
+    - jumpsuit
 #  - type: PhysicalComposition # Frontier
 #    materialComposition: # Frontier
 #      Durathread: 100 # Frontier
