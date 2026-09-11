@@ -1,3 +1,4 @@
+using Content.Server._Shitmed.DelayedDeath; // Aurum
 using Content.Server.Atmos.Rotting;
 using Content.Server.Chat.Systems;
 using Content.Server.DoAfter;
@@ -110,6 +111,9 @@ public sealed class DefibrillatorSystem : EntitySystem
 
         if (!_powerCell.HasActivatableCharge(uid, user: user))
             return false;
+
+        if (TryComp<DelayedDeathComponent>(target, out var deathComp) && deathComp.FromHeartFailure) // Aurum
+            return true;
 
         if (!targetCanBeAlive && _mobState.IsAlive(target, mobState))
             return false;
