@@ -274,7 +274,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: vulp
     - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp-fade
@@ -285,7 +285,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: vulp
     - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp-tip
@@ -296,7 +296,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: vulp_wag
     - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag-tip #fade
@@ -307,7 +307,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: vulp_wag
     - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_wag-tip
@@ -318,7 +318,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: vulp_alt
     - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt-fade
@@ -329,7 +329,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: vulp_alt
     - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp_alt-tip
@@ -340,7 +340,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: long
     - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: long-tip
@@ -351,9 +351,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox-fade
 
 - type: marking
@@ -362,9 +362,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox-tip
 
 - type: marking
@@ -373,9 +373,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox_wag
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox_wag-fade
 
 - type: marking
@@ -384,9 +384,9 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox_wag
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox_wag-tip
 
 - type: marking
@@ -460,7 +460,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox2
 
 - type: marking
@@ -469,7 +469,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fox3
     - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fox3-tip
@@ -489,7 +489,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: otie
 
 - type: marking
@@ -498,7 +498,7 @@
   markingCategory: Tail
   speciesRestriction: [Vulpkanin, Felinid]
   sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/tail_markings.rsi
+    - sprite: _Omu/Mobs/Customization/Vulpkanin/tails-digi.rsi # Omu, vulp furrification
       state: fluffy
 
 - type: marking
