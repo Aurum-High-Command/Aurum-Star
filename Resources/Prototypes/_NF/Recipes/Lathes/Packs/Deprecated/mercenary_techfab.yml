@@ -98,6 +98,7 @@
   ## Cyborg Modules
   - BorgModuleMercenary # mono
 
+
 - type: latheRecipePack
   id: NFMercenaryTechfabDeprecated
   recipes:
@@ -205,6 +206,8 @@
   - UllmanWeaponPulseRifle
   - UllmanWeaponPulseSniper
   - UllmanMeleePlasmaBlade
+  ## LPC
+  - BalorDroneVoucherMerc
 #Mono end
 
 - type: latheRecipePack
