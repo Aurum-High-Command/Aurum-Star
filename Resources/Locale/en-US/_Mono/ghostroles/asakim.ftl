@@ -1,5 +1,5 @@
 ghost-role-information-asakim-name = Asakim Warrior
-ghost-role-information-asakim-description = A pre-corporate war genetically and cybernetically enhanced super soldier, stranded in the sector after cryostasis failure.
+ghost-role-information-asakim-description = A pre-War genetically and cybernetically enhanced super soldier, stranded in the sector after cryostasis failure.
 ghost-role-information-asakim-rules = You are an [color=#05e6ff][bold]Asakim[/bold][/color], a genetically engineered super soldier, awoken in deep space after a random cryostasis failure. It has been centuries since your last mission. Your allies are other Asakim warriors and the [color=#00CCFF]ADS fleet[/color].
                                              Your objectives are to [color=red]claim territory (POIs)[/bold][/color], protect it from hostile forces, and maintain your technological supremacy.
 

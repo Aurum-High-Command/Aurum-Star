@@ -741,7 +741,7 @@
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier4HP
   suffix: ADS ONLY
-  description: A terrifying weapon to have aimed at you, the Reaper is an ancient piece of pre-fracture tech capable of shattering the strongest of hulls within one or two blasts.
+  description: A terrifying weapon to have aimed at you, the Reaper is an ancient piece of pre-war tech capable of shattering the strongest of hulls within one or two blasts. # Aurum Lore change
   components:
   - type: StaticPrice
     price: 1500000
@@ -1106,7 +1106,7 @@
   - BallisticArtillery
   - BallisticArtilleryTier2HP
   suffix: ADS ONLY
-  description: A unique pre-fracture weapon, the Flayer fires a storm of tungsten alloy darts at near the speed of light, barraging targets to pieces.
+  description: A unique pre-war weapon, the Flayer fires a storm of tungsten alloy darts at near the speed of light, barraging targets to pieces. # Aurum Lore change
   components:
   - type: StaticPrice
     price: 25000

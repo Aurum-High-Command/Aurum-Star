@@ -142,7 +142,7 @@
 - type: entity
   parent: ClothingBeltBaseCloneProjector
   id: ClothingBeltGeminiHoloProjector
-  name: ax-32 "gemini" holo-projector rig
+  name: NT-32 "gemini" holo-projector rig # Aurum - Lore changes
   description: A highly advanced holo-projector rig that interfaces directly with the users spinal cord to generate an exact copy of them. Truly a marvel of Nanotrasen technology.
   components:
   - type: Sprite

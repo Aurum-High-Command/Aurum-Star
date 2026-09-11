@@ -7,7 +7,7 @@ station-event-ai-capital-detected = Capital Class dilapidated combat vessel dete
 station-event-chimera-shuttle-detected = Unidentified vessel detected near local space. Caution is advised.
 
 # asakim ship spawns
-station-event-asakim-shuttle-detected = Unidentified Pre-Corporate War vessel detected near local space. Caution is advised.
+station-event-asakim-shuttle-detected = Unidentified Pre-War vessel detected near local space. Caution is advised.
 
 # redacted AI ship borg stuff
 

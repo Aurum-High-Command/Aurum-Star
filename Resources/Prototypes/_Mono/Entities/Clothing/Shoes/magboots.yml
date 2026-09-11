@@ -25,7 +25,7 @@
 - type: entity
   parent: [ ClothingShoesBootsMagAdv, BaseFactionGearOtherFactionT2 ]
   id: ClothingShoesBootsMagAsakim
-  name: pre-fracture magboots
+  name: pre-war magboots # Aurum Lore change
   description: State-of-the-art magnetic boots made for combat with advanced harnesses.
   components:
   - type: FootstepModifier

@@ -212,8 +212,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetHeadOfSecurity
-  name: bulwark modsuit helmet
-  description: Put on the HEAD of security.. How do you see out of this thing?
+  name: SHI-NT "Bulwark" modsuit helmet # Aurum - Lore Changes
+  description: The distinctive helmet of the Bulwark modsuit, possessing a three-dot visor display. Pretty techy. # Aurum - Lore Changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Clothing
@@ -279,7 +279,7 @@
 - type: entity
   parent: BaseClothingModsuitHelmetHideIdentity
   id: ClothingModsuitHelmetParamedic
-  name: sanitater modsuit helmet
+  name: IP "Sanitater" modsuit helmet # Aurum - Lore changes
   description: A robust brain bucket for working on barely salvageable brains.
   categories: [ HideSpawnMenu ]
   components:
@@ -329,8 +329,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetEngineer
-  name: sapper modsuit helmet
-  description: A flat plate with cameras allowing your vision. turns you into an aero-cuck, but not like that matters in space.
+  name: NE-C "Volta" modsuit helmet # Aurum - Lore changes
+  description: A flat plate modsuit helm with cameras allowing your vision. Doesn't come with a engineering degree. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -379,8 +379,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetAtmostech
-  name: aeolus modsuit helmet
-  description: A specialised gas helmet to provide oxygen more efficiently.
+  name: NE-A "Phaeton" modsuit helmet # Aurum - Lore changes
+  description: A rather simple modsuit helmet designed to work in extreme atmospheric enviroments. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -446,8 +446,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetResearchDirector
-  name: minerva modsuit helmet
-  description: A dark dark dark visor protecting your precious face from shrap and blast.
+  name: SHI-NT "Minerva" modsuit helmet # Aurum - Lore changes
+  description: A dark purple helmet designed to protect you from shrapnel and explosions. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -496,8 +496,8 @@
 - type: entity
   parent: BaseClothingModsuitHelmet
   id: ClothingModsuitHelmetCaptain
-  name: magnate modsuit helmet
-  description: The visor is made from 10,000 year old amythest.
+  name: NT "Magnate" modsuit helmet # Aurum - Lore changes
+  description: The visor was supposedly designed with amethyst gems and high quality plating, this was eventually replaced with lower quality versions over the time. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Clothing

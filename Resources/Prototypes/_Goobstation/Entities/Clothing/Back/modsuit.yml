@@ -5,7 +5,7 @@
   abstract: true
   parent: [ Clothing, ContentsExplosionResistanceBase ]
   id: ClothingModsuitBase
-  name: modsuit hardsuit unit
+  name: modsuit unit # Aurum - MODSUIT HARDSUIT UNIT? WHAT
   description: A special modular suit contol unit containing all necessary modular hardsuit parts.
   components:
   - type: Appearance
@@ -78,7 +78,7 @@
 - type: entity
   parent: ClothingModsuitBase
   id: ClothingModsuitStandard
-  name: standard modsuit hardsuit unit
+  name: standard modsuit unit # Aurum - Says modsuit, proceeds to add hardsuit, an iq too high?
   description: A special modular suit contol unit containing all necessary modular hardsuit parts.
   components:
   - type: Sprite
@@ -110,8 +110,8 @@
 - type: entity
   parent: ClothingModsuitBase
   id: ClothingModsuitSecurity
-  name: security soldat hardsuit control unit
-  description: A robust modular hardsuit control module unit for thrashing commies in spess.
+  name: SHI-NT "Soldat" modsuit control unit # Aurum - Lore changes
+  description: A standard modsuit control unit, once used by Nanotrasen security forces before the war occurred, nowadays a standard model still in production by Shoko Heavy Industries. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Modsuits/security.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: ClothingModsuitBase
   id: ClothingModsuitHeadOfSecurity
-  name: head of security's bulwark hardsuit control unit
-  description: A robust modular HARDERsuit control module unit for the head of security.
+  name: SHI-NT "Bulwark" modsuit control unit # Aurum - Lore changes
+  description: A modsuit control unit that was once reserved for important security figures back in the pre-war days. Like the "Soldat" modular suit, the model became public after Nanotrasen went semi-bankrupt after the war. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Modsuits/headofsecurity.rsi
@@ -224,8 +224,8 @@
 - type: entity
   parent: ClothingModsuitBase
   id: ClothingModsuitParamedic
-  name: sanitater hardsuit control unit
-  description: A modular hardsuit control module unit for paramedics.
+  name: IP "Sanitater" modsuit control unit # Aurum - Lore changes
+  description: A modular suit control unit produced by Interdyne Pharmaceuticals, well known for being lightweight and the first pick of most Medical Dispatch employees. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Modsuits/paramedic.rsi
@@ -260,8 +260,8 @@
 - type: entity
   parent: ClothingModsuitBase
   id: ClothingModsuitEngineer
-  name: engineer sapper hardsuit control unit
-  description: A  modular hardsuit control module unit for withstanding the greatest hazards on the job.
+  name: NE-C "Volta" modsuit control unit # Aurum - Lore changes
+  description: Modular suit control unit developed by Nakamura Engineering, being the image of Nakamura's suit production line due to being the first one to be released to the public. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Modsuits/engineer.rsi
@@ -299,8 +299,8 @@
 - type: entity
   parent: ClothingModsuitBase
   id: ClothingModsuitAtmostech
-  name: atmospheric technician aeolus hardsuit control unit
-  description: A  modular hardsuit control module unit for withstanding the greatest hazards on the job.
+  name: NE-A "Phaeton" modsuit control unit # Aurum - Lore changes
+  description: A modular suit control unit made to withstand extreme atmospheric conditions, due to its focus on engineering tasks it is less resistant to bullets and similar hazards. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Modsuits/atmostech.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: ClothingModsuitBase
   id: ClothingModsuitResearchDirector
-  name: RD's minerva hardsuit control unit
-  description: A  modular hardsuit control module unit for withstanding another shuttlebomb.
+  name: SHI-NT "Minerva" modsuit control unit # Aurum - Lore changes
+  description: A modular suit control unit designed by Nanotrasen in a contract with Shoko Heavy Industries, being designed for extreme research enviroments and dangerous atmospheric conditions. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Modsuits/researchdirector.rsi
@@ -372,8 +372,8 @@
 - type: entity
   parent: ClothingModsuitBase
   id: ClothingModsuitCaptain
-  name: captain's magnate hardsuit control unit
-  description: A gem encrysted, mirror shined and absolutely MAGNATE armored hardsuit, the cooling fluid is dragons blood watered down with dr gibb. This shit is nothing to you, man.
+  name: NT "Magnate" modsuit control unit # Aurum - Lore changes
+  description: A Nanotrasen original, designed for both captains of their fleets and their once active research stations. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Back/Modsuits/captain.rsi

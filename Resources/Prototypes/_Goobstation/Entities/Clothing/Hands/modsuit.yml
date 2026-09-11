@@ -47,7 +47,7 @@
 - type: entity
   parent: ClothingModsuitGauntletsBase
   id: ClothingModsuitGauntletsSecurity
-  name: soldat modsuit gauntlets
+  name: SHI-NT "Soldat" modsuit gauntlets # Aurum - Lore changes
   description: Robust modular suit gloves for gripping perps and guns tight. Equiped with a pair of 12 gauge knuckledusters.
   categories: [ HideSpawnMenu ]
   components:
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsBase
   id: ClothingModsuitGauntletsParamedic
-  name: sanitater modsuit gauntlets
-  description: Black and white modular suit gloves for gripping percs and patients tight. Insulated.
+  name: IP "Sanitater" modsuit gauntlets # Aurum - Lore changes
+  description: Black and white modular suit gloves, sanitized and insulated. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -128,8 +128,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsBase
   id: ClothingModsuitGauntletsHeadOfSecurity
-  name: bulwark modsuit gauntlets
-  description: Robust modular suit gloves for gripping perps and guns tight. Equiped with a pair of 4 gauge knuckledusters.
+  name: SHI-NT "Bulwark" modsuit gauntlets # Aurum - Lore changes
+  description: Robust modular suit gloves designed to keep a tight grip on weapons. Equiped with a pair of 4 gauge knuckledusters. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -179,7 +179,7 @@
 - type: entity
   parent: ClothingModsuitGauntletsBase
   id: ClothingModsuitGauntletsEngineer
-  name: sapper modsuit gauntlets
+  name: NE-C "Volta" modsuit gauntlets # Aurum - Lore changes
   description: Oil stained modular suit gloves for easily pushing buttons on an RCD.
   categories: [ HideSpawnMenu ]
   components:
@@ -199,7 +199,7 @@
 - type: entity
   parent: ClothingModsuitGauntletsBase
   id: ClothingModsuitGauntletsAtmostech
-  name: aeolus modsuit gauntlets
+  name: NE-A "Phaeton" modsuit gauntlets # Aurum - Lore changes
   description: Asbestos-lined modular suit gloves for easily pushing buttons on an RPD.
   categories: [ HideSpawnMenu ]
   components:
@@ -219,7 +219,7 @@
 - type: entity
   parent: ClothingModsuitGauntletsBase
   id: ClothingModsuitGauntletsResearchDirector
-  name: minerva modsuit gauntlets
+  name: SHI-NT "Minerva" modsuit gauntlets # Aurum - Lore changes
   description: For keeping your digits at 10 after the artifact goes thermonuclear on you.
   categories: [ HideSpawnMenu ]
   components:
@@ -237,8 +237,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsBase
   id: ClothingModsuitGauntletsCaptain
-  name: magnate modsuit gauntlets
-  description: Has specialised grooves and cuts for holding dat fukn diiisskk easier.
+  name: NT "Magnate" modsuit gauntlets # Aurum - Lore changes
+  description: Designed to keep your grip steady so you can hold that beer bottle while driving through an asteroid. # Aurum - Totally lore changes.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -62,7 +62,7 @@
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier3HP
-  description: An odd weapon of the pre-fracture era, it projects a mass of electrons that seek out the positive charge of nearby targets, overloading systems and shattering sections of hull.
+  description: An odd weapon of the pre-war era, it projects a mass of electrons that seek out the positive charge of nearby targets, overloading systems and shattering sections of hull. # Aurum Lore change
   components:
   - type: StaticPrice
     price: 5000

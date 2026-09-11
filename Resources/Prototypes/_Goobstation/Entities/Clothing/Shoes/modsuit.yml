@@ -59,8 +59,8 @@
 - type: entity
   parent: ClothingModsuitBootsBase
   id: ClothingModsuitBootsSecurity
-  name: soldat modsuit boots
-  description: THE IRON BOOTS OF THE LAW.
+  name: SHI-NT "Soldat" modsuit boots # Aurum - Lore changes
+  description: Designed to stomp any threats that may be present, sadly it doesn't instantly kill them unlike common belief may imply. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingModsuitBootsBase
   id: ClothingModsuitBootsHeadOfSecurity
-  name: bulwark modsuit boots
-  description: I call these my commie stompers.
+  name: SHI-NT "Bulwark" modsuit boots # Aurum - Lore changes
+  description: Similar in design to the "Soldat" modsuit boots, these are heavier to make the user stand out. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -139,7 +139,7 @@
 - type: entity
   parent: ClothingModsuitBootsBase
   id: ClothingModsuitBootsParamedic
-  name: sanitater modsuit boots
+  name: IP "Sanitater" modsuit boots # Aurum - Lore changes
   description: Made to get bloody.
   categories: [ HideSpawnMenu ]
   components:
@@ -159,8 +159,8 @@
 - type: entity
   parent: ClothingModsuitBootsBase
   id: ClothingModsuitBootsEngineer
-  name: sapper modsuit boots
-  description: Made to get oily.
+  name: NE-C "Volta" modsuit boots # Aurum - Lore changes
+  description: Designed to be light and easy to move in. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -179,8 +179,8 @@
 - type: entity
   parent: ClothingModsuitBootsBase
   id: ClothingModsuitBootsAtmostech
-  name: aeolus modsuit boots
-  description: Made to get burnt.
+  name: NE-A "Phaeton" modsuit boots # Aurum - Lore changes
+  description: Made to move through atmospheric hazards before someone lights up a cigar. # Aurum - Refering timmy tider opening up a plasma flooded door with a cig lol.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -199,8 +199,8 @@
 - type: entity
   parent: ClothingModsuitBootsBase
   id: ClothingModsuitBootsResearchDirector
-  name: minerva modsuit boots
-  description: Wont stop you slipping on your own blood when the holocarp gets to you.
+  name: SHI-NT "Minerva" modsuit boots # Aurum - Lore changes
+  description: Won't you stop you from stepping into the artifact and breaking it into a million pieces. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -219,8 +219,8 @@
 - type: entity
   parent: ClothingModsuitBootsBase
   id: ClothingModsuitBootsCaptain
-  name: magnate modsuit boots
-  description: These boots were designed by THE Michael Jordan and crafted with ancient alloys, man.
+  name: NT "Magnate" modsuit boots
+  description: Boots designed by Nanotrasen comfort professionals for captains who won't move a inch from their ship console. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingModsuitChestplateBase
   id: ClothingModsuitChestplateSecurity
-  name: soldat MODsuit chestplate
-  description: A robust modular suit cover with ceramic inserts for extra protection.
+  name: SHI-NT "Soldat" modsuit chestplate # Aurum - Lore changes
+  description: A standard modsuit design with additional plating integrated, slowly becoming the standard pick for security forces after additional modifications. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -128,8 +128,8 @@
 - type: entity
   parent: ClothingModsuitChestplateBase
   id: ClothingModsuitChestplateHeadOfSecurity
-  name: bulwark modsuit chestplate
-  description: A robust modular suit cover with EXTRA ceramic inserts for slightly more protection.
+  name: SHI-NT "Bulwark" modsuit chestplate # Aurum - Lore changes
+  description: Designed under Nanotrasen request by Shoko Heavy Industries, made to stand out from crowds and civilian personned. With additional plating integrated to protect from ballistics. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -178,7 +178,7 @@
 - type: entity
   parent: ClothingModsuitChestplateBase
   id: ClothingModsuitChestplateParamedic
-  name: sanitater modsuit chestplate
+  name: IP "Sanitater" modsuit chestplate # Aurum - Lore changes
   description: A white and blue-ish-grey steel plate for keeping out the harsh void of space and the occasional bullet.
   categories: [ HideSpawnMenu ]
   components:
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingModsuitChestplateBase
   id: ClothingModsuitChestplateEngineer
-  name: sapper modsuit chestplate
-  description: A tough armor plate to defend against harsh atmospheric conditions and shockwaves.
+  name: NE-C "Volta" modsuit chestplate # Aurum - Lore changes
+  description: Bulky modsuit chestplate designed by Nakamura Engineering to stand out, surprisingly enough it's not as resilient or heavy as it's bulkiness may imply. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -261,8 +261,8 @@
 - type: entity
   parent: ClothingModsuitChestplateBase
   id: ClothingModsuitChestplateAtmostech
-  name: aeolus modsuit chestplate
-  description: A fire-proof armor plate to defend against harsh atmospheric conditions.
+  name: NE-A "Phaeton" modsuit chestplate # Aurum - Lore changes
+  description: A fire-proof armor plate to defend against harsh atmospheric conditions. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -302,8 +302,8 @@
 - type: entity
   parent: ClothingModsuitChestplateBase
   id: ClothingModsuitChestplateResearchDirector
-  name: minerva modsuit chestplate
-  description: A bulky bomb and bat proof chunk of steel.
+  name: SHI-NT "Minerva" modsuit chestplate # Aurum - Lore changes
+  description: A heavy modsuit chestpiece designed to stand out and protect agaisnt mostly enviromental hazards, produced by Shoko Heavy Industries under Nanotrasen's request. Mass produced after the popularity of the suit went galaxy-wide due to its usefulness. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -343,8 +343,8 @@
 - type: entity
   parent: ClothingModsuitChestplateBase
   id: ClothingModsuitChestplateCaptain
-  name: magnate modsuit chestplate
-  description: This shit is made out of DIAMONDS, man, this armor was forged with GEMS.
+  name: NT "Magnate" modsuit chestplate # Aurum - Lore changes
+  description: Unlike common belief, while the modsuit's control unit was made with low quality diamonds. This chestplate is made with gold parts and blue-colored plating. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -340,7 +340,7 @@
           collection: MetalBreak
 
 - type: entity
-  id: BallisticArtilleryTier2HP # Heavy Autocannons, Missiles, light pre-fracture weaponry, 1.4x stronger than plastitanium, 1x Reinforced Plastitanium Health. This is the baseline durability for your average sized anchorable weapon.
+  id: BallisticArtilleryTier2HP # Heavy Autocannons, Missiles, light pre-war weaponry, 1.4x stronger than plastitanium, 1x Reinforced Plastitanium Health. This is the baseline durability for your average sized anchorable weapon.
   abstract: true
   components:
   - type: Destructible
@@ -406,7 +406,7 @@
           collection: MetalBreak
 
 - type: entity
-  id: BallisticArtilleryTier5HP # Supercapital class armament, station outpost weaponry and capital pre-fracture weaponry, around 4x Reinforced Plastitanium Health. This is 1.25x outpost plastitanium HP btw.
+  id: BallisticArtilleryTier5HP # Supercapital class armament, station outpost weaponry and capital pre-war weaponry, around 4x Reinforced Plastitanium Health. This is 1.25x outpost plastitanium HP btw.
   abstract: true
   components:
   - type: Destructible
@@ -428,7 +428,7 @@
           collection: MetalBreak
 
 - type: entity
-  id: BallisticArtilleryTier6HP # Supercapital class pre-fracture armament. 5x Reinforced Plastitanium Health. Meant as the final boss of durability.
+  id: BallisticArtilleryTier6HP # Supercapital class pre-war armament. 5x Reinforced Plastitanium Health. Meant as the final boss of durability.
   abstract: true
   components:
   - type: Destructible
