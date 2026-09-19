@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleCaptain
-  name: captain's ensemble
-  description: You're a hardened veteran, and you rule this station with an iron fist. That chess match? Never happened.
+  name: blue-gold ensemble # Aurum
+  description: You're a hardened veteran, and you rule this ship with an iron fist. That asteroid crash? Never happened. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleChiefEngineerWhite
-  name: chief engineer's white ensemble
-  description: In the event of a delamination, this won't protect you from the radiation. With how long you've been doing this, that wouldn't happen. Right?
+  name: white-gold's ensemble
+  description: A white-gold neckpiece consisting of a cloak and a neck-ring assembly, once reserved for the intelligent minds of a station which handled deadly engines. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleChiefEngineerGreen
-  name: chief engineer's green ensemble
-  description: In the event of a delamination, this won't protect you from the radiation. With how long you've been doing this, that wouldn't happen. Right?
+  name: orange-green ensemble # Aurum
+  description: A orange-green neckpiece consisting of a cloak and a neck-ring assembly, once reserved for the intelligent minds of a station which handled deadly engines. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
@@ -130,7 +130,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleChiefMedicalOfficer
-  name: chief medical officer's ensemble
+  name: Director of care ensemble # Aurum
   description: With how many medbays you've seen, you're a real poly math-- unpacking people like packages, and mulching bodies like it's nothing. You WILL set up cloning, right?
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
@@ -189,11 +189,12 @@
         sprite:
           sprite: _Goobstation/Clothing/Neck/Ensembles/cmo.rsi
           state: mantlewings-icon
+
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleHeadOfSecurity
-  name: head of security's ensemble
-  description: Stained with the blood of tiders, and the tears of cadets. The word "shitsec" brings you joy, a tear to your eye.
+  name: gold-red ensemble # Aurum
+  description: A red cloak with a golden neckpiece which can vanish at the user's will, one could consider it magic, or a really technical fashion statement. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
@@ -235,8 +236,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleResearchDirector
-  name: research director's ensemble
-  description: The endpoint of all research leads here. You truly are the pinnacle of science, a monument to Nanotrasens accomplishments and ability to glue you back together, must you explode so often?
+  name: holographic ensemble # Aurum
+  description: Designed to be the main center of attention, incredibly customized for the customer. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
@@ -298,8 +299,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleQuarterMaster
-  name: quartermaster's ensemble
-  description: Delicately crafted with the most premium materials purchaseable with spesos; a cloak that truly represents the Spirit of Cargonia... and your bank account.
+  name: mantle-cloak ensemble # Aurum
+  description: Delicately crafted with the most premium materials purchaseable with credits; a cloak that truly represents the spirit of a business person. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
@@ -341,8 +342,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleHeadOfPersonnel
-  name: head of personnel's ensemble
-  description: There's nothing sweeter in this world than the tears of someone who was made to fill out five paragraphs of paperwork. You denied them after, of course.
+  name: decorated blue-red ensemble # Aurum
+  description: There's nothing sweeter in this world than the tears of someone who was made to fill out five paragraphs of paperwork. Whoever wore this ensemble denied them, now it's your time to carry this legacy. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
@@ -385,7 +386,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleBlueshield
   name: blueshield officer's ensemble
-  description: After fending off countless tiders in defense of command, Nanotrasen has finally granted you the ability to die in style. Now get out there and protect the NTR soldier!
+  description: Nanotrasen used to ship these to valuable blueshield officers, nowadays they are sold in the public market for cheap. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
@@ -436,7 +437,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckEnsembleNanotrasenRepresentative
   name: nanotrasen representative's ensemble
-  description: After years of doing practically nothing, Central Command has gifted you this cloak. Now you can do nothing, while looking pretty!
+  description: Nanotrasen used to ship these to valuable representatives that gave the company a good image, nowadays sold at the market for a standard price. # Aurum
 #  suffix: DO NOT MAP - Aurum - Uhhhh we dont have a bijillion hours role timer gate sir
   components:
   - type: Item
