@@ -344,7 +344,7 @@
   parent: ClothingModsuitChestplateBase
   id: ClothingModsuitChestplateCaptain
   name: NT "Magnate" modsuit chestplate # Aurum - Lore changes
-  description: Unlike common belief, while the modsuit's control unit was made with low quality diamonds. This chestplate is made with gold parts and blue-colored plating. # Aurum - Lore changes
+  description: Unlike common belief, while the modsuit's control unit was made with low quality diamonds. This chestplate is made with gold parts and blue-colored plating instead of blue and gold dragon scales. # Aurum - Lore changes
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

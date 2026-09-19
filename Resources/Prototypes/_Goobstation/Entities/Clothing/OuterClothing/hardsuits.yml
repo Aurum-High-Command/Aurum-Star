@@ -60,8 +60,8 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit
-  description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
+  name: CSI-P023 "Revenant" hardsuit # Aurum - Lore changes
+  description: A experimental hardsuit with stealth plating for operations, the stealth shielding mechanism was incomplete when it was utilized by Cybersun operatives. Requires the helmet to be activated for the stealth shielding to work. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi

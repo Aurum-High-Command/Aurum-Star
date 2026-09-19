@@ -38,8 +38,8 @@
   parent: NFClothingHeadHardsuitWithLightBase # mono - stupid NF clothing parent.
   id: ClothingHeadHelmetHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit helmet
-  description: A helmet with plating for stealth operations.
+  name: CSI-P023 "Revenant" hardsuit helmet # Aurum - Lore changes
+  description: A experimental helmet belonging to the "Revenant" Cybersun prototype hardsuit designed during the corporate war for stealth operations, the hardsuit's design is considered illegal in certain circles. # Aurum - Lore changes
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hardsuits/cybersunstealth.rsi
